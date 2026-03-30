@@ -1,0 +1,1501 @@
+id_evenement,date,annee,type_evenement,gravite,departement,exploitant,nb_morts,nb_blesses,cause_presumee,contexte,source
+1,2024-05-05,2024,collision,significatif,44,SNCF Réseau,1,7,erreur_humaine,circulation_commerciale,EPSF_synthese
+2,2012-04-19,2012,incendie,significatif,72,RATP,0,2,acte_malveillance,circulation_commerciale,EPSF_synthese
+3,2010-09-02,2010,collision,mineur,87,SNCF Voyageurs,0,0,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+4,2022-08-03,2022,incident_materiel,mineur,86,SNCF Voyageurs,0,0,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+5,2010-02-23,2010,incident_materiel,significatif,34,SNCF Voyageurs,0,7,defaut_infrastructure,maintenance,EPSF_synthese
+6,2017-07-20,2017,collision,grave,64,SNCF Réseau,0,21,erreur_humaine,circulation_commerciale,SNCF_rapport
+7,2023-07-17,2023,PN,grave,31,SNCF Réseau,1,25,obstacle_PN,PN,SNCF_rapport
+8,2011-10-08,2011,acte_malveillance,mineur,38,RATP,0,0,vol_cable,PN,BEATT_rapport
+9,2011-07-24,2011,collision,mineur,44,SNCF Réseau,0,0,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+10,2018-07-11,2018,PN,significatif,66,SNCF Réseau,0,2,non_respect_signalisation,PN,SNCF_rapport
+11,2014-09-13,2014,incendie,significatif,91,RATP,1,8,defaillance_materiel,circulation_commerciale,EPSF_synthese
+12,2021-12-24,2021,incendie,mineur,67,SNCF Voyageurs,0,0,incendie_bord,circulation_commerciale,SNCF_rapport
+13,2024-05-09,2024,incendie,mineur,62,RATP,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+14,2015-02-20,2015,collision,grave,21,SNCF Réseau,5,9,excès_vitesse,circulation_commerciale,EPSF_synthese
+15,2022-09-21,2022,incendie,mineur,77,RATP,0,0,defaillance_materiel,circulation_commerciale,SNCF_rapport
+16,2024-06-02,2024,deraillement,significatif,45,SNCF Réseau,0,7,excès_vitesse,circulation_commerciale,BEATT_rapport
+17,2022-08-04,2022,acte_malveillance,mineur,69,RATP,0,2,vol_cable,PN,SNCF_rapport
+18,2014-12-02,2014,incident_materiel,mineur,31,SNCF Voyageurs,0,0,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+19,2024-01-28,2024,incident_materiel,mineur,67,SNCF Voyageurs,0,0,defaut_infrastructure,essais,SNCF_rapport
+20,2023-05-14,2023,deraillement,significatif,94,SNCF Réseau,0,1,defaillance_materiel,maintenance,BEATT_rapport
+21,2012-07-27,2012,incendie,grave,63,RATP,5,36,acte_malveillance,maintenance,EPSF_synthese
+22,2016-08-01,2016,deraillement,significatif,51,SNCF Réseau,1,7,excès_vitesse,circulation_commerciale,BEATT_rapport
+23,2014-01-03,2014,acte_malveillance,significatif,78,RATP,0,7,acte_malveillance,PN,BEATT_rapport
+24,2014-06-18,2014,incident_materiel,significatif,80,RATP,0,4,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+25,2023-06-08,2023,PN,grave,66,SNCF Réseau,5,29,non_respect_signalisation,PN,SNCF_rapport
+26,2015-05-16,2015,collision,grave,77,SNCF Réseau,0,7,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+27,2021-12-12,2021,incident_materiel,mineur,84,SNCF Voyageurs,0,0,defaillance_freinage,essais,EPSF_synthese
+28,2015-12-12,2015,acte_malveillance,mineur,83,SNCF Réseau,0,0,jet_de_projectiles,PN,BEATT_rapport
+29,2014-07-06,2014,incendie,mineur,92,RATP,0,1,defaillance_materiel,maintenance,SNCF_rapport
+30,2019-10-29,2019,acte_malveillance,significatif,44,SNCF Réseau,0,9,vol_cable,circulation_commerciale,EPSF_synthese
+31,2017-08-01,2017,collision,significatif,21,SNCF Réseau,0,6,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+32,2024-02-26,2024,collision,grave,63,SNCF Réseau,1,33,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+33,2021-07-13,2021,incident_materiel,mineur,42,SNCF Voyageurs,0,0,defaillance_signalisation,essais,BEATT_rapport
+34,2012-12-19,2012,incendie,significatif,76,SNCF Voyageurs,0,7,acte_malveillance,maintenance,SNCF_rapport
+35,2014-04-09,2014,collision,significatif,72,SNCF Réseau,0,2,erreur_humaine,circulation_commerciale,SNCF_rapport
+36,2020-06-22,2020,incendie,mineur,69,SNCF Voyageurs,0,1,incendie_bord,circulation_commerciale,BEATT_rapport
+37,2017-08-11,2017,collision,grave,83,SNCF Réseau,1,14,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+38,2013-02-22,2013,deraillement,significatif,45,SNCF Voyageurs,0,9,excès_vitesse,circulation_commerciale,EPSF_synthese
+39,2019-12-10,2019,acte_malveillance,mineur,83,RATP,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+40,2012-02-04,2012,incident_materiel,mineur,76,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,EPSF_synthese
+41,2018-12-30,2018,collision,significatif,67,SNCF Réseau,0,4,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+42,2020-03-16,2020,PN,significatif,38,SNCF Réseau,0,3,non_respect_signalisation,PN,SNCF_rapport
+43,2014-11-19,2014,collision,grave,17,SNCF Réseau,1,22,erreur_humaine,circulation_commerciale,BEATT_rapport
+44,2020-09-10,2020,acte_malveillance,grave,78,SNCF Réseau,1,6,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+45,2014-03-03,2014,collision,significatif,31,SNCF Réseau,0,3,erreur_humaine,circulation_commerciale,BEATT_rapport
+46,2015-07-10,2015,acte_malveillance,grave,25,RATP,1,28,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+47,2024-09-29,2024,acte_malveillance,significatif,42,SNCF Voyageurs,1,0,jet_de_projectiles,PN,BEATT_rapport
+48,2017-01-17,2017,incident_materiel,mineur,93,SNCF Voyageurs,0,0,defaillance_signalisation,maintenance,BEATT_rapport
+49,2016-09-23,2016,deraillement,grave,75,SNCF Réseau,3,39,defaillance_materiel,travaux,BEATT_rapport
+50,2022-08-18,2022,collision,significatif,51,SNCF Voyageurs,0,4,erreur_humaine,circulation_commerciale,EPSF_synthese
+51,2017-10-30,2017,collision,grave,35,SNCF Réseau,0,24,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+52,2022-03-09,2022,incendie,grave,84,RATP,0,32,defaillance_materiel,circulation_commerciale,SNCF_rapport
+53,2024-11-17,2024,collision,grave,30,SNCF Réseau,1,12,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+54,2022-05-30,2022,incident_materiel,mineur,42,RATP,0,0,defaillance_signalisation,maintenance,BEATT_rapport
+55,2017-09-09,2017,incident_materiel,mineur,51,SNCF Voyageurs,0,0,defaillance_signalisation,essais,EPSF_synthese
+56,2012-01-27,2012,incendie,mineur,6,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,SNCF_rapport
+57,2012-12-07,2012,incendie,significatif,73,RATP,0,4,defaillance_materiel,circulation_commerciale,BEATT_rapport
+58,2019-08-05,2019,acte_malveillance,mineur,95,SNCF Réseau,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+59,2022-03-28,2022,collision,grave,33,SNCF Réseau,1,26,excès_vitesse,circulation_commerciale,EPSF_synthese
+60,2016-11-30,2016,PN,grave,94,SNCF Réseau,0,4,obstacle_PN,PN,EPSF_synthese
+61,2024-12-16,2024,collision,mineur,34,SNCF Voyageurs,0,0,excès_vitesse,circulation_commerciale,EPSF_synthese
+62,2013-08-24,2013,incident_materiel,mineur,63,SNCF Voyageurs,0,1,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+63,2015-07-26,2015,PN,significatif,14,SNCF Réseau,1,5,obstacle_PN,PN,SNCF_rapport
+64,2014-12-28,2014,incident_materiel,mineur,44,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,EPSF_synthese
+65,2010-07-13,2010,incendie,grave,54,SNCF Voyageurs,0,6,incendie_bord,maintenance,EPSF_synthese
+66,2016-04-05,2016,PN,grave,83,SNCF Réseau,3,36,erreur_humaine,PN,SNCF_rapport
+67,2010-08-15,2010,collision,mineur,51,SNCF Voyageurs,0,0,excès_vitesse,circulation_commerciale,EPSF_synthese
+68,2012-06-07,2012,acte_malveillance,mineur,62,RATP,0,0,vol_cable,PN,SNCF_rapport
+69,2023-08-07,2023,acte_malveillance,mineur,38,RATP,0,0,acte_malveillance,PN,SNCF_rapport
+70,2010-12-30,2010,incendie,significatif,83,RATP,1,0,defaillance_materiel,circulation_commerciale,BEATT_rapport
+71,2014-06-03,2014,PN,grave,63,SNCF Réseau,2,23,non_respect_signalisation,PN,BEATT_rapport
+72,2017-01-15,2017,incendie,significatif,59,RATP,0,6,incendie_bord,maintenance,BEATT_rapport
+73,2019-02-28,2019,PN,grave,33,SNCF Réseau,3,2,non_respect_signalisation,PN,EPSF_synthese
+74,2019-06-07,2019,incendie,grave,85,RATP,5,5,defaillance_materiel,circulation_commerciale,SNCF_rapport
+75,2019-02-09,2019,acte_malveillance,grave,42,SNCF Voyageurs,1,9,acte_malveillance,PN,SNCF_rapport
+76,2023-01-04,2023,acte_malveillance,mineur,73,SNCF Voyageurs,0,1,jet_de_projectiles,PN,SNCF_rapport
+77,2014-10-17,2014,acte_malveillance,significatif,25,RATP,0,5,vol_cable,circulation_commerciale,SNCF_rapport
+78,2021-07-24,2021,incendie,grave,45,SNCF Voyageurs,1,11,acte_malveillance,maintenance,BEATT_rapport
+79,2016-12-17,2016,incident_materiel,grave,14,SNCF Voyageurs,2,20,defaillance_freinage,circulation_commerciale,EPSF_synthese
+80,2020-08-28,2020,acte_malveillance,significatif,91,SNCF Voyageurs,0,8,acte_malveillance,PN,BEATT_rapport
+81,2014-05-12,2014,incendie,significatif,69,SNCF Voyageurs,0,1,acte_malveillance,maintenance,EPSF_synthese
+82,2013-04-23,2013,incendie,significatif,72,SNCF Voyageurs,0,8,acte_malveillance,circulation_commerciale,EPSF_synthese
+83,2013-12-11,2013,incendie,mineur,84,SNCF Voyageurs,0,0,acte_malveillance,maintenance,EPSF_synthese
+84,2012-09-21,2012,deraillement,significatif,73,SNCF Voyageurs,0,7,excès_vitesse,circulation_commerciale,BEATT_rapport
+85,2021-04-28,2021,deraillement,significatif,73,SNCF Voyageurs,0,0,erreur_humaine,travaux,SNCF_rapport
+86,2015-07-19,2015,incendie,significatif,45,RATP,0,2,defaillance_materiel,maintenance,SNCF_rapport
+87,2019-11-13,2019,collision,grave,63,SNCF Réseau,0,30,excès_vitesse,circulation_commerciale,SNCF_rapport
+88,2022-02-11,2022,collision,grave,67,SNCF Réseau,1,8,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+89,2013-06-05,2013,incendie,significatif,71,SNCF Voyageurs,0,0,incendie_bord,circulation_commerciale,SNCF_rapport
+90,2022-03-04,2022,deraillement,significatif,71,SNCF Réseau,0,4,erreur_humaine,travaux,SNCF_rapport
+91,2023-02-06,2023,incendie,mineur,6,SNCF Voyageurs,0,0,incendie_bord,maintenance,SNCF_rapport
+92,2016-09-12,2016,deraillement,significatif,77,SNCF Réseau,0,0,erreur_humaine,maintenance,EPSF_synthese
+93,2016-02-14,2016,deraillement,grave,63,SNCF Voyageurs,1,6,erreur_humaine,travaux,BEATT_rapport
+94,2019-01-26,2019,incendie,significatif,89,SNCF Voyageurs,0,7,incendie_bord,maintenance,BEATT_rapport
+95,2010-08-09,2010,deraillement,significatif,33,SNCF Voyageurs,0,2,defaut_infrastructure,travaux,SNCF_rapport
+96,2014-01-28,2014,collision,grave,42,SNCF Réseau,0,21,excès_vitesse,circulation_commerciale,SNCF_rapport
+97,2017-05-01,2017,PN,significatif,51,SNCF Réseau,0,2,non_respect_signalisation,PN,EPSF_synthese
+98,2020-07-19,2020,collision,significatif,92,SNCF Réseau,0,5,erreur_humaine,circulation_commerciale,EPSF_synthese
+99,2024-08-14,2024,collision,grave,13,SNCF Réseau,1,24,erreur_humaine,circulation_commerciale,BEATT_rapport
+100,2013-06-02,2013,incident_materiel,mineur,31,RATP,0,0,defaillance_freinage,maintenance,BEATT_rapport
+101,2014-11-21,2014,deraillement,significatif,87,SNCF Réseau,0,9,defaillance_materiel,circulation_commerciale,BEATT_rapport
+102,2012-07-27,2012,incident_materiel,significatif,13,RATP,0,0,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+103,2022-11-30,2022,incendie,mineur,38,RATP,0,1,defaillance_materiel,maintenance,EPSF_synthese
+104,2023-04-13,2023,incendie,significatif,95,SNCF Voyageurs,0,9,acte_malveillance,circulation_commerciale,SNCF_rapport
+105,2023-06-20,2023,collision,grave,72,SNCF Voyageurs,3,13,erreur_humaine,circulation_commerciale,BEATT_rapport
+106,2018-04-24,2018,collision,mineur,77,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,EPSF_synthese
+107,2019-09-22,2019,PN,grave,34,SNCF Réseau,0,8,erreur_humaine,PN,SNCF_rapport
+108,2013-12-13,2013,incendie,grave,83,RATP,2,12,acte_malveillance,maintenance,SNCF_rapport
+109,2020-06-05,2020,deraillement,grave,25,SNCF Réseau,0,34,defaillance_materiel,circulation_commerciale,SNCF_rapport
+110,2020-02-10,2020,incident_materiel,mineur,93,RATP,0,0,defaut_infrastructure,essais,SNCF_rapport
+111,2017-07-18,2017,collision,mineur,77,SNCF Réseau,0,0,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+112,2017-12-16,2017,PN,grave,95,SNCF Réseau,0,22,non_respect_signalisation,PN,SNCF_rapport
+113,2022-06-20,2022,collision,significatif,71,SNCF Réseau,0,5,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+114,2022-06-15,2022,incident_materiel,mineur,77,RATP,0,0,defaut_infrastructure,essais,SNCF_rapport
+115,2010-05-22,2010,collision,grave,95,SNCF Réseau,0,5,excès_vitesse,circulation_commerciale,EPSF_synthese
+116,2016-11-13,2016,incendie,significatif,84,SNCF Voyageurs,0,3,acte_malveillance,maintenance,BEATT_rapport
+117,2017-09-17,2017,deraillement,significatif,54,SNCF Voyageurs,0,7,defaillance_materiel,circulation_commerciale,SNCF_rapport
+118,2015-08-22,2015,incident_materiel,significatif,62,SNCF Voyageurs,1,9,defaillance_materiel,essais,EPSF_synthese
+119,2022-01-07,2022,incendie,significatif,76,SNCF Voyageurs,0,2,incendie_bord,circulation_commerciale,SNCF_rapport
+120,2023-03-23,2023,acte_malveillance,significatif,38,SNCF Réseau,0,4,jet_de_projectiles,PN,SNCF_rapport
+121,2015-02-07,2015,PN,significatif,83,SNCF Réseau,0,8,obstacle_PN,PN,EPSF_synthese
+122,2016-02-26,2016,collision,grave,33,SNCF Voyageurs,0,1,erreur_humaine,circulation_commerciale,BEATT_rapport
+123,2021-01-04,2021,collision,significatif,76,SNCF Réseau,0,5,erreur_humaine,circulation_commerciale,SNCF_rapport
+124,2017-08-23,2017,incident_materiel,significatif,31,SNCF Voyageurs,0,4,defaillance_materiel,maintenance,EPSF_synthese
+125,2018-12-27,2018,deraillement,significatif,34,SNCF Réseau,0,4,defaut_infrastructure,maintenance,EPSF_synthese
+126,2022-08-16,2022,PN,grave,84,SNCF Réseau,1,12,obstacle_PN,PN,SNCF_rapport
+127,2023-08-07,2023,acte_malveillance,significatif,67,RATP,0,5,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+128,2019-12-06,2019,PN,mineur,85,SNCF Réseau,0,0,erreur_humaine,PN,BEATT_rapport
+129,2011-05-09,2011,acte_malveillance,mineur,91,SNCF Réseau,0,0,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+130,2015-12-08,2015,incendie,grave,37,SNCF Voyageurs,2,12,incendie_bord,circulation_commerciale,BEATT_rapport
+131,2011-09-07,2011,incident_materiel,mineur,95,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,BEATT_rapport
+132,2020-07-16,2020,PN,grave,57,SNCF Réseau,0,30,obstacle_PN,PN,BEATT_rapport
+133,2020-03-08,2020,collision,grave,86,SNCF Voyageurs,0,5,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+134,2014-06-09,2014,deraillement,grave,92,SNCF Réseau,0,10,defaut_infrastructure,maintenance,EPSF_synthese
+135,2015-12-17,2015,incident_materiel,significatif,59,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,BEATT_rapport
+136,2022-10-07,2022,PN,grave,95,SNCF Réseau,2,16,non_respect_signalisation,PN,SNCF_rapport
+137,2019-01-11,2019,PN,mineur,25,SNCF Réseau,0,0,erreur_humaine,PN,BEATT_rapport
+138,2010-11-23,2010,deraillement,mineur,13,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,EPSF_synthese
+139,2015-02-19,2015,incendie,grave,54,RATP,1,35,acte_malveillance,circulation_commerciale,BEATT_rapport
+140,2010-11-26,2010,incident_materiel,significatif,73,RATP,0,2,defaut_infrastructure,essais,SNCF_rapport
+141,2014-01-26,2014,acte_malveillance,significatif,76,SNCF Réseau,0,0,vol_cable,PN,SNCF_rapport
+142,2019-02-28,2019,PN,grave,63,SNCF Réseau,4,29,non_respect_signalisation,PN,SNCF_rapport
+143,2021-02-10,2021,PN,mineur,14,SNCF Réseau,0,0,erreur_humaine,PN,SNCF_rapport
+144,2011-12-23,2011,PN,mineur,69,SNCF Réseau,0,0,non_respect_signalisation,PN,BEATT_rapport
+145,2010-01-10,2010,incendie,significatif,17,SNCF Voyageurs,0,7,acte_malveillance,maintenance,EPSF_synthese
+146,2021-08-18,2021,PN,significatif,73,SNCF Réseau,0,1,erreur_humaine,PN,EPSF_synthese
+147,2014-07-26,2014,PN,significatif,73,SNCF Réseau,0,9,erreur_humaine,PN,BEATT_rapport
+148,2020-11-14,2020,collision,grave,35,SNCF Voyageurs,1,29,erreur_humaine,circulation_commerciale,SNCF_rapport
+149,2022-05-10,2022,collision,mineur,31,SNCF Réseau,0,0,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+150,2012-08-20,2012,incendie,grave,57,RATP,1,37,incendie_bord,maintenance,BEATT_rapport
+151,2016-02-18,2016,deraillement,grave,75,SNCF Réseau,3,35,erreur_humaine,circulation_commerciale,BEATT_rapport
+152,2013-03-30,2013,deraillement,significatif,21,SNCF Réseau,0,6,excès_vitesse,maintenance,SNCF_rapport
+153,2019-04-23,2019,PN,grave,57,SNCF Réseau,3,32,erreur_humaine,PN,BEATT_rapport
+154,2016-09-11,2016,acte_malveillance,grave,73,SNCF Réseau,1,13,jet_de_projectiles,PN,BEATT_rapport
+155,2020-11-11,2020,PN,grave,62,SNCF Réseau,0,30,non_respect_signalisation,PN,EPSF_synthese
+156,2015-05-11,2015,acte_malveillance,grave,14,SNCF Voyageurs,1,25,vol_cable,circulation_commerciale,SNCF_rapport
+157,2020-08-10,2020,incendie,significatif,92,RATP,0,0,defaillance_materiel,maintenance,EPSF_synthese
+158,2021-02-09,2021,collision,mineur,73,SNCF Réseau,0,2,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+159,2021-10-18,2021,deraillement,grave,71,SNCF Réseau,1,28,defaut_infrastructure,maintenance,BEATT_rapport
+160,2013-06-18,2013,collision,grave,89,SNCF Réseau,5,19,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+161,2018-12-01,2018,incendie,significatif,83,RATP,0,4,incendie_bord,maintenance,SNCF_rapport
+162,2017-02-07,2017,incendie,mineur,14,RATP,0,0,acte_malveillance,maintenance,BEATT_rapport
+163,2011-07-15,2011,incident_materiel,significatif,25,RATP,0,6,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+164,2012-03-17,2012,incendie,grave,35,SNCF Voyageurs,0,39,acte_malveillance,circulation_commerciale,BEATT_rapport
+165,2016-09-19,2016,collision,grave,57,SNCF Réseau,0,35,erreur_humaine,circulation_commerciale,SNCF_rapport
+166,2018-05-29,2018,deraillement,grave,85,SNCF Voyageurs,1,18,excès_vitesse,travaux,BEATT_rapport
+167,2014-01-15,2014,incident_materiel,grave,67,RATP,2,17,defaillance_freinage,circulation_commerciale,BEATT_rapport
+168,2015-05-27,2015,deraillement,mineur,91,SNCF Voyageurs,0,0,excès_vitesse,travaux,SNCF_rapport
+169,2020-04-22,2020,PN,grave,57,SNCF Réseau,0,27,erreur_humaine,PN,BEATT_rapport
+170,2022-04-05,2022,incident_materiel,significatif,86,SNCF Voyageurs,0,4,defaillance_materiel,maintenance,SNCF_rapport
+171,2024-05-01,2024,deraillement,significatif,38,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,SNCF_rapport
+172,2020-11-02,2020,collision,grave,64,SNCF Voyageurs,0,7,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+173,2016-08-20,2016,incendie,grave,69,RATP,2,6,defaillance_materiel,circulation_commerciale,SNCF_rapport
+174,2010-03-08,2010,acte_malveillance,significatif,77,RATP,0,5,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+175,2015-03-01,2015,acte_malveillance,significatif,38,RATP,0,2,vol_cable,circulation_commerciale,BEATT_rapport
+176,2015-08-16,2015,incendie,mineur,30,RATP,0,0,acte_malveillance,circulation_commerciale,BEATT_rapport
+177,2024-06-30,2024,collision,mineur,86,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,SNCF_rapport
+178,2012-12-12,2012,collision,mineur,71,SNCF Voyageurs,0,0,excès_vitesse,circulation_commerciale,EPSF_synthese
+179,2014-07-03,2014,incident_materiel,mineur,54,RATP,0,0,defaillance_signalisation,essais,EPSF_synthese
+180,2015-10-07,2015,deraillement,grave,31,SNCF Voyageurs,1,25,defaillance_materiel,maintenance,SNCF_rapport
+181,2011-09-09,2011,incident_materiel,significatif,94,RATP,0,5,defaillance_freinage,essais,SNCF_rapport
+182,2022-07-02,2022,PN,grave,51,SNCF Réseau,7,21,obstacle_PN,PN,BEATT_rapport
+183,2012-10-09,2012,deraillement,mineur,86,SNCF Voyageurs,0,2,defaillance_materiel,maintenance,SNCF_rapport
+184,2024-04-27,2024,PN,grave,13,SNCF Réseau,0,19,obstacle_PN,PN,BEATT_rapport
+185,2022-08-05,2022,PN,grave,21,SNCF Réseau,1,14,erreur_humaine,PN,BEATT_rapport
+186,2020-05-31,2020,incendie,mineur,33,SNCF Voyageurs,0,2,defaillance_materiel,maintenance,EPSF_synthese
+187,2010-11-01,2010,PN,grave,45,SNCF Réseau,1,23,non_respect_signalisation,PN,BEATT_rapport
+188,2013-01-16,2013,deraillement,mineur,86,SNCF Voyageurs,0,0,erreur_humaine,circulation_commerciale,BEATT_rapport
+189,2013-06-19,2013,deraillement,grave,54,SNCF Voyageurs,4,12,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+190,2018-04-24,2018,incident_materiel,mineur,66,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,EPSF_synthese
+191,2018-03-29,2018,acte_malveillance,mineur,69,SNCF Réseau,0,0,jet_de_projectiles,PN,SNCF_rapport
+192,2014-04-04,2014,collision,significatif,42,SNCF Voyageurs,0,4,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+193,2024-05-05,2024,acte_malveillance,grave,45,SNCF Voyageurs,7,17,acte_malveillance,circulation_commerciale,EPSF_synthese
+194,2022-08-31,2022,incident_materiel,mineur,86,SNCF Voyageurs,0,0,defaillance_materiel,essais,EPSF_synthese
+195,2015-03-24,2015,PN,grave,34,SNCF Réseau,0,13,obstacle_PN,PN,EPSF_synthese
+196,2022-02-12,2022,PN,grave,13,SNCF Réseau,3,18,obstacle_PN,PN,EPSF_synthese
+197,2010-05-02,2010,PN,significatif,37,SNCF Réseau,0,8,obstacle_PN,PN,SNCF_rapport
+198,2011-03-06,2011,incident_materiel,mineur,21,SNCF Voyageurs,0,2,defaut_infrastructure,essais,SNCF_rapport
+199,2020-01-21,2020,PN,grave,78,SNCF Réseau,0,33,erreur_humaine,PN,EPSF_synthese
+200,2023-10-18,2023,collision,grave,13,SNCF Voyageurs,1,11,excès_vitesse,circulation_commerciale,EPSF_synthese
+201,2020-09-28,2020,deraillement,significatif,77,SNCF Réseau,0,5,erreur_humaine,maintenance,BEATT_rapport
+202,2019-12-13,2019,collision,grave,34,SNCF Voyageurs,1,33,erreur_humaine,circulation_commerciale,EPSF_synthese
+203,2012-10-30,2012,PN,significatif,87,SNCF Réseau,0,0,erreur_humaine,PN,BEATT_rapport
+204,2016-08-12,2016,deraillement,mineur,92,SNCF Réseau,0,0,erreur_humaine,travaux,BEATT_rapport
+205,2022-05-14,2022,incendie,significatif,44,SNCF Voyageurs,0,4,incendie_bord,maintenance,SNCF_rapport
+206,2017-08-08,2017,deraillement,grave,62,SNCF Réseau,1,37,erreur_humaine,circulation_commerciale,SNCF_rapport
+207,2017-01-04,2017,incendie,grave,94,SNCF Voyageurs,2,19,defaillance_materiel,maintenance,SNCF_rapport
+208,2011-07-04,2011,collision,significatif,30,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,BEATT_rapport
+209,2018-05-11,2018,incident_materiel,grave,84,RATP,1,1,defaillance_materiel,essais,SNCF_rapport
+210,2012-09-28,2012,deraillement,grave,17,SNCF Voyageurs,1,28,defaillance_materiel,maintenance,SNCF_rapport
+211,2023-06-20,2023,PN,significatif,78,SNCF Réseau,0,9,non_respect_signalisation,PN,EPSF_synthese
+212,2013-06-21,2013,incendie,significatif,64,SNCF Voyageurs,0,1,defaillance_materiel,circulation_commerciale,BEATT_rapport
+213,2018-03-31,2018,collision,grave,84,SNCF Réseau,1,5,excès_vitesse,circulation_commerciale,BEATT_rapport
+214,2023-10-06,2023,incendie,mineur,93,RATP,0,1,acte_malveillance,circulation_commerciale,BEATT_rapport
+215,2015-12-31,2015,collision,grave,59,SNCF Voyageurs,1,23,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+216,2017-11-15,2017,collision,grave,93,SNCF Voyageurs,1,2,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+217,2011-07-25,2011,incident_materiel,significatif,80,RATP,1,1,defaillance_materiel,circulation_commerciale,EPSF_synthese
+218,2018-06-09,2018,deraillement,significatif,66,SNCF Réseau,0,2,erreur_humaine,circulation_commerciale,SNCF_rapport
+219,2017-04-11,2017,acte_malveillance,grave,34,SNCF Réseau,0,38,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+220,2023-11-10,2023,collision,significatif,93,SNCF Réseau,1,6,erreur_humaine,circulation_commerciale,SNCF_rapport
+221,2020-11-22,2020,acte_malveillance,significatif,42,SNCF Voyageurs,0,3,vol_cable,PN,BEATT_rapport
+222,2012-07-21,2012,PN,significatif,94,SNCF Réseau,0,0,non_respect_signalisation,PN,BEATT_rapport
+223,2023-04-21,2023,deraillement,significatif,69,SNCF Réseau,0,1,defaillance_materiel,travaux,BEATT_rapport
+224,2011-03-25,2011,collision,grave,33,SNCF Réseau,0,11,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+225,2016-06-29,2016,PN,mineur,72,SNCF Réseau,0,0,obstacle_PN,PN,EPSF_synthese
+226,2012-11-24,2012,deraillement,mineur,21,SNCF Voyageurs,0,0,excès_vitesse,maintenance,SNCF_rapport
+227,2010-12-13,2010,deraillement,mineur,62,SNCF Réseau,0,0,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+228,2019-08-18,2019,acte_malveillance,mineur,31,SNCF Voyageurs,0,0,vol_cable,PN,SNCF_rapport
+229,2010-06-20,2010,PN,grave,66,SNCF Réseau,1,29,obstacle_PN,PN,EPSF_synthese
+230,2019-10-18,2019,collision,grave,69,SNCF Voyageurs,1,19,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+231,2011-10-07,2011,deraillement,grave,44,SNCF Voyageurs,0,22,defaillance_materiel,maintenance,SNCF_rapport
+232,2013-10-09,2013,collision,mineur,64,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,BEATT_rapport
+233,2024-06-23,2024,incident_materiel,mineur,51,SNCF Voyageurs,0,0,defaillance_freinage,circulation_commerciale,EPSF_synthese
+234,2013-11-22,2013,acte_malveillance,significatif,91,SNCF Réseau,0,8,acte_malveillance,circulation_commerciale,SNCF_rapport
+235,2020-05-28,2020,acte_malveillance,mineur,85,RATP,0,0,jet_de_projectiles,PN,BEATT_rapport
+236,2024-04-01,2024,acte_malveillance,significatif,73,SNCF Réseau,0,0,vol_cable,PN,EPSF_synthese
+237,2020-07-08,2020,deraillement,significatif,64,SNCF Réseau,0,0,defaillance_materiel,circulation_commerciale,BEATT_rapport
+238,2011-08-31,2011,PN,grave,17,SNCF Réseau,7,22,non_respect_signalisation,PN,SNCF_rapport
+239,2016-06-09,2016,collision,significatif,86,SNCF Réseau,0,7,erreur_humaine,circulation_commerciale,BEATT_rapport
+240,2010-12-03,2010,deraillement,grave,78,SNCF Voyageurs,0,7,excès_vitesse,circulation_commerciale,EPSF_synthese
+241,2011-05-22,2011,deraillement,grave,78,SNCF Réseau,3,18,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+242,2013-11-14,2013,collision,significatif,80,SNCF Réseau,0,8,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+243,2023-09-05,2023,incident_materiel,significatif,67,SNCF Voyageurs,0,6,defaillance_signalisation,maintenance,SNCF_rapport
+244,2017-08-03,2017,incendie,significatif,92,RATP,0,9,acte_malveillance,circulation_commerciale,SNCF_rapport
+245,2011-06-24,2011,PN,grave,51,SNCF Réseau,0,13,obstacle_PN,PN,BEATT_rapport
+246,2024-09-22,2024,acte_malveillance,significatif,86,SNCF Réseau,0,2,acte_malveillance,PN,BEATT_rapport
+247,2013-03-04,2013,PN,grave,87,SNCF Réseau,1,36,non_respect_signalisation,PN,BEATT_rapport
+248,2011-11-26,2011,PN,grave,63,SNCF Réseau,1,8,erreur_humaine,PN,EPSF_synthese
+249,2021-10-22,2021,collision,grave,66,SNCF Réseau,1,37,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+250,2014-01-16,2014,incident_materiel,mineur,44,SNCF Voyageurs,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+251,2013-06-23,2013,collision,grave,83,SNCF Voyageurs,1,6,excès_vitesse,circulation_commerciale,BEATT_rapport
+252,2021-10-23,2021,collision,grave,67,SNCF Voyageurs,0,22,excès_vitesse,circulation_commerciale,EPSF_synthese
+253,2013-08-22,2013,incident_materiel,mineur,14,SNCF Voyageurs,0,0,defaillance_freinage,essais,SNCF_rapport
+254,2018-03-04,2018,incendie,significatif,89,SNCF Voyageurs,0,7,acte_malveillance,circulation_commerciale,SNCF_rapport
+255,2020-01-26,2020,incident_materiel,significatif,38,SNCF Voyageurs,0,2,defaillance_freinage,maintenance,SNCF_rapport
+256,2022-10-17,2022,deraillement,mineur,78,SNCF Voyageurs,0,0,erreur_humaine,circulation_commerciale,BEATT_rapport
+257,2019-05-23,2019,incident_materiel,grave,51,SNCF Voyageurs,4,20,defaillance_freinage,essais,EPSF_synthese
+258,2024-05-19,2024,deraillement,grave,80,SNCF Réseau,3,6,defaillance_materiel,maintenance,EPSF_synthese
+259,2016-05-24,2016,collision,grave,78,SNCF Réseau,1,38,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+260,2019-10-24,2019,collision,grave,13,SNCF Réseau,4,15,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+261,2011-03-13,2011,deraillement,significatif,25,SNCF Voyageurs,0,4,defaillance_materiel,travaux,SNCF_rapport
+262,2015-01-14,2015,collision,significatif,92,SNCF Voyageurs,0,2,excès_vitesse,circulation_commerciale,SNCF_rapport
+263,2013-04-11,2013,incident_materiel,mineur,95,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,EPSF_synthese
+264,2020-07-09,2020,deraillement,significatif,51,SNCF Réseau,0,5,defaut_infrastructure,travaux,EPSF_synthese
+265,2013-05-09,2013,acte_malveillance,significatif,57,SNCF Réseau,0,3,jet_de_projectiles,PN,EPSF_synthese
+266,2016-10-03,2016,collision,significatif,91,SNCF Réseau,0,5,erreur_humaine,circulation_commerciale,BEATT_rapport
+267,2020-04-02,2020,collision,significatif,83,SNCF Voyageurs,0,6,erreur_humaine,circulation_commerciale,EPSF_synthese
+268,2024-03-04,2024,acte_malveillance,significatif,34,RATP,0,7,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+269,2019-08-18,2019,collision,grave,71,SNCF Voyageurs,0,37,excès_vitesse,circulation_commerciale,EPSF_synthese
+270,2024-11-25,2024,incendie,mineur,80,SNCF Voyageurs,0,0,incendie_bord,maintenance,BEATT_rapport
+271,2021-05-19,2021,acte_malveillance,significatif,76,SNCF Voyageurs,0,2,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+272,2024-04-04,2024,deraillement,significatif,64,SNCF Réseau,1,1,defaillance_materiel,circulation_commerciale,EPSF_synthese
+273,2017-09-25,2017,incident_materiel,mineur,63,RATP,0,1,defaillance_materiel,essais,EPSF_synthese
+274,2010-12-30,2010,PN,grave,37,SNCF Réseau,0,35,erreur_humaine,PN,BEATT_rapport
+275,2020-06-03,2020,incendie,grave,21,SNCF Voyageurs,2,29,defaillance_materiel,circulation_commerciale,BEATT_rapport
+276,2020-04-07,2020,collision,mineur,38,SNCF Réseau,0,1,excès_vitesse,circulation_commerciale,EPSF_synthese
+277,2017-01-29,2017,PN,significatif,76,SNCF Réseau,0,4,erreur_humaine,PN,SNCF_rapport
+278,2010-10-27,2010,incendie,mineur,17,SNCF Voyageurs,0,0,incendie_bord,maintenance,BEATT_rapport
+279,2017-06-12,2017,PN,grave,69,SNCF Réseau,4,25,obstacle_PN,PN,BEATT_rapport
+280,2019-11-12,2019,deraillement,grave,95,SNCF Voyageurs,1,8,defaillance_materiel,travaux,SNCF_rapport
+281,2018-03-29,2018,acte_malveillance,significatif,72,RATP,0,2,vol_cable,circulation_commerciale,EPSF_synthese
+282,2019-08-29,2019,acte_malveillance,significatif,30,SNCF Voyageurs,0,0,acte_malveillance,PN,EPSF_synthese
+283,2017-05-10,2017,incendie,mineur,87,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,BEATT_rapport
+284,2019-07-23,2019,incident_materiel,mineur,14,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,BEATT_rapport
+285,2017-11-28,2017,acte_malveillance,grave,17,RATP,1,6,vol_cable,PN,EPSF_synthese
+286,2024-04-19,2024,deraillement,grave,13,SNCF Réseau,1,8,defaillance_materiel,maintenance,EPSF_synthese
+287,2023-08-18,2023,incendie,significatif,21,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,EPSF_synthese
+288,2024-06-21,2024,PN,grave,14,SNCF Réseau,4,36,non_respect_signalisation,PN,BEATT_rapport
+289,2013-06-10,2013,incendie,grave,73,SNCF Voyageurs,2,37,defaillance_materiel,maintenance,EPSF_synthese
+290,2022-11-15,2022,incident_materiel,significatif,92,SNCF Voyageurs,0,3,defaillance_signalisation,maintenance,SNCF_rapport
+291,2015-08-07,2015,collision,grave,80,SNCF Réseau,2,10,erreur_humaine,circulation_commerciale,SNCF_rapport
+292,2022-08-07,2022,collision,significatif,73,SNCF Voyageurs,0,3,excès_vitesse,circulation_commerciale,EPSF_synthese
+293,2023-09-22,2023,PN,significatif,31,SNCF Réseau,0,7,erreur_humaine,PN,EPSF_synthese
+294,2011-08-30,2011,deraillement,mineur,25,SNCF Voyageurs,0,0,excès_vitesse,maintenance,BEATT_rapport
+295,2017-03-03,2017,incendie,grave,83,RATP,2,31,defaillance_materiel,circulation_commerciale,SNCF_rapport
+296,2016-09-23,2016,incident_materiel,significatif,44,RATP,0,9,defaillance_freinage,maintenance,EPSF_synthese
+297,2014-07-05,2014,incident_materiel,mineur,66,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,BEATT_rapport
+298,2022-11-02,2022,PN,significatif,25,SNCF Réseau,1,5,non_respect_signalisation,PN,EPSF_synthese
+299,2016-12-08,2016,deraillement,significatif,71,SNCF Voyageurs,0,9,erreur_humaine,maintenance,BEATT_rapport
+300,2011-08-28,2011,incident_materiel,grave,73,SNCF Voyageurs,0,13,defaillance_signalisation,essais,SNCF_rapport
+301,2021-08-09,2021,PN,significatif,72,SNCF Réseau,0,0,obstacle_PN,PN,BEATT_rapport
+302,2011-03-30,2011,collision,mineur,35,SNCF Réseau,0,1,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+303,2015-01-22,2015,PN,grave,51,SNCF Réseau,1,4,erreur_humaine,PN,EPSF_synthese
+304,2024-03-30,2024,acte_malveillance,significatif,59,RATP,0,9,vol_cable,circulation_commerciale,BEATT_rapport
+305,2021-12-19,2021,collision,grave,93,SNCF Réseau,1,9,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+306,2023-07-29,2023,PN,significatif,25,SNCF Réseau,0,7,erreur_humaine,PN,EPSF_synthese
+307,2024-05-21,2024,acte_malveillance,significatif,71,RATP,1,0,vol_cable,circulation_commerciale,BEATT_rapport
+308,2024-05-01,2024,collision,mineur,59,SNCF Voyageurs,0,2,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+309,2015-06-30,2015,incendie,grave,21,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,BEATT_rapport
+310,2011-05-06,2011,incident_materiel,significatif,75,SNCF Voyageurs,0,7,defaut_infrastructure,maintenance,EPSF_synthese
+311,2017-08-18,2017,acte_malveillance,significatif,62,RATP,0,4,acte_malveillance,PN,BEATT_rapport
+312,2017-09-30,2017,deraillement,significatif,62,SNCF Réseau,0,4,excès_vitesse,circulation_commerciale,EPSF_synthese
+313,2020-06-18,2020,collision,grave,34,SNCF Réseau,0,25,excès_vitesse,circulation_commerciale,EPSF_synthese
+314,2011-02-19,2011,PN,grave,35,SNCF Réseau,4,7,non_respect_signalisation,PN,SNCF_rapport
+315,2022-12-16,2022,incendie,significatif,77,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,BEATT_rapport
+316,2020-06-21,2020,deraillement,significatif,25,SNCF Réseau,0,2,defaillance_materiel,circulation_commerciale,SNCF_rapport
+317,2021-05-03,2021,deraillement,significatif,17,SNCF Voyageurs,0,3,excès_vitesse,travaux,EPSF_synthese
+318,2016-04-23,2016,deraillement,significatif,30,SNCF Réseau,1,0,erreur_humaine,circulation_commerciale,SNCF_rapport
+319,2013-01-02,2013,PN,grave,66,SNCF Réseau,0,26,erreur_humaine,PN,EPSF_synthese
+320,2018-12-26,2018,collision,mineur,57,SNCF Voyageurs,0,0,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+321,2018-08-31,2018,acte_malveillance,mineur,94,RATP,0,2,vol_cable,PN,BEATT_rapport
+322,2012-08-31,2012,incident_materiel,mineur,63,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,BEATT_rapport
+323,2018-03-15,2018,incident_materiel,mineur,69,RATP,0,2,defaillance_freinage,essais,BEATT_rapport
+324,2010-11-26,2010,collision,grave,63,SNCF Voyageurs,1,13,erreur_humaine,circulation_commerciale,SNCF_rapport
+325,2021-08-25,2021,deraillement,significatif,62,SNCF Réseau,0,7,excès_vitesse,maintenance,BEATT_rapport
+326,2017-02-22,2017,incident_materiel,significatif,59,RATP,0,0,defaut_infrastructure,essais,BEATT_rapport
+327,2017-07-18,2017,acte_malveillance,mineur,85,RATP,0,0,jet_de_projectiles,PN,SNCF_rapport
+328,2020-08-26,2020,collision,grave,31,SNCF Voyageurs,0,14,excès_vitesse,circulation_commerciale,SNCF_rapport
+329,2023-02-03,2023,PN,grave,76,SNCF Réseau,1,28,erreur_humaine,PN,SNCF_rapport
+330,2024-09-14,2024,acte_malveillance,significatif,17,RATP,0,2,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+331,2020-10-10,2020,incident_materiel,mineur,45,RATP,0,0,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+332,2022-11-04,2022,incendie,grave,73,SNCF Voyageurs,5,32,incendie_bord,circulation_commerciale,SNCF_rapport
+333,2019-05-24,2019,incident_materiel,mineur,71,SNCF Voyageurs,0,1,defaut_infrastructure,essais,BEATT_rapport
+334,2023-09-19,2023,deraillement,significatif,80,SNCF Réseau,0,6,defaut_infrastructure,maintenance,EPSF_synthese
+335,2022-07-31,2022,PN,significatif,67,SNCF Réseau,0,7,erreur_humaine,PN,SNCF_rapport
+336,2013-11-19,2013,deraillement,mineur,94,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,BEATT_rapport
+337,2024-06-05,2024,incendie,mineur,45,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,SNCF_rapport
+338,2022-07-08,2022,PN,mineur,42,SNCF Réseau,0,0,obstacle_PN,PN,BEATT_rapport
+339,2020-12-19,2020,PN,grave,54,SNCF Réseau,0,33,non_respect_signalisation,PN,SNCF_rapport
+340,2012-09-25,2012,acte_malveillance,significatif,64,SNCF Voyageurs,0,2,jet_de_projectiles,PN,EPSF_synthese
+341,2016-07-07,2016,collision,significatif,73,SNCF Réseau,0,7,excès_vitesse,circulation_commerciale,BEATT_rapport
+342,2015-10-02,2015,incendie,grave,83,SNCF Voyageurs,5,37,defaillance_materiel,circulation_commerciale,SNCF_rapport
+343,2022-08-10,2022,incendie,mineur,89,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,BEATT_rapport
+344,2023-03-01,2023,incident_materiel,mineur,80,RATP,0,0,defaillance_freinage,circulation_commerciale,EPSF_synthese
+345,2024-04-23,2024,incident_materiel,significatif,63,SNCF Voyageurs,0,4,defaillance_materiel,circulation_commerciale,BEATT_rapport
+346,2020-08-05,2020,collision,mineur,35,SNCF Voyageurs,0,0,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+347,2024-08-23,2024,deraillement,significatif,57,SNCF Réseau,0,1,erreur_humaine,maintenance,SNCF_rapport
+348,2016-05-27,2016,incendie,grave,85,RATP,1,11,incendie_bord,circulation_commerciale,EPSF_synthese
+349,2022-01-01,2022,incendie,mineur,71,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+350,2010-10-25,2010,deraillement,significatif,14,SNCF Voyageurs,0,4,erreur_humaine,travaux,EPSF_synthese
+351,2016-09-10,2016,acte_malveillance,mineur,57,SNCF Voyageurs,0,1,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+352,2024-05-20,2024,acte_malveillance,significatif,78,SNCF Réseau,0,2,jet_de_projectiles,PN,SNCF_rapport
+353,2016-02-14,2016,incident_materiel,grave,75,SNCF Voyageurs,2,24,defaillance_materiel,maintenance,BEATT_rapport
+354,2015-10-09,2015,incendie,mineur,63,RATP,0,0,incendie_bord,circulation_commerciale,SNCF_rapport
+355,2022-09-26,2022,incendie,grave,91,RATP,1,32,incendie_bord,circulation_commerciale,SNCF_rapport
+356,2019-08-05,2019,acte_malveillance,significatif,93,SNCF Voyageurs,0,8,vol_cable,circulation_commerciale,EPSF_synthese
+357,2014-02-22,2014,incident_materiel,mineur,6,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,SNCF_rapport
+358,2018-08-09,2018,incident_materiel,mineur,59,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,BEATT_rapport
+359,2022-11-07,2022,collision,grave,45,SNCF Voyageurs,7,29,excès_vitesse,circulation_commerciale,EPSF_synthese
+360,2024-12-23,2024,collision,significatif,69,SNCF Réseau,0,5,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+361,2021-04-09,2021,incendie,grave,57,RATP,0,36,defaillance_materiel,circulation_commerciale,SNCF_rapport
+362,2023-10-15,2023,incident_materiel,mineur,34,SNCF Voyageurs,0,0,defaillance_freinage,circulation_commerciale,SNCF_rapport
+363,2023-08-03,2023,PN,significatif,93,SNCF Réseau,0,6,non_respect_signalisation,PN,EPSF_synthese
+364,2015-07-21,2015,incendie,mineur,73,RATP,0,0,acte_malveillance,circulation_commerciale,BEATT_rapport
+365,2018-02-11,2018,collision,significatif,78,SNCF Voyageurs,0,7,erreur_humaine,circulation_commerciale,EPSF_synthese
+366,2022-11-05,2022,acte_malveillance,mineur,80,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,SNCF_rapport
+367,2012-08-10,2012,incendie,significatif,78,SNCF Voyageurs,0,0,incendie_bord,maintenance,SNCF_rapport
+368,2011-04-01,2011,deraillement,significatif,75,SNCF Voyageurs,0,9,excès_vitesse,maintenance,BEATT_rapport
+369,2011-04-18,2011,acte_malveillance,significatif,13,RATP,0,5,vol_cable,PN,SNCF_rapport
+370,2015-09-16,2015,collision,grave,72,SNCF Réseau,0,36,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+371,2011-06-07,2011,acte_malveillance,significatif,14,SNCF Voyageurs,0,7,acte_malveillance,circulation_commerciale,SNCF_rapport
+372,2019-03-04,2019,incident_materiel,mineur,92,RATP,0,2,defaillance_freinage,essais,SNCF_rapport
+373,2018-05-26,2018,deraillement,grave,25,SNCF Voyageurs,1,34,erreur_humaine,circulation_commerciale,BEATT_rapport
+374,2024-11-04,2024,acte_malveillance,significatif,37,SNCF Réseau,1,5,acte_malveillance,PN,BEATT_rapport
+375,2018-10-25,2018,acte_malveillance,significatif,13,SNCF Réseau,0,3,acte_malveillance,circulation_commerciale,SNCF_rapport
+376,2020-05-20,2020,incendie,significatif,67,RATP,0,3,acte_malveillance,maintenance,EPSF_synthese
+377,2015-07-21,2015,deraillement,mineur,38,SNCF Voyageurs,0,0,defaillance_materiel,travaux,BEATT_rapport
+378,2012-07-13,2012,collision,grave,42,SNCF Réseau,0,26,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+379,2012-04-06,2012,acte_malveillance,significatif,94,RATP,0,7,acte_malveillance,PN,BEATT_rapport
+380,2011-02-03,2011,incident_materiel,significatif,44,SNCF Voyageurs,0,7,defaillance_materiel,maintenance,BEATT_rapport
+381,2014-11-15,2014,collision,significatif,85,SNCF Réseau,0,2,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+382,2022-12-14,2022,acte_malveillance,mineur,59,SNCF Réseau,0,0,jet_de_projectiles,PN,EPSF_synthese
+383,2024-10-22,2024,acte_malveillance,grave,54,SNCF Voyageurs,0,12,acte_malveillance,PN,EPSF_synthese
+384,2022-06-27,2022,acte_malveillance,significatif,94,RATP,0,0,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+385,2022-06-20,2022,deraillement,mineur,80,SNCF Voyageurs,0,2,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+386,2019-05-04,2019,deraillement,significatif,37,SNCF Voyageurs,0,7,excès_vitesse,circulation_commerciale,BEATT_rapport
+387,2020-08-15,2020,incident_materiel,significatif,34,RATP,0,0,defaillance_freinage,maintenance,SNCF_rapport
+388,2011-04-18,2011,acte_malveillance,significatif,80,RATP,0,5,vol_cable,PN,EPSF_synthese
+389,2018-09-17,2018,incident_materiel,grave,92,SNCF Voyageurs,4,12,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+390,2020-02-02,2020,PN,significatif,54,SNCF Réseau,1,9,obstacle_PN,PN,SNCF_rapport
+391,2023-07-27,2023,acte_malveillance,mineur,86,SNCF Réseau,0,1,acte_malveillance,circulation_commerciale,BEATT_rapport
+392,2022-07-15,2022,incident_materiel,grave,59,SNCF Voyageurs,0,21,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+393,2014-10-02,2014,incident_materiel,mineur,45,SNCF Voyageurs,0,0,defaillance_materiel,essais,BEATT_rapport
+394,2023-07-23,2023,incendie,mineur,84,SNCF Voyageurs,0,1,incendie_bord,maintenance,SNCF_rapport
+395,2016-05-07,2016,deraillement,mineur,59,SNCF Voyageurs,0,0,erreur_humaine,maintenance,SNCF_rapport
+396,2018-01-25,2018,acte_malveillance,significatif,76,SNCF Réseau,0,3,vol_cable,PN,SNCF_rapport
+397,2014-07-23,2014,PN,grave,85,SNCF Réseau,0,39,non_respect_signalisation,PN,EPSF_synthese
+398,2013-04-10,2013,collision,mineur,34,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,EPSF_synthese
+399,2017-05-26,2017,incident_materiel,mineur,77,SNCF Voyageurs,0,0,defaut_infrastructure,essais,BEATT_rapport
+400,2024-09-06,2024,incendie,mineur,92,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,BEATT_rapport
+401,2021-01-01,2021,deraillement,significatif,35,SNCF Voyageurs,0,6,excès_vitesse,maintenance,EPSF_synthese
+402,2022-04-05,2022,deraillement,significatif,80,SNCF Réseau,0,5,excès_vitesse,maintenance,EPSF_synthese
+403,2011-09-01,2011,incendie,significatif,33,SNCF Voyageurs,0,9,incendie_bord,circulation_commerciale,BEATT_rapport
+404,2015-03-11,2015,collision,grave,78,SNCF Réseau,1,35,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+405,2018-05-16,2018,collision,grave,6,SNCF Réseau,0,13,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+406,2022-05-17,2022,deraillement,significatif,83,SNCF Voyageurs,1,2,defaut_infrastructure,travaux,SNCF_rapport
+407,2010-05-21,2010,acte_malveillance,mineur,30,SNCF Réseau,0,0,jet_de_projectiles,PN,EPSF_synthese
+408,2021-10-05,2021,incident_materiel,mineur,80,RATP,0,0,defaillance_freinage,circulation_commerciale,SNCF_rapport
+409,2017-12-13,2017,PN,mineur,69,SNCF Réseau,0,0,non_respect_signalisation,PN,SNCF_rapport
+410,2022-09-03,2022,incident_materiel,significatif,25,RATP,0,8,defaillance_freinage,maintenance,BEATT_rapport
+411,2024-07-29,2024,collision,grave,67,SNCF Réseau,1,39,erreur_humaine,circulation_commerciale,BEATT_rapport
+412,2020-09-04,2020,collision,grave,77,SNCF Réseau,2,3,erreur_humaine,circulation_commerciale,SNCF_rapport
+413,2024-06-19,2024,PN,significatif,14,SNCF Réseau,0,1,erreur_humaine,PN,EPSF_synthese
+414,2014-09-28,2014,incendie,mineur,14,SNCF Voyageurs,0,0,acte_malveillance,maintenance,EPSF_synthese
+415,2016-04-15,2016,acte_malveillance,mineur,62,SNCF Réseau,0,0,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+416,2014-08-25,2014,acte_malveillance,grave,59,SNCF Réseau,1,24,acte_malveillance,PN,EPSF_synthese
+417,2022-08-25,2022,incident_materiel,mineur,63,RATP,0,2,defaut_infrastructure,essais,SNCF_rapport
+418,2013-02-20,2013,incendie,grave,64,RATP,0,6,acte_malveillance,circulation_commerciale,EPSF_synthese
+419,2012-03-11,2012,deraillement,grave,87,SNCF Voyageurs,4,24,excès_vitesse,travaux,BEATT_rapport
+420,2023-05-12,2023,deraillement,significatif,73,SNCF Voyageurs,0,8,defaillance_materiel,travaux,SNCF_rapport
+421,2015-02-12,2015,PN,grave,37,SNCF Réseau,0,8,erreur_humaine,PN,BEATT_rapport
+422,2023-02-21,2023,incendie,grave,57,RATP,1,10,defaillance_materiel,circulation_commerciale,EPSF_synthese
+423,2011-08-26,2011,collision,mineur,91,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,EPSF_synthese
+424,2018-09-27,2018,PN,mineur,6,SNCF Réseau,0,2,non_respect_signalisation,PN,SNCF_rapport
+425,2019-12-23,2019,PN,grave,25,SNCF Réseau,3,23,non_respect_signalisation,PN,EPSF_synthese
+426,2019-09-01,2019,deraillement,grave,25,SNCF Réseau,4,35,erreur_humaine,travaux,SNCF_rapport
+427,2022-06-07,2022,collision,grave,57,SNCF Réseau,2,24,excès_vitesse,circulation_commerciale,SNCF_rapport
+428,2018-09-12,2018,collision,grave,67,SNCF Voyageurs,1,13,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+429,2013-02-11,2013,PN,significatif,34,SNCF Réseau,0,8,non_respect_signalisation,PN,EPSF_synthese
+430,2013-10-01,2013,deraillement,grave,76,SNCF Voyageurs,3,11,defaillance_materiel,circulation_commerciale,EPSF_synthese
+431,2018-02-06,2018,PN,grave,89,SNCF Réseau,0,28,obstacle_PN,PN,EPSF_synthese
+432,2020-04-08,2020,collision,significatif,69,SNCF Réseau,0,1,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+433,2023-11-29,2023,deraillement,grave,72,SNCF Voyageurs,3,25,defaillance_materiel,circulation_commerciale,BEATT_rapport
+434,2023-05-02,2023,incident_materiel,significatif,95,RATP,0,7,defaillance_signalisation,maintenance,EPSF_synthese
+435,2020-09-29,2020,PN,significatif,57,SNCF Réseau,0,4,obstacle_PN,PN,BEATT_rapport
+436,2024-03-12,2024,deraillement,mineur,54,SNCF Voyageurs,0,0,excès_vitesse,circulation_commerciale,SNCF_rapport
+437,2018-03-10,2018,collision,grave,84,SNCF Voyageurs,0,28,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+438,2020-05-09,2020,incendie,mineur,95,SNCF Voyageurs,0,1,incendie_bord,maintenance,EPSF_synthese
+439,2019-03-06,2019,incendie,significatif,59,RATP,0,2,defaillance_materiel,circulation_commerciale,EPSF_synthese
+440,2015-09-01,2015,incendie,grave,21,SNCF Voyageurs,0,34,incendie_bord,maintenance,SNCF_rapport
+441,2023-05-31,2023,deraillement,significatif,83,SNCF Voyageurs,0,0,erreur_humaine,maintenance,EPSF_synthese
+442,2018-01-24,2018,incendie,grave,45,SNCF Voyageurs,2,28,acte_malveillance,circulation_commerciale,BEATT_rapport
+443,2024-11-28,2024,PN,grave,92,SNCF Réseau,3,13,obstacle_PN,PN,BEATT_rapport
+444,2024-07-04,2024,deraillement,grave,6,SNCF Réseau,2,36,defaillance_materiel,circulation_commerciale,EPSF_synthese
+445,2015-10-21,2015,incident_materiel,significatif,69,SNCF Voyageurs,0,6,defaillance_freinage,maintenance,SNCF_rapport
+446,2023-03-15,2023,incendie,grave,13,SNCF Voyageurs,5,31,acte_malveillance,circulation_commerciale,SNCF_rapport
+447,2012-05-06,2012,PN,grave,34,SNCF Réseau,0,30,non_respect_signalisation,PN,SNCF_rapport
+448,2016-12-30,2016,PN,grave,76,SNCF Réseau,0,2,non_respect_signalisation,PN,SNCF_rapport
+449,2020-09-05,2020,collision,grave,21,SNCF Réseau,1,39,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+450,2011-01-02,2011,incendie,mineur,92,SNCF Voyageurs,0,0,incendie_bord,circulation_commerciale,EPSF_synthese
+451,2013-09-08,2013,incendie,significatif,35,RATP,0,7,incendie_bord,circulation_commerciale,SNCF_rapport
+452,2022-07-23,2022,deraillement,significatif,91,SNCF Voyageurs,0,7,erreur_humaine,travaux,EPSF_synthese
+453,2014-03-07,2014,incendie,grave,13,SNCF Voyageurs,0,19,acte_malveillance,maintenance,BEATT_rapport
+454,2023-10-10,2023,incident_materiel,significatif,67,SNCF Voyageurs,0,1,defaut_infrastructure,essais,EPSF_synthese
+455,2014-10-26,2014,incident_materiel,mineur,85,SNCF Voyageurs,0,0,defaillance_signalisation,essais,EPSF_synthese
+456,2022-01-16,2022,incident_materiel,grave,75,SNCF Voyageurs,0,4,defaillance_signalisation,maintenance,EPSF_synthese
+457,2015-11-20,2015,incendie,mineur,67,RATP,0,1,defaillance_materiel,maintenance,BEATT_rapport
+458,2018-10-21,2018,acte_malveillance,grave,75,SNCF Voyageurs,0,12,acte_malveillance,PN,BEATT_rapport
+459,2013-11-14,2013,incendie,mineur,86,RATP,0,0,acte_malveillance,maintenance,EPSF_synthese
+460,2013-01-02,2013,PN,significatif,31,SNCF Réseau,0,1,obstacle_PN,PN,EPSF_synthese
+461,2018-05-17,2018,incendie,grave,87,SNCF Voyageurs,7,29,incendie_bord,maintenance,EPSF_synthese
+462,2022-11-22,2022,deraillement,significatif,91,SNCF Voyageurs,0,3,erreur_humaine,travaux,BEATT_rapport
+463,2024-06-21,2024,incident_materiel,significatif,33,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,EPSF_synthese
+464,2017-01-21,2017,deraillement,significatif,77,SNCF Réseau,0,2,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+465,2014-05-18,2014,deraillement,significatif,71,SNCF Voyageurs,0,1,erreur_humaine,circulation_commerciale,BEATT_rapport
+466,2019-12-16,2019,deraillement,significatif,44,SNCF Réseau,1,0,excès_vitesse,travaux,SNCF_rapport
+467,2010-09-25,2010,PN,significatif,75,SNCF Réseau,0,6,obstacle_PN,PN,BEATT_rapport
+468,2021-02-09,2021,acte_malveillance,significatif,31,RATP,0,1,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+469,2022-03-08,2022,PN,grave,73,SNCF Réseau,0,11,erreur_humaine,PN,BEATT_rapport
+470,2014-11-26,2014,deraillement,significatif,59,SNCF Réseau,1,7,defaut_infrastructure,maintenance,EPSF_synthese
+471,2020-02-02,2020,PN,significatif,31,SNCF Réseau,1,4,non_respect_signalisation,PN,EPSF_synthese
+472,2014-09-16,2014,incendie,significatif,89,RATP,0,8,acte_malveillance,maintenance,BEATT_rapport
+473,2019-08-09,2019,incident_materiel,mineur,17,SNCF Voyageurs,0,0,defaillance_freinage,circulation_commerciale,BEATT_rapport
+474,2017-11-13,2017,acte_malveillance,mineur,57,SNCF Voyageurs,0,1,vol_cable,circulation_commerciale,SNCF_rapport
+475,2022-11-05,2022,PN,grave,71,SNCF Réseau,0,25,erreur_humaine,PN,EPSF_synthese
+476,2016-03-21,2016,incendie,grave,34,SNCF Voyageurs,1,16,incendie_bord,circulation_commerciale,BEATT_rapport
+477,2017-03-23,2017,incident_materiel,mineur,85,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,BEATT_rapport
+478,2016-01-11,2016,incendie,mineur,21,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,BEATT_rapport
+479,2012-02-02,2012,deraillement,mineur,75,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,SNCF_rapport
+480,2017-05-05,2017,acte_malveillance,significatif,75,RATP,0,4,acte_malveillance,circulation_commerciale,BEATT_rapport
+481,2024-11-23,2024,incendie,grave,69,RATP,5,20,defaillance_materiel,circulation_commerciale,EPSF_synthese
+482,2019-08-21,2019,incident_materiel,significatif,57,SNCF Voyageurs,0,6,defaut_infrastructure,maintenance,SNCF_rapport
+483,2022-04-11,2022,acte_malveillance,mineur,94,SNCF Voyageurs,0,0,acte_malveillance,PN,EPSF_synthese
+484,2011-01-12,2011,collision,significatif,35,SNCF Réseau,0,8,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+485,2020-03-28,2020,collision,significatif,33,SNCF Voyageurs,0,4,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+486,2016-10-08,2016,incident_materiel,mineur,66,RATP,0,1,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+487,2011-11-07,2011,PN,significatif,69,SNCF Réseau,0,7,erreur_humaine,PN,BEATT_rapport
+488,2016-11-07,2016,incendie,significatif,92,SNCF Voyageurs,0,1,acte_malveillance,circulation_commerciale,EPSF_synthese
+489,2012-02-19,2012,collision,significatif,33,SNCF Réseau,0,8,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+490,2015-01-27,2015,acte_malveillance,grave,6,SNCF Réseau,2,8,jet_de_projectiles,PN,BEATT_rapport
+491,2017-09-15,2017,collision,grave,21,SNCF Réseau,2,17,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+492,2018-08-05,2018,collision,mineur,66,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,SNCF_rapport
+493,2013-01-28,2013,deraillement,mineur,21,SNCF Réseau,0,0,excès_vitesse,maintenance,BEATT_rapport
+494,2022-08-20,2022,collision,significatif,42,SNCF Réseau,0,7,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+495,2013-05-25,2013,deraillement,mineur,30,SNCF Réseau,0,0,erreur_humaine,travaux,EPSF_synthese
+496,2012-10-05,2012,acte_malveillance,significatif,72,SNCF Voyageurs,0,0,jet_de_projectiles,PN,SNCF_rapport
+497,2013-02-19,2013,incident_materiel,significatif,45,SNCF Voyageurs,0,6,defaillance_signalisation,essais,BEATT_rapport
+498,2023-06-25,2023,acte_malveillance,mineur,13,RATP,0,0,jet_de_projectiles,PN,BEATT_rapport
+499,2016-10-07,2016,incident_materiel,significatif,57,SNCF Voyageurs,0,1,defaillance_freinage,essais,BEATT_rapport
+500,2011-03-24,2011,incident_materiel,mineur,45,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,SNCF_rapport
+501,2024-04-24,2024,acte_malveillance,grave,62,SNCF Voyageurs,0,6,acte_malveillance,circulation_commerciale,EPSF_synthese
+502,2018-09-04,2018,acte_malveillance,significatif,94,RATP,0,8,vol_cable,PN,EPSF_synthese
+503,2020-07-25,2020,collision,grave,51,SNCF Réseau,3,28,erreur_humaine,circulation_commerciale,EPSF_synthese
+504,2010-11-23,2010,collision,grave,78,SNCF Voyageurs,0,7,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+505,2019-07-02,2019,incendie,significatif,83,RATP,0,5,defaillance_materiel,circulation_commerciale,BEATT_rapport
+506,2023-10-26,2023,incident_materiel,significatif,25,SNCF Voyageurs,0,2,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+507,2014-07-23,2014,incident_materiel,mineur,91,RATP,0,0,defaillance_signalisation,maintenance,BEATT_rapport
+508,2024-06-04,2024,collision,significatif,45,SNCF Voyageurs,0,6,excès_vitesse,circulation_commerciale,EPSF_synthese
+509,2015-06-26,2015,collision,grave,89,SNCF Réseau,1,19,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+510,2011-03-27,2011,PN,grave,6,SNCF Réseau,0,8,erreur_humaine,PN,BEATT_rapport
+511,2013-01-29,2013,incendie,grave,64,SNCF Voyageurs,1,32,incendie_bord,circulation_commerciale,BEATT_rapport
+512,2021-08-08,2021,incendie,significatif,33,SNCF Voyageurs,0,1,defaillance_materiel,circulation_commerciale,BEATT_rapport
+513,2016-01-11,2016,incendie,significatif,72,SNCF Voyageurs,0,7,incendie_bord,circulation_commerciale,SNCF_rapport
+514,2021-10-01,2021,collision,grave,75,SNCF Réseau,2,10,excès_vitesse,circulation_commerciale,BEATT_rapport
+515,2018-01-29,2018,collision,significatif,35,SNCF Réseau,0,5,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+516,2012-04-22,2012,acte_malveillance,mineur,78,SNCF Réseau,0,0,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+517,2010-12-27,2010,collision,significatif,66,SNCF Réseau,0,9,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+518,2013-05-14,2013,incident_materiel,significatif,92,RATP,0,3,defaillance_materiel,essais,SNCF_rapport
+519,2015-01-14,2015,PN,grave,62,SNCF Réseau,2,24,obstacle_PN,PN,SNCF_rapport
+520,2011-10-01,2011,acte_malveillance,significatif,94,RATP,0,8,vol_cable,circulation_commerciale,EPSF_synthese
+521,2014-01-09,2014,incident_materiel,mineur,75,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,SNCF_rapport
+522,2016-12-20,2016,PN,significatif,66,SNCF Réseau,0,1,obstacle_PN,PN,EPSF_synthese
+523,2016-07-16,2016,acte_malveillance,significatif,66,SNCF Voyageurs,0,2,vol_cable,circulation_commerciale,BEATT_rapport
+524,2021-01-24,2021,incident_materiel,significatif,71,SNCF Voyageurs,1,2,defaillance_freinage,circulation_commerciale,EPSF_synthese
+525,2015-03-24,2015,acte_malveillance,significatif,6,SNCF Voyageurs,0,0,vol_cable,circulation_commerciale,BEATT_rapport
+526,2018-06-10,2018,incendie,mineur,42,SNCF Voyageurs,0,1,acte_malveillance,maintenance,BEATT_rapport
+527,2015-05-06,2015,deraillement,grave,54,SNCF Réseau,0,14,erreur_humaine,travaux,EPSF_synthese
+528,2010-12-26,2010,incident_materiel,grave,75,SNCF Voyageurs,0,5,defaut_infrastructure,essais,BEATT_rapport
+529,2011-11-27,2011,acte_malveillance,mineur,69,RATP,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+530,2023-04-11,2023,acte_malveillance,mineur,33,RATP,0,0,acte_malveillance,PN,EPSF_synthese
+531,2016-07-17,2016,PN,grave,62,SNCF Réseau,1,20,non_respect_signalisation,PN,SNCF_rapport
+532,2020-02-26,2020,PN,grave,33,SNCF Réseau,0,25,obstacle_PN,PN,BEATT_rapport
+533,2012-06-11,2012,incident_materiel,grave,75,SNCF Voyageurs,0,37,defaillance_materiel,circulation_commerciale,SNCF_rapport
+534,2019-02-13,2019,collision,mineur,59,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,SNCF_rapport
+535,2015-12-11,2015,collision,grave,59,SNCF Voyageurs,1,23,erreur_humaine,circulation_commerciale,BEATT_rapport
+536,2023-07-14,2023,collision,significatif,25,SNCF Réseau,0,2,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+537,2015-07-27,2015,PN,significatif,59,SNCF Réseau,0,9,non_respect_signalisation,PN,SNCF_rapport
+538,2013-11-25,2013,collision,grave,84,SNCF Voyageurs,0,5,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+539,2012-02-15,2012,deraillement,significatif,6,SNCF Réseau,0,0,defaut_infrastructure,travaux,EPSF_synthese
+540,2014-12-26,2014,incident_materiel,mineur,94,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,BEATT_rapport
+541,2024-06-17,2024,collision,significatif,21,SNCF Réseau,0,4,excès_vitesse,circulation_commerciale,EPSF_synthese
+542,2024-06-27,2024,deraillement,significatif,31,SNCF Voyageurs,0,7,excès_vitesse,travaux,EPSF_synthese
+543,2020-05-04,2020,collision,grave,69,SNCF Voyageurs,1,15,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+544,2010-08-30,2010,deraillement,significatif,42,SNCF Voyageurs,0,3,erreur_humaine,travaux,EPSF_synthese
+545,2016-03-02,2016,PN,significatif,89,SNCF Réseau,0,4,non_respect_signalisation,PN,BEATT_rapport
+546,2023-11-03,2023,incident_materiel,grave,84,SNCF Voyageurs,0,35,defaillance_signalisation,maintenance,SNCF_rapport
+547,2011-05-15,2011,collision,significatif,71,SNCF Réseau,1,4,excès_vitesse,circulation_commerciale,EPSF_synthese
+548,2024-05-31,2024,acte_malveillance,mineur,64,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,SNCF_rapport
+549,2022-03-19,2022,deraillement,grave,67,SNCF Voyageurs,1,24,defaillance_materiel,maintenance,SNCF_rapport
+550,2014-01-13,2014,collision,grave,54,SNCF Réseau,0,25,excès_vitesse,circulation_commerciale,EPSF_synthese
+551,2020-07-31,2020,acte_malveillance,significatif,30,SNCF Réseau,0,7,vol_cable,circulation_commerciale,EPSF_synthese
+552,2024-09-25,2024,incident_materiel,mineur,17,RATP,0,0,defaillance_signalisation,essais,EPSF_synthese
+553,2022-11-30,2022,deraillement,grave,45,SNCF Réseau,0,16,defaillance_materiel,travaux,BEATT_rapport
+554,2017-02-18,2017,incendie,grave,13,RATP,2,8,acte_malveillance,maintenance,BEATT_rapport
+555,2017-11-20,2017,acte_malveillance,grave,38,RATP,0,8,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+556,2022-02-28,2022,PN,significatif,25,SNCF Réseau,0,5,obstacle_PN,PN,EPSF_synthese
+557,2015-03-21,2015,acte_malveillance,mineur,76,RATP,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+558,2017-06-10,2017,acte_malveillance,grave,37,SNCF Voyageurs,1,30,acte_malveillance,circulation_commerciale,SNCF_rapport
+559,2011-05-03,2011,collision,significatif,80,SNCF Réseau,0,7,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+560,2011-08-18,2011,PN,grave,30,SNCF Réseau,2,27,erreur_humaine,PN,SNCF_rapport
+561,2016-10-08,2016,PN,grave,72,SNCF Réseau,2,33,obstacle_PN,PN,BEATT_rapport
+562,2020-12-05,2020,incendie,significatif,84,RATP,1,4,defaillance_materiel,circulation_commerciale,BEATT_rapport
+563,2023-10-07,2023,PN,grave,59,SNCF Réseau,1,28,obstacle_PN,PN,BEATT_rapport
+564,2016-08-09,2016,incident_materiel,mineur,95,SNCF Voyageurs,0,0,defaillance_freinage,essais,BEATT_rapport
+565,2018-10-13,2018,acte_malveillance,mineur,62,RATP,0,1,acte_malveillance,circulation_commerciale,BEATT_rapport
+566,2014-12-15,2014,incendie,grave,34,SNCF Voyageurs,2,13,acte_malveillance,circulation_commerciale,SNCF_rapport
+567,2011-09-30,2011,incident_materiel,mineur,91,SNCF Voyageurs,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+568,2024-05-02,2024,incendie,significatif,51,SNCF Voyageurs,0,3,defaillance_materiel,maintenance,EPSF_synthese
+569,2015-08-07,2015,incendie,significatif,30,SNCF Voyageurs,0,1,incendie_bord,maintenance,BEATT_rapport
+570,2010-01-11,2010,collision,grave,71,SNCF Voyageurs,0,11,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+571,2019-04-15,2019,deraillement,significatif,30,SNCF Voyageurs,0,6,erreur_humaine,circulation_commerciale,SNCF_rapport
+572,2022-12-19,2022,incendie,mineur,73,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+573,2010-10-01,2010,PN,significatif,30,SNCF Réseau,0,4,obstacle_PN,PN,EPSF_synthese
+574,2017-09-01,2017,incident_materiel,mineur,21,RATP,0,0,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+575,2012-02-02,2012,PN,grave,13,SNCF Réseau,1,35,erreur_humaine,PN,SNCF_rapport
+576,2024-08-29,2024,incident_materiel,mineur,30,SNCF Voyageurs,0,0,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+577,2014-08-11,2014,incident_materiel,significatif,83,RATP,0,9,defaut_infrastructure,essais,SNCF_rapport
+578,2024-10-25,2024,PN,grave,17,SNCF Réseau,1,21,non_respect_signalisation,PN,SNCF_rapport
+579,2022-10-28,2022,acte_malveillance,grave,66,SNCF Réseau,1,6,vol_cable,circulation_commerciale,EPSF_synthese
+580,2019-08-04,2019,collision,grave,30,SNCF Réseau,3,25,excès_vitesse,circulation_commerciale,EPSF_synthese
+581,2014-08-23,2014,incident_materiel,mineur,31,SNCF Voyageurs,0,0,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+582,2018-12-01,2018,deraillement,significatif,25,SNCF Voyageurs,0,6,erreur_humaine,maintenance,BEATT_rapport
+583,2022-03-16,2022,deraillement,grave,66,SNCF Voyageurs,2,21,excès_vitesse,circulation_commerciale,EPSF_synthese
+584,2019-12-31,2019,collision,significatif,51,SNCF Réseau,0,4,excès_vitesse,circulation_commerciale,EPSF_synthese
+585,2016-01-10,2016,acte_malveillance,grave,93,RATP,0,11,acte_malveillance,circulation_commerciale,EPSF_synthese
+586,2011-12-04,2011,incendie,significatif,44,RATP,0,5,defaillance_materiel,maintenance,BEATT_rapport
+587,2011-05-15,2011,deraillement,mineur,85,SNCF Voyageurs,0,0,erreur_humaine,maintenance,EPSF_synthese
+588,2020-09-06,2020,PN,grave,14,SNCF Réseau,1,27,obstacle_PN,PN,BEATT_rapport
+589,2022-10-24,2022,acte_malveillance,grave,73,SNCF Réseau,1,8,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+590,2013-10-01,2013,incident_materiel,mineur,72,SNCF Voyageurs,0,0,defaillance_freinage,circulation_commerciale,EPSF_synthese
+591,2019-10-07,2019,incident_materiel,significatif,62,SNCF Voyageurs,0,3,defaillance_freinage,essais,BEATT_rapport
+592,2011-07-03,2011,collision,grave,62,SNCF Voyageurs,1,7,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+593,2021-08-28,2021,deraillement,grave,31,SNCF Voyageurs,0,13,defaut_infrastructure,maintenance,SNCF_rapport
+594,2013-05-10,2013,incident_materiel,mineur,30,RATP,0,0,defaillance_materiel,circulation_commerciale,SNCF_rapport
+595,2022-01-05,2022,PN,grave,92,SNCF Réseau,0,36,non_respect_signalisation,PN,SNCF_rapport
+596,2022-10-31,2022,acte_malveillance,significatif,54,SNCF Réseau,0,5,vol_cable,circulation_commerciale,SNCF_rapport
+597,2013-03-24,2013,acte_malveillance,significatif,69,SNCF Réseau,0,9,jet_de_projectiles,PN,SNCF_rapport
+598,2015-05-01,2015,collision,mineur,13,SNCF Réseau,0,0,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+599,2016-10-18,2016,PN,grave,94,SNCF Réseau,1,28,non_respect_signalisation,PN,EPSF_synthese
+600,2015-02-11,2015,incident_materiel,mineur,62,SNCF Voyageurs,0,0,defaillance_signalisation,essais,SNCF_rapport
+601,2019-05-08,2019,acte_malveillance,significatif,73,SNCF Réseau,0,9,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+602,2019-02-18,2019,incendie,grave,78,SNCF Voyageurs,1,26,defaillance_materiel,maintenance,EPSF_synthese
+603,2011-06-22,2011,PN,significatif,80,SNCF Réseau,0,7,erreur_humaine,PN,BEATT_rapport
+604,2010-08-26,2010,incident_materiel,significatif,45,SNCF Voyageurs,0,9,defaillance_freinage,circulation_commerciale,EPSF_synthese
+605,2020-03-28,2020,collision,grave,66,SNCF Réseau,2,10,excès_vitesse,circulation_commerciale,SNCF_rapport
+606,2021-04-30,2021,deraillement,significatif,45,SNCF Réseau,0,0,defaut_infrastructure,maintenance,SNCF_rapport
+607,2020-12-18,2020,acte_malveillance,significatif,86,SNCF Voyageurs,0,6,vol_cable,circulation_commerciale,BEATT_rapport
+608,2017-11-05,2017,PN,grave,95,SNCF Réseau,0,37,obstacle_PN,PN,EPSF_synthese
+609,2016-05-24,2016,collision,grave,85,SNCF Réseau,1,32,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+610,2014-12-19,2014,incendie,significatif,92,SNCF Voyageurs,0,8,incendie_bord,circulation_commerciale,SNCF_rapport
+611,2021-07-06,2021,collision,significatif,92,SNCF Réseau,1,2,erreur_humaine,circulation_commerciale,EPSF_synthese
+612,2023-06-26,2023,collision,grave,59,SNCF Voyageurs,2,39,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+613,2024-06-01,2024,PN,grave,75,SNCF Réseau,0,24,non_respect_signalisation,PN,SNCF_rapport
+614,2014-11-23,2014,deraillement,mineur,86,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,EPSF_synthese
+615,2010-03-02,2010,acte_malveillance,significatif,92,RATP,0,6,jet_de_projectiles,PN,BEATT_rapport
+616,2023-08-30,2023,PN,grave,21,SNCF Réseau,0,37,non_respect_signalisation,PN,SNCF_rapport
+617,2016-03-14,2016,incendie,grave,92,SNCF Voyageurs,0,8,defaillance_materiel,maintenance,BEATT_rapport
+618,2024-08-11,2024,PN,significatif,45,SNCF Réseau,0,6,obstacle_PN,PN,EPSF_synthese
+619,2023-06-17,2023,deraillement,mineur,13,SNCF Réseau,0,0,defaillance_materiel,maintenance,BEATT_rapport
+620,2021-02-26,2021,PN,mineur,67,SNCF Réseau,0,1,non_respect_signalisation,PN,BEATT_rapport
+621,2010-10-17,2010,acte_malveillance,mineur,44,SNCF Voyageurs,0,0,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+622,2021-12-28,2021,incendie,grave,59,RATP,2,3,defaillance_materiel,maintenance,EPSF_synthese
+623,2024-10-01,2024,acte_malveillance,mineur,76,SNCF Réseau,0,0,acte_malveillance,PN,EPSF_synthese
+624,2015-10-20,2015,incendie,significatif,63,RATP,0,2,acte_malveillance,circulation_commerciale,BEATT_rapport
+625,2012-01-02,2012,incident_materiel,significatif,59,RATP,0,7,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+626,2017-06-07,2017,PN,grave,31,SNCF Réseau,0,5,non_respect_signalisation,PN,SNCF_rapport
+627,2011-03-16,2011,incendie,mineur,38,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,BEATT_rapport
+628,2012-09-08,2012,incendie,mineur,17,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,EPSF_synthese
+629,2013-01-30,2013,incident_materiel,mineur,75,RATP,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+630,2017-02-04,2017,incendie,grave,63,SNCF Voyageurs,0,12,incendie_bord,circulation_commerciale,BEATT_rapport
+631,2013-12-19,2013,PN,grave,73,SNCF Réseau,1,30,erreur_humaine,PN,SNCF_rapport
+632,2014-09-12,2014,incident_materiel,mineur,33,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,BEATT_rapport
+633,2019-09-23,2019,incendie,mineur,76,SNCF Voyageurs,0,2,defaillance_materiel,maintenance,SNCF_rapport
+634,2010-02-08,2010,collision,grave,62,SNCF Réseau,1,30,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+635,2014-04-11,2014,collision,grave,95,SNCF Réseau,1,18,erreur_humaine,circulation_commerciale,SNCF_rapport
+636,2016-12-31,2016,incident_materiel,significatif,86,RATP,0,4,defaillance_materiel,maintenance,SNCF_rapport
+637,2013-09-30,2013,collision,grave,75,SNCF Réseau,2,34,erreur_humaine,circulation_commerciale,BEATT_rapport
+638,2021-09-02,2021,acte_malveillance,mineur,94,SNCF Voyageurs,0,0,jet_de_projectiles,PN,EPSF_synthese
+639,2017-09-08,2017,deraillement,significatif,69,SNCF Réseau,0,8,defaillance_materiel,travaux,EPSF_synthese
+640,2015-02-15,2015,incident_materiel,mineur,13,RATP,0,2,defaillance_freinage,circulation_commerciale,BEATT_rapport
+641,2021-04-26,2021,incident_materiel,significatif,92,RATP,0,3,defaillance_materiel,maintenance,EPSF_synthese
+642,2018-06-01,2018,incendie,mineur,17,RATP,0,2,defaillance_materiel,circulation_commerciale,BEATT_rapport
+643,2012-06-04,2012,incendie,grave,31,RATP,0,22,incendie_bord,circulation_commerciale,SNCF_rapport
+644,2019-12-19,2019,deraillement,significatif,76,SNCF Voyageurs,1,4,defaut_infrastructure,maintenance,BEATT_rapport
+645,2013-06-08,2013,incident_materiel,mineur,93,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,EPSF_synthese
+646,2024-11-10,2024,acte_malveillance,significatif,30,SNCF Voyageurs,0,2,vol_cable,circulation_commerciale,BEATT_rapport
+647,2023-11-09,2023,collision,grave,77,SNCF Réseau,1,14,excès_vitesse,circulation_commerciale,EPSF_synthese
+648,2023-08-29,2023,incident_materiel,significatif,64,SNCF Voyageurs,0,3,defaillance_signalisation,essais,BEATT_rapport
+649,2019-03-11,2019,PN,grave,77,SNCF Réseau,0,35,obstacle_PN,PN,EPSF_synthese
+650,2020-10-12,2020,PN,significatif,93,SNCF Réseau,0,1,obstacle_PN,PN,EPSF_synthese
+651,2012-06-23,2012,acte_malveillance,grave,25,SNCF Réseau,1,10,jet_de_projectiles,PN,BEATT_rapport
+652,2011-09-07,2011,incendie,grave,92,SNCF Voyageurs,0,33,acte_malveillance,circulation_commerciale,EPSF_synthese
+653,2020-03-30,2020,PN,grave,30,SNCF Réseau,1,16,non_respect_signalisation,PN,EPSF_synthese
+654,2010-11-20,2010,PN,grave,31,SNCF Réseau,0,3,non_respect_signalisation,PN,EPSF_synthese
+655,2011-01-11,2011,collision,grave,64,SNCF Réseau,3,13,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+656,2023-12-12,2023,PN,significatif,63,SNCF Réseau,0,1,erreur_humaine,PN,EPSF_synthese
+657,2012-07-21,2012,deraillement,significatif,67,SNCF Voyageurs,0,3,erreur_humaine,circulation_commerciale,BEATT_rapport
+658,2020-09-22,2020,deraillement,significatif,95,SNCF Réseau,0,5,excès_vitesse,travaux,BEATT_rapport
+659,2011-04-26,2011,incident_materiel,mineur,76,RATP,0,0,defaillance_materiel,maintenance,BEATT_rapport
+660,2019-10-30,2019,incident_materiel,significatif,13,RATP,0,2,defaut_infrastructure,maintenance,BEATT_rapport
+661,2012-12-06,2012,deraillement,significatif,73,SNCF Voyageurs,0,8,erreur_humaine,travaux,EPSF_synthese
+662,2011-06-03,2011,PN,mineur,94,SNCF Réseau,0,2,erreur_humaine,PN,BEATT_rapport
+663,2022-12-07,2022,incendie,mineur,63,RATP,0,0,acte_malveillance,circulation_commerciale,BEATT_rapport
+664,2021-09-25,2021,incendie,grave,93,SNCF Voyageurs,0,35,acte_malveillance,circulation_commerciale,BEATT_rapport
+665,2015-07-30,2015,deraillement,mineur,34,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,BEATT_rapport
+666,2023-09-30,2023,collision,significatif,76,SNCF Voyageurs,0,0,erreur_humaine,circulation_commerciale,SNCF_rapport
+667,2013-09-16,2013,collision,grave,63,SNCF Réseau,11,17,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+668,2011-02-17,2011,acte_malveillance,mineur,45,SNCF Voyageurs,0,0,acte_malveillance,PN,EPSF_synthese
+669,2020-04-18,2020,deraillement,mineur,73,SNCF Voyageurs,0,0,erreur_humaine,travaux,SNCF_rapport
+670,2012-08-30,2012,deraillement,grave,71,SNCF Voyageurs,2,37,defaut_infrastructure,travaux,EPSF_synthese
+671,2022-07-01,2022,acte_malveillance,grave,89,RATP,1,35,acte_malveillance,circulation_commerciale,BEATT_rapport
+672,2016-10-31,2016,acte_malveillance,significatif,93,RATP,0,6,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+673,2017-08-24,2017,PN,grave,63,SNCF Réseau,2,2,obstacle_PN,PN,BEATT_rapport
+674,2023-11-26,2023,acte_malveillance,mineur,73,RATP,0,0,vol_cable,PN,EPSF_synthese
+675,2012-03-09,2012,incendie,grave,64,SNCF Voyageurs,1,23,incendie_bord,circulation_commerciale,BEATT_rapport
+676,2016-07-19,2016,acte_malveillance,mineur,30,RATP,0,0,jet_de_projectiles,PN,EPSF_synthese
+677,2013-09-06,2013,deraillement,significatif,30,SNCF Voyageurs,0,1,excès_vitesse,maintenance,SNCF_rapport
+678,2023-09-14,2023,incident_materiel,significatif,42,SNCF Voyageurs,0,4,defaillance_freinage,circulation_commerciale,SNCF_rapport
+679,2014-04-11,2014,incendie,grave,14,SNCF Voyageurs,1,35,defaillance_materiel,circulation_commerciale,BEATT_rapport
+680,2023-03-17,2023,collision,significatif,86,SNCF Voyageurs,0,4,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+681,2013-01-07,2013,deraillement,grave,84,SNCF Réseau,0,26,defaut_infrastructure,maintenance,SNCF_rapport
+682,2023-02-15,2023,deraillement,mineur,33,SNCF Réseau,0,1,excès_vitesse,maintenance,EPSF_synthese
+683,2018-09-09,2018,incendie,mineur,67,RATP,0,0,acte_malveillance,maintenance,SNCF_rapport
+684,2023-08-29,2023,incendie,grave,63,SNCF Voyageurs,1,29,incendie_bord,maintenance,SNCF_rapport
+685,2020-02-27,2020,incident_materiel,mineur,95,RATP,0,1,defaillance_freinage,maintenance,BEATT_rapport
+686,2021-06-28,2021,PN,grave,84,SNCF Réseau,5,17,erreur_humaine,PN,BEATT_rapport
+687,2014-11-16,2014,incident_materiel,significatif,57,RATP,1,1,defaillance_freinage,essais,BEATT_rapport
+688,2017-09-29,2017,incendie,significatif,83,RATP,0,9,incendie_bord,circulation_commerciale,BEATT_rapport
+689,2024-04-14,2024,PN,grave,84,SNCF Réseau,0,21,erreur_humaine,PN,SNCF_rapport
+690,2023-01-27,2023,acte_malveillance,significatif,83,RATP,0,7,jet_de_projectiles,PN,SNCF_rapport
+691,2019-06-23,2019,collision,grave,34,SNCF Réseau,1,15,erreur_humaine,circulation_commerciale,EPSF_synthese
+692,2011-04-09,2011,incident_materiel,significatif,94,SNCF Voyageurs,0,2,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+693,2013-04-14,2013,collision,mineur,14,SNCF Voyageurs,0,2,excès_vitesse,circulation_commerciale,SNCF_rapport
+694,2020-02-25,2020,collision,significatif,78,SNCF Réseau,0,7,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+695,2016-06-14,2016,incendie,mineur,67,SNCF Voyageurs,0,1,acte_malveillance,circulation_commerciale,SNCF_rapport
+696,2017-01-05,2017,acte_malveillance,mineur,51,RATP,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+697,2023-12-02,2023,deraillement,mineur,86,SNCF Voyageurs,0,2,excès_vitesse,maintenance,BEATT_rapport
+698,2023-07-14,2023,incident_materiel,significatif,37,SNCF Voyageurs,0,3,defaillance_freinage,maintenance,BEATT_rapport
+699,2011-09-03,2011,incident_materiel,mineur,31,RATP,0,1,defaillance_freinage,essais,SNCF_rapport
+700,2010-11-29,2010,deraillement,grave,33,SNCF Voyageurs,0,5,defaillance_materiel,maintenance,EPSF_synthese
+701,2023-02-06,2023,PN,grave,34,SNCF Réseau,3,8,obstacle_PN,PN,EPSF_synthese
+702,2013-06-13,2013,PN,significatif,89,SNCF Réseau,0,0,erreur_humaine,PN,BEATT_rapport
+703,2016-10-03,2016,deraillement,significatif,80,SNCF Voyageurs,0,8,defaillance_materiel,travaux,EPSF_synthese
+704,2014-02-15,2014,acte_malveillance,grave,83,SNCF Voyageurs,2,3,acte_malveillance,circulation_commerciale,BEATT_rapport
+705,2019-01-18,2019,collision,mineur,93,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,SNCF_rapport
+706,2017-06-05,2017,PN,grave,80,SNCF Réseau,1,10,non_respect_signalisation,PN,SNCF_rapport
+707,2022-08-04,2022,incendie,grave,64,RATP,0,2,incendie_bord,circulation_commerciale,SNCF_rapport
+708,2015-05-23,2015,incendie,significatif,94,SNCF Voyageurs,0,1,acte_malveillance,circulation_commerciale,SNCF_rapport
+709,2018-07-22,2018,collision,mineur,57,SNCF Voyageurs,0,0,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+710,2021-08-05,2021,PN,grave,14,SNCF Réseau,0,25,erreur_humaine,PN,SNCF_rapport
+711,2024-08-12,2024,incident_materiel,mineur,30,SNCF Voyageurs,0,0,defaillance_signalisation,essais,EPSF_synthese
+712,2022-01-25,2022,acte_malveillance,significatif,93,SNCF Réseau,0,3,acte_malveillance,circulation_commerciale,BEATT_rapport
+713,2014-10-13,2014,incendie,mineur,83,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,BEATT_rapport
+714,2019-10-06,2019,incendie,mineur,75,SNCF Voyageurs,0,1,incendie_bord,circulation_commerciale,BEATT_rapport
+715,2017-06-10,2017,collision,grave,37,SNCF Réseau,0,32,erreur_humaine,circulation_commerciale,SNCF_rapport
+716,2022-07-08,2022,collision,significatif,67,SNCF Réseau,0,8,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+717,2024-02-19,2024,deraillement,significatif,67,SNCF Réseau,0,4,erreur_humaine,circulation_commerciale,BEATT_rapport
+718,2012-08-27,2012,acte_malveillance,grave,86,RATP,2,7,acte_malveillance,circulation_commerciale,EPSF_synthese
+719,2011-08-18,2011,PN,significatif,94,SNCF Réseau,0,5,erreur_humaine,PN,SNCF_rapport
+720,2023-08-09,2023,collision,grave,69,SNCF Réseau,0,28,excès_vitesse,circulation_commerciale,BEATT_rapport
+721,2010-09-10,2010,deraillement,mineur,33,SNCF Réseau,0,0,excès_vitesse,maintenance,BEATT_rapport
+722,2018-10-09,2018,acte_malveillance,mineur,94,SNCF Voyageurs,0,1,vol_cable,circulation_commerciale,BEATT_rapport
+723,2024-07-13,2024,PN,grave,14,SNCF Réseau,0,23,obstacle_PN,PN,EPSF_synthese
+724,2022-11-05,2022,acte_malveillance,significatif,42,SNCF Voyageurs,0,4,vol_cable,circulation_commerciale,BEATT_rapport
+725,2017-09-17,2017,incident_materiel,significatif,34,RATP,0,5,defaut_infrastructure,essais,EPSF_synthese
+726,2014-02-16,2014,incident_materiel,significatif,37,SNCF Voyageurs,0,6,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+727,2022-09-22,2022,collision,grave,93,SNCF Réseau,3,37,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+728,2015-08-16,2015,collision,significatif,64,SNCF Réseau,0,7,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+729,2024-09-13,2024,incident_materiel,mineur,21,RATP,0,1,defaillance_materiel,maintenance,EPSF_synthese
+730,2017-02-16,2017,deraillement,grave,95,SNCF Voyageurs,0,32,erreur_humaine,circulation_commerciale,BEATT_rapport
+731,2013-06-02,2013,acte_malveillance,grave,72,SNCF Voyageurs,2,25,jet_de_projectiles,PN,EPSF_synthese
+732,2010-02-09,2010,PN,grave,92,SNCF Réseau,2,39,obstacle_PN,PN,SNCF_rapport
+733,2016-03-16,2016,PN,grave,75,SNCF Réseau,2,13,obstacle_PN,PN,SNCF_rapport
+734,2018-01-17,2018,PN,grave,92,SNCF Réseau,1,26,non_respect_signalisation,PN,BEATT_rapport
+735,2011-11-03,2011,PN,grave,91,SNCF Réseau,3,14,obstacle_PN,PN,EPSF_synthese
+736,2011-09-10,2011,collision,significatif,42,SNCF Voyageurs,1,8,erreur_humaine,circulation_commerciale,EPSF_synthese
+737,2022-05-16,2022,PN,grave,34,SNCF Réseau,2,31,erreur_humaine,PN,SNCF_rapport
+738,2018-10-21,2018,incident_materiel,mineur,78,SNCF Voyageurs,0,1,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+739,2012-01-12,2012,deraillement,grave,93,SNCF Réseau,1,4,defaillance_materiel,maintenance,EPSF_synthese
+740,2023-10-10,2023,incendie,grave,35,SNCF Voyageurs,4,35,incendie_bord,circulation_commerciale,EPSF_synthese
+741,2022-09-14,2022,acte_malveillance,mineur,76,RATP,0,0,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+742,2010-11-28,2010,incident_materiel,mineur,51,SNCF Voyageurs,0,0,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+743,2015-04-02,2015,collision,mineur,76,SNCF Réseau,0,0,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+744,2011-01-16,2011,collision,significatif,80,SNCF Voyageurs,0,0,excès_vitesse,circulation_commerciale,BEATT_rapport
+745,2016-02-19,2016,incendie,significatif,92,SNCF Voyageurs,0,2,defaillance_materiel,circulation_commerciale,SNCF_rapport
+746,2018-03-12,2018,acte_malveillance,mineur,51,RATP,0,0,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+747,2014-12-31,2014,acte_malveillance,significatif,77,SNCF Voyageurs,0,7,vol_cable,PN,SNCF_rapport
+748,2023-07-21,2023,collision,grave,44,SNCF Réseau,3,31,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+749,2021-07-17,2021,incendie,mineur,37,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,EPSF_synthese
+750,2018-02-15,2018,acte_malveillance,significatif,44,RATP,0,7,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+751,2017-05-29,2017,incendie,significatif,76,RATP,0,5,incendie_bord,maintenance,SNCF_rapport
+752,2014-09-23,2014,acte_malveillance,mineur,45,SNCF Réseau,0,1,acte_malveillance,PN,EPSF_synthese
+753,2012-11-13,2012,acte_malveillance,significatif,91,SNCF Réseau,0,6,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+754,2010-11-18,2010,acte_malveillance,significatif,51,SNCF Réseau,0,3,acte_malveillance,circulation_commerciale,EPSF_synthese
+755,2021-08-03,2021,deraillement,mineur,25,SNCF Voyageurs,0,1,defaut_infrastructure,maintenance,EPSF_synthese
+756,2020-01-28,2020,acte_malveillance,significatif,44,SNCF Réseau,0,5,vol_cable,PN,SNCF_rapport
+757,2023-06-24,2023,incident_materiel,significatif,78,RATP,0,3,defaillance_freinage,essais,SNCF_rapport
+758,2013-10-05,2013,incendie,significatif,87,SNCF Voyageurs,0,5,acte_malveillance,maintenance,BEATT_rapport
+759,2011-07-18,2011,incident_materiel,grave,30,SNCF Voyageurs,2,39,defaut_infrastructure,maintenance,EPSF_synthese
+760,2014-07-16,2014,acte_malveillance,significatif,87,SNCF Réseau,0,8,jet_de_projectiles,PN,EPSF_synthese
+761,2013-12-24,2013,deraillement,significatif,25,SNCF Réseau,1,2,defaut_infrastructure,maintenance,SNCF_rapport
+762,2024-10-15,2024,incident_materiel,mineur,72,RATP,0,0,defaillance_materiel,essais,BEATT_rapport
+763,2019-06-09,2019,PN,grave,76,SNCF Réseau,0,17,obstacle_PN,PN,SNCF_rapport
+764,2017-11-11,2017,acte_malveillance,grave,33,SNCF Voyageurs,2,19,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+765,2020-09-13,2020,incident_materiel,mineur,83,RATP,0,0,defaillance_materiel,maintenance,SNCF_rapport
+766,2015-10-13,2015,incident_materiel,significatif,6,RATP,0,4,defaillance_materiel,essais,BEATT_rapport
+767,2021-09-20,2021,collision,significatif,42,SNCF Voyageurs,0,4,erreur_humaine,circulation_commerciale,BEATT_rapport
+768,2017-01-31,2017,deraillement,grave,72,SNCF Réseau,1,39,defaillance_materiel,travaux,BEATT_rapport
+769,2023-02-17,2023,PN,grave,66,SNCF Réseau,4,24,non_respect_signalisation,PN,BEATT_rapport
+770,2016-03-07,2016,incendie,grave,84,SNCF Voyageurs,2,31,defaillance_materiel,circulation_commerciale,BEATT_rapport
+771,2020-10-27,2020,incident_materiel,grave,76,RATP,1,21,defaillance_signalisation,essais,SNCF_rapport
+772,2016-11-17,2016,acte_malveillance,mineur,33,RATP,0,0,vol_cable,PN,BEATT_rapport
+773,2012-09-02,2012,incendie,mineur,35,RATP,0,0,incendie_bord,maintenance,EPSF_synthese
+774,2014-10-23,2014,acte_malveillance,mineur,89,RATP,0,2,vol_cable,PN,BEATT_rapport
+775,2011-03-03,2011,incident_materiel,mineur,25,SNCF Voyageurs,0,0,defaut_infrastructure,essais,EPSF_synthese
+776,2020-07-30,2020,acte_malveillance,significatif,51,SNCF Réseau,0,5,vol_cable,circulation_commerciale,EPSF_synthese
+777,2018-04-26,2018,collision,mineur,89,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,BEATT_rapport
+778,2021-09-08,2021,PN,mineur,91,SNCF Réseau,0,0,erreur_humaine,PN,SNCF_rapport
+779,2019-11-06,2019,collision,grave,14,SNCF Réseau,0,4,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+780,2021-06-14,2021,acte_malveillance,mineur,35,RATP,0,1,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+781,2010-10-23,2010,PN,mineur,25,SNCF Réseau,0,0,obstacle_PN,PN,SNCF_rapport
+782,2018-12-17,2018,PN,grave,86,SNCF Réseau,1,24,erreur_humaine,PN,EPSF_synthese
+783,2021-08-12,2021,collision,grave,57,SNCF Voyageurs,5,26,erreur_humaine,circulation_commerciale,BEATT_rapport
+784,2022-07-17,2022,acte_malveillance,significatif,44,SNCF Voyageurs,0,8,vol_cable,PN,BEATT_rapport
+785,2014-05-13,2014,deraillement,significatif,51,SNCF Réseau,1,4,erreur_humaine,maintenance,EPSF_synthese
+786,2019-02-18,2019,acte_malveillance,significatif,57,RATP,0,7,acte_malveillance,circulation_commerciale,SNCF_rapport
+787,2012-08-16,2012,acte_malveillance,mineur,73,RATP,0,0,vol_cable,PN,SNCF_rapport
+788,2022-08-19,2022,deraillement,grave,94,SNCF Voyageurs,5,33,excès_vitesse,circulation_commerciale,SNCF_rapport
+789,2023-03-01,2023,collision,significatif,21,SNCF Réseau,0,9,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+790,2024-03-18,2024,incident_materiel,mineur,64,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,BEATT_rapport
+791,2022-01-06,2022,collision,grave,25,SNCF Réseau,7,34,excès_vitesse,circulation_commerciale,SNCF_rapport
+792,2017-09-02,2017,collision,significatif,64,SNCF Réseau,0,6,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+793,2022-11-13,2022,PN,grave,38,SNCF Réseau,1,6,obstacle_PN,PN,EPSF_synthese
+794,2015-06-06,2015,PN,significatif,45,SNCF Réseau,0,9,obstacle_PN,PN,BEATT_rapport
+795,2017-12-26,2017,incident_materiel,mineur,94,SNCF Voyageurs,0,2,defaillance_materiel,circulation_commerciale,BEATT_rapport
+796,2021-01-18,2021,acte_malveillance,significatif,66,SNCF Voyageurs,0,1,acte_malveillance,circulation_commerciale,BEATT_rapport
+797,2017-01-27,2017,deraillement,grave,78,SNCF Réseau,1,39,defaillance_materiel,circulation_commerciale,SNCF_rapport
+798,2018-12-04,2018,incident_materiel,mineur,72,RATP,0,0,defaillance_freinage,circulation_commerciale,SNCF_rapport
+799,2022-02-16,2022,collision,grave,37,SNCF Voyageurs,3,10,excès_vitesse,circulation_commerciale,SNCF_rapport
+800,2012-09-13,2012,incendie,grave,95,SNCF Voyageurs,2,32,acte_malveillance,maintenance,EPSF_synthese
+801,2010-04-07,2010,incendie,mineur,30,RATP,0,0,incendie_bord,maintenance,SNCF_rapport
+802,2018-02-10,2018,acte_malveillance,mineur,51,RATP,0,1,vol_cable,circulation_commerciale,EPSF_synthese
+803,2016-01-16,2016,deraillement,significatif,77,SNCF Réseau,0,4,defaillance_materiel,circulation_commerciale,SNCF_rapport
+804,2014-09-21,2014,deraillement,grave,54,SNCF Voyageurs,0,14,defaillance_materiel,circulation_commerciale,SNCF_rapport
+805,2014-01-13,2014,acte_malveillance,mineur,54,SNCF Réseau,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+806,2022-06-16,2022,deraillement,grave,34,SNCF Réseau,2,2,erreur_humaine,travaux,SNCF_rapport
+807,2010-03-21,2010,incident_materiel,mineur,91,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,BEATT_rapport
+808,2021-12-23,2021,incendie,grave,51,SNCF Voyageurs,1,35,defaillance_materiel,maintenance,BEATT_rapport
+809,2022-09-26,2022,collision,mineur,35,SNCF Voyageurs,0,0,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+810,2014-11-01,2014,PN,grave,63,SNCF Réseau,1,19,non_respect_signalisation,PN,SNCF_rapport
+811,2018-02-05,2018,PN,significatif,13,SNCF Réseau,0,9,erreur_humaine,PN,SNCF_rapport
+812,2012-09-20,2012,PN,mineur,85,SNCF Réseau,0,0,erreur_humaine,PN,BEATT_rapport
+813,2024-07-23,2024,acte_malveillance,significatif,62,SNCF Voyageurs,0,7,acte_malveillance,PN,BEATT_rapport
+814,2021-06-13,2021,deraillement,grave,89,SNCF Voyageurs,1,18,erreur_humaine,travaux,SNCF_rapport
+815,2020-05-27,2020,incendie,mineur,63,RATP,0,0,incendie_bord,circulation_commerciale,SNCF_rapport
+816,2024-02-28,2024,acte_malveillance,significatif,25,SNCF Réseau,0,2,jet_de_projectiles,PN,EPSF_synthese
+817,2017-09-15,2017,incident_materiel,mineur,57,RATP,0,1,defaillance_signalisation,maintenance,BEATT_rapport
+818,2016-01-01,2016,acte_malveillance,mineur,73,SNCF Voyageurs,0,0,jet_de_projectiles,PN,SNCF_rapport
+819,2023-03-02,2023,acte_malveillance,significatif,37,SNCF Réseau,0,7,vol_cable,PN,EPSF_synthese
+820,2012-10-21,2012,incendie,grave,95,RATP,2,37,incendie_bord,maintenance,BEATT_rapport
+821,2011-10-18,2011,incident_materiel,mineur,30,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,EPSF_synthese
+822,2020-08-12,2020,acte_malveillance,mineur,80,SNCF Voyageurs,0,1,acte_malveillance,circulation_commerciale,EPSF_synthese
+823,2012-05-01,2012,PN,grave,92,SNCF Réseau,1,16,erreur_humaine,PN,SNCF_rapport
+824,2016-12-09,2016,incident_materiel,grave,73,SNCF Voyageurs,1,21,defaillance_freinage,essais,BEATT_rapport
+825,2012-11-01,2012,incident_materiel,significatif,93,SNCF Voyageurs,0,5,defaillance_freinage,circulation_commerciale,SNCF_rapport
+826,2017-04-18,2017,deraillement,grave,84,SNCF Voyageurs,2,27,erreur_humaine,maintenance,SNCF_rapport
+827,2013-01-11,2013,incendie,significatif,87,RATP,0,3,acte_malveillance,circulation_commerciale,SNCF_rapport
+828,2024-02-26,2024,incendie,grave,91,RATP,4,5,acte_malveillance,maintenance,BEATT_rapport
+829,2021-12-21,2021,PN,grave,44,SNCF Réseau,0,9,non_respect_signalisation,PN,EPSF_synthese
+830,2019-11-29,2019,PN,grave,34,SNCF Réseau,1,19,non_respect_signalisation,PN,SNCF_rapport
+831,2010-03-28,2010,collision,grave,76,SNCF Réseau,7,2,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+832,2010-03-10,2010,incendie,grave,6,SNCF Voyageurs,1,21,defaillance_materiel,maintenance,SNCF_rapport
+833,2016-07-27,2016,acte_malveillance,mineur,66,RATP,0,1,acte_malveillance,circulation_commerciale,EPSF_synthese
+834,2019-03-27,2019,acte_malveillance,grave,35,SNCF Réseau,1,21,vol_cable,PN,BEATT_rapport
+835,2024-06-27,2024,deraillement,mineur,25,SNCF Voyageurs,0,0,erreur_humaine,travaux,SNCF_rapport
+836,2024-01-10,2024,incident_materiel,significatif,83,RATP,0,1,defaillance_signalisation,maintenance,SNCF_rapport
+837,2019-04-06,2019,incident_materiel,mineur,57,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,EPSF_synthese
+838,2024-04-14,2024,deraillement,grave,38,SNCF Voyageurs,2,22,erreur_humaine,circulation_commerciale,SNCF_rapport
+839,2010-06-08,2010,incident_materiel,significatif,37,SNCF Voyageurs,0,2,defaillance_materiel,essais,EPSF_synthese
+840,2016-04-30,2016,PN,mineur,6,SNCF Réseau,0,1,obstacle_PN,PN,EPSF_synthese
+841,2012-01-09,2012,incident_materiel,mineur,63,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,SNCF_rapport
+842,2016-12-27,2016,deraillement,mineur,63,SNCF Réseau,0,0,defaillance_materiel,circulation_commerciale,EPSF_synthese
+843,2013-04-11,2013,collision,significatif,83,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,SNCF_rapport
+844,2014-01-27,2014,incident_materiel,significatif,31,SNCF Voyageurs,0,2,defaillance_signalisation,maintenance,BEATT_rapport
+845,2015-08-02,2015,deraillement,grave,38,SNCF Réseau,1,38,erreur_humaine,travaux,SNCF_rapport
+846,2012-02-09,2012,acte_malveillance,significatif,67,SNCF Voyageurs,0,8,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+847,2016-12-31,2016,PN,significatif,84,SNCF Réseau,0,3,obstacle_PN,PN,BEATT_rapport
+848,2012-09-27,2012,PN,grave,66,SNCF Réseau,2,35,non_respect_signalisation,PN,EPSF_synthese
+849,2024-12-14,2024,incident_materiel,mineur,72,RATP,0,1,defaillance_materiel,circulation_commerciale,SNCF_rapport
+850,2010-05-04,2010,incident_materiel,significatif,69,SNCF Voyageurs,0,6,defaillance_signalisation,essais,EPSF_synthese
+851,2010-03-15,2010,collision,significatif,25,SNCF Réseau,0,5,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+852,2013-07-15,2013,deraillement,significatif,91,SNCF Voyageurs,0,2,defaut_infrastructure,maintenance,EPSF_synthese
+853,2011-05-05,2011,PN,significatif,83,SNCF Réseau,0,3,erreur_humaine,PN,EPSF_synthese
+854,2012-10-27,2012,deraillement,mineur,73,SNCF Voyageurs,0,0,excès_vitesse,circulation_commerciale,BEATT_rapport
+855,2014-04-30,2014,collision,mineur,33,SNCF Voyageurs,0,2,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+856,2010-11-20,2010,deraillement,mineur,83,SNCF Voyageurs,0,1,erreur_humaine,maintenance,BEATT_rapport
+857,2020-12-28,2020,incident_materiel,grave,62,SNCF Voyageurs,3,19,defaillance_freinage,essais,BEATT_rapport
+858,2020-07-04,2020,PN,grave,80,SNCF Réseau,0,7,erreur_humaine,PN,EPSF_synthese
+859,2020-01-30,2020,PN,grave,6,SNCF Réseau,1,19,non_respect_signalisation,PN,BEATT_rapport
+860,2021-05-07,2021,deraillement,grave,89,SNCF Voyageurs,0,38,excès_vitesse,travaux,EPSF_synthese
+861,2017-03-12,2017,incendie,mineur,80,SNCF Voyageurs,0,0,incendie_bord,maintenance,BEATT_rapport
+862,2021-02-27,2021,acte_malveillance,mineur,71,SNCF Voyageurs,0,0,acte_malveillance,PN,BEATT_rapport
+863,2017-03-23,2017,collision,grave,33,SNCF Réseau,0,14,erreur_humaine,circulation_commerciale,EPSF_synthese
+864,2010-09-14,2010,incident_materiel,significatif,30,SNCF Voyageurs,0,8,defaillance_materiel,maintenance,EPSF_synthese
+865,2022-10-22,2022,incendie,mineur,89,RATP,0,2,defaillance_materiel,maintenance,BEATT_rapport
+866,2023-03-29,2023,PN,grave,87,SNCF Réseau,2,22,obstacle_PN,PN,BEATT_rapport
+867,2011-08-04,2011,collision,grave,75,SNCF Réseau,0,16,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+868,2011-05-13,2011,PN,significatif,17,SNCF Réseau,0,2,erreur_humaine,PN,BEATT_rapport
+869,2015-12-18,2015,acte_malveillance,mineur,21,SNCF Voyageurs,0,1,acte_malveillance,circulation_commerciale,EPSF_synthese
+870,2021-08-26,2021,collision,grave,67,SNCF Voyageurs,2,20,erreur_humaine,circulation_commerciale,EPSF_synthese
+871,2014-05-02,2014,acte_malveillance,mineur,91,RATP,0,0,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+872,2022-07-11,2022,incendie,grave,30,RATP,1,9,acte_malveillance,maintenance,BEATT_rapport
+873,2022-12-07,2022,PN,grave,93,SNCF Réseau,3,24,erreur_humaine,PN,SNCF_rapport
+874,2012-05-02,2012,incident_materiel,grave,78,SNCF Voyageurs,0,23,defaillance_freinage,essais,SNCF_rapport
+875,2024-09-30,2024,incident_materiel,mineur,84,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,SNCF_rapport
+876,2018-05-04,2018,deraillement,significatif,87,SNCF Voyageurs,0,8,erreur_humaine,maintenance,EPSF_synthese
+877,2022-08-19,2022,acte_malveillance,mineur,51,RATP,0,0,acte_malveillance,PN,SNCF_rapport
+878,2020-02-24,2020,deraillement,mineur,57,SNCF Réseau,0,2,erreur_humaine,travaux,BEATT_rapport
+879,2010-05-14,2010,acte_malveillance,significatif,59,SNCF Réseau,0,2,acte_malveillance,PN,EPSF_synthese
+880,2014-10-26,2014,PN,significatif,78,SNCF Réseau,0,3,obstacle_PN,PN,BEATT_rapport
+881,2022-10-19,2022,acte_malveillance,significatif,75,SNCF Réseau,0,5,acte_malveillance,circulation_commerciale,SNCF_rapport
+882,2013-07-02,2013,incident_materiel,mineur,45,RATP,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+883,2015-10-01,2015,PN,significatif,42,SNCF Réseau,1,7,obstacle_PN,PN,BEATT_rapport
+884,2011-09-25,2011,incendie,significatif,77,SNCF Voyageurs,0,8,defaillance_materiel,maintenance,BEATT_rapport
+885,2022-12-04,2022,collision,mineur,85,SNCF Voyageurs,0,0,excès_vitesse,circulation_commerciale,SNCF_rapport
+886,2011-10-05,2011,collision,grave,71,SNCF Réseau,4,19,excès_vitesse,circulation_commerciale,EPSF_synthese
+887,2015-02-01,2015,incendie,mineur,91,RATP,0,2,acte_malveillance,circulation_commerciale,SNCF_rapport
+888,2011-03-20,2011,PN,significatif,83,SNCF Réseau,0,7,erreur_humaine,PN,BEATT_rapport
+889,2013-05-10,2013,PN,significatif,17,SNCF Réseau,0,3,erreur_humaine,PN,BEATT_rapport
+890,2018-10-24,2018,deraillement,significatif,57,SNCF Voyageurs,0,5,defaut_infrastructure,travaux,SNCF_rapport
+891,2013-04-27,2013,incident_materiel,significatif,85,SNCF Voyageurs,0,7,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+892,2011-02-08,2011,acte_malveillance,mineur,69,SNCF Réseau,0,0,vol_cable,PN,BEATT_rapport
+893,2019-09-30,2019,incendie,significatif,84,SNCF Voyageurs,0,0,incendie_bord,circulation_commerciale,EPSF_synthese
+894,2020-12-10,2020,deraillement,significatif,45,SNCF Réseau,0,5,excès_vitesse,maintenance,EPSF_synthese
+895,2015-12-22,2015,deraillement,grave,31,SNCF Réseau,1,37,defaillance_materiel,maintenance,BEATT_rapport
+896,2019-04-12,2019,deraillement,significatif,62,SNCF Réseau,0,4,defaillance_materiel,circulation_commerciale,SNCF_rapport
+897,2023-04-28,2023,incendie,significatif,64,SNCF Voyageurs,0,8,incendie_bord,maintenance,BEATT_rapport
+898,2019-12-02,2019,acte_malveillance,mineur,44,SNCF Réseau,0,0,acte_malveillance,PN,EPSF_synthese
+899,2018-05-21,2018,incident_materiel,mineur,17,RATP,0,0,defaillance_materiel,circulation_commerciale,EPSF_synthese
+900,2023-12-06,2023,incident_materiel,grave,95,SNCF Voyageurs,0,19,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+901,2016-11-04,2016,deraillement,significatif,42,SNCF Voyageurs,1,4,erreur_humaine,travaux,BEATT_rapport
+902,2022-01-25,2022,incident_materiel,mineur,51,RATP,0,0,defaillance_freinage,essais,BEATT_rapport
+903,2020-10-31,2020,acte_malveillance,mineur,95,RATP,0,1,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+904,2010-05-31,2010,deraillement,grave,17,SNCF Réseau,2,25,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+905,2014-07-03,2014,incendie,significatif,75,SNCF Voyageurs,0,6,acte_malveillance,maintenance,BEATT_rapport
+906,2010-03-10,2010,collision,mineur,93,SNCF Voyageurs,0,1,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+907,2012-06-02,2012,collision,significatif,67,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,BEATT_rapport
+908,2012-03-26,2012,PN,significatif,38,SNCF Réseau,0,2,non_respect_signalisation,PN,BEATT_rapport
+909,2020-04-09,2020,acte_malveillance,significatif,45,SNCF Réseau,0,0,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+910,2016-11-02,2016,PN,mineur,35,SNCF Réseau,0,0,non_respect_signalisation,PN,EPSF_synthese
+911,2017-10-11,2017,incendie,significatif,59,RATP,1,8,defaillance_materiel,maintenance,EPSF_synthese
+912,2021-03-30,2021,PN,grave,13,SNCF Réseau,4,13,obstacle_PN,PN,BEATT_rapport
+913,2016-04-14,2016,incident_materiel,mineur,93,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,EPSF_synthese
+914,2011-12-21,2011,incendie,grave,45,SNCF Voyageurs,1,28,defaillance_materiel,circulation_commerciale,BEATT_rapport
+915,2013-06-05,2013,deraillement,mineur,73,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,BEATT_rapport
+916,2012-12-15,2012,incident_materiel,significatif,94,RATP,0,2,defaillance_freinage,essais,EPSF_synthese
+917,2013-02-05,2013,PN,grave,34,SNCF Réseau,0,17,erreur_humaine,PN,BEATT_rapport
+918,2022-09-02,2022,incident_materiel,significatif,83,RATP,0,0,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+919,2012-08-27,2012,incident_materiel,mineur,13,RATP,0,0,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+920,2019-04-15,2019,deraillement,grave,34,SNCF Voyageurs,3,31,defaillance_materiel,circulation_commerciale,EPSF_synthese
+921,2012-05-24,2012,incident_materiel,mineur,89,RATP,0,1,defaillance_freinage,circulation_commerciale,SNCF_rapport
+922,2023-08-02,2023,acte_malveillance,mineur,44,RATP,0,0,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+923,2010-08-02,2010,PN,grave,78,SNCF Réseau,1,9,obstacle_PN,PN,BEATT_rapport
+924,2020-07-07,2020,incendie,significatif,67,SNCF Voyageurs,0,1,acte_malveillance,maintenance,SNCF_rapport
+925,2020-08-17,2020,incident_materiel,mineur,14,SNCF Voyageurs,0,0,defaillance_freinage,circulation_commerciale,SNCF_rapport
+926,2010-05-03,2010,PN,grave,93,SNCF Réseau,2,23,non_respect_signalisation,PN,EPSF_synthese
+927,2014-08-03,2014,collision,significatif,77,SNCF Voyageurs,0,9,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+928,2017-04-15,2017,deraillement,significatif,14,SNCF Voyageurs,0,0,excès_vitesse,circulation_commerciale,BEATT_rapport
+929,2018-07-14,2018,incendie,significatif,85,RATP,0,4,defaillance_materiel,maintenance,BEATT_rapport
+930,2022-01-10,2022,acte_malveillance,significatif,30,RATP,0,0,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+931,2020-03-31,2020,collision,significatif,14,SNCF Voyageurs,0,9,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+932,2018-09-09,2018,acte_malveillance,significatif,57,SNCF Réseau,0,0,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+933,2018-12-05,2018,PN,significatif,72,SNCF Réseau,0,7,non_respect_signalisation,PN,SNCF_rapport
+934,2023-10-02,2023,collision,significatif,73,SNCF Voyageurs,0,5,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+935,2021-03-25,2021,collision,significatif,71,SNCF Réseau,0,1,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+936,2020-02-11,2020,collision,significatif,38,SNCF Voyageurs,0,2,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+937,2012-01-09,2012,PN,grave,31,SNCF Réseau,1,27,non_respect_signalisation,PN,EPSF_synthese
+938,2012-07-24,2012,incendie,mineur,80,SNCF Voyageurs,0,2,defaillance_materiel,maintenance,BEATT_rapport
+939,2018-08-13,2018,incendie,significatif,84,SNCF Voyageurs,0,5,acte_malveillance,circulation_commerciale,SNCF_rapport
+940,2010-12-26,2010,incident_materiel,significatif,34,RATP,0,9,defaillance_signalisation,essais,EPSF_synthese
+941,2013-03-30,2013,incident_materiel,grave,59,SNCF Voyageurs,0,37,defaillance_materiel,maintenance,BEATT_rapport
+942,2020-01-04,2020,PN,significatif,33,SNCF Réseau,0,1,erreur_humaine,PN,EPSF_synthese
+943,2010-01-29,2010,acte_malveillance,significatif,77,SNCF Voyageurs,1,3,vol_cable,circulation_commerciale,SNCF_rapport
+944,2022-03-11,2022,collision,mineur,86,SNCF Réseau,0,2,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+945,2020-09-02,2020,deraillement,grave,87,SNCF Réseau,7,13,erreur_humaine,circulation_commerciale,BEATT_rapport
+946,2010-02-23,2010,incident_materiel,mineur,84,RATP,0,1,defaillance_signalisation,essais,EPSF_synthese
+947,2011-02-05,2011,incident_materiel,significatif,64,RATP,0,9,defaillance_freinage,circulation_commerciale,EPSF_synthese
+948,2013-04-05,2013,collision,grave,17,SNCF Réseau,2,21,excès_vitesse,circulation_commerciale,EPSF_synthese
+949,2019-05-09,2019,incident_materiel,mineur,89,SNCF Voyageurs,0,0,defaillance_freinage,essais,BEATT_rapport
+950,2023-05-06,2023,acte_malveillance,grave,86,SNCF Voyageurs,1,1,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+951,2010-10-21,2010,collision,grave,67,SNCF Réseau,0,35,excès_vitesse,circulation_commerciale,EPSF_synthese
+952,2019-08-02,2019,acte_malveillance,mineur,33,SNCF Voyageurs,0,1,acte_malveillance,PN,EPSF_synthese
+953,2016-02-27,2016,PN,significatif,42,SNCF Réseau,0,2,erreur_humaine,PN,BEATT_rapport
+954,2014-09-09,2014,acte_malveillance,grave,91,RATP,1,24,acte_malveillance,circulation_commerciale,BEATT_rapport
+955,2011-12-20,2011,deraillement,significatif,51,SNCF Voyageurs,0,4,defaillance_materiel,circulation_commerciale,BEATT_rapport
+956,2022-11-25,2022,acte_malveillance,mineur,85,RATP,0,1,vol_cable,circulation_commerciale,SNCF_rapport
+957,2021-08-28,2021,incendie,grave,37,SNCF Voyageurs,4,27,acte_malveillance,maintenance,BEATT_rapport
+958,2015-03-22,2015,incendie,grave,31,SNCF Voyageurs,2,12,defaillance_materiel,circulation_commerciale,EPSF_synthese
+959,2020-06-05,2020,incendie,mineur,71,RATP,0,1,incendie_bord,circulation_commerciale,SNCF_rapport
+960,2011-01-08,2011,PN,grave,91,SNCF Réseau,0,20,non_respect_signalisation,PN,EPSF_synthese
+961,2016-04-26,2016,PN,significatif,78,SNCF Réseau,0,5,obstacle_PN,PN,BEATT_rapport
+962,2017-04-07,2017,collision,mineur,69,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,BEATT_rapport
+963,2022-10-05,2022,acte_malveillance,grave,63,SNCF Réseau,1,32,acte_malveillance,circulation_commerciale,SNCF_rapport
+964,2020-09-29,2020,deraillement,significatif,76,SNCF Réseau,0,3,defaut_infrastructure,maintenance,EPSF_synthese
+965,2024-01-26,2024,deraillement,significatif,17,SNCF Voyageurs,0,7,defaillance_materiel,circulation_commerciale,BEATT_rapport
+966,2016-09-18,2016,acte_malveillance,significatif,83,RATP,0,8,jet_de_projectiles,PN,EPSF_synthese
+967,2014-09-03,2014,acte_malveillance,significatif,21,SNCF Voyageurs,0,4,jet_de_projectiles,PN,EPSF_synthese
+968,2016-04-16,2016,collision,grave,83,SNCF Voyageurs,1,4,excès_vitesse,circulation_commerciale,EPSF_synthese
+969,2022-10-22,2022,acte_malveillance,significatif,31,RATP,0,8,vol_cable,circulation_commerciale,SNCF_rapport
+970,2017-01-20,2017,incendie,mineur,25,SNCF Voyageurs,0,0,incendie_bord,maintenance,SNCF_rapport
+971,2015-05-01,2015,PN,grave,80,SNCF Réseau,0,8,non_respect_signalisation,PN,SNCF_rapport
+972,2013-12-04,2013,collision,mineur,25,SNCF Réseau,0,1,excès_vitesse,circulation_commerciale,SNCF_rapport
+973,2021-05-08,2021,collision,significatif,63,SNCF Réseau,0,6,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+974,2021-09-29,2021,PN,mineur,80,SNCF Réseau,0,0,non_respect_signalisation,PN,BEATT_rapport
+975,2012-12-23,2012,incident_materiel,significatif,80,SNCF Voyageurs,0,5,defaillance_materiel,maintenance,EPSF_synthese
+976,2010-02-03,2010,PN,grave,75,SNCF Réseau,1,21,obstacle_PN,PN,EPSF_synthese
+977,2012-04-24,2012,acte_malveillance,significatif,85,SNCF Réseau,0,7,jet_de_projectiles,PN,SNCF_rapport
+978,2024-04-30,2024,incident_materiel,significatif,57,SNCF Voyageurs,0,2,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+979,2021-12-09,2021,PN,grave,34,SNCF Réseau,2,7,non_respect_signalisation,PN,EPSF_synthese
+980,2016-02-20,2016,collision,mineur,83,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,SNCF_rapport
+981,2022-04-28,2022,PN,significatif,57,SNCF Réseau,0,4,non_respect_signalisation,PN,BEATT_rapport
+982,2015-06-29,2015,incident_materiel,mineur,63,RATP,0,2,defaillance_materiel,maintenance,BEATT_rapport
+983,2019-12-14,2019,collision,grave,94,SNCF Réseau,3,1,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+984,2012-05-17,2012,deraillement,grave,69,SNCF Voyageurs,1,23,defaut_infrastructure,travaux,EPSF_synthese
+985,2023-05-16,2023,acte_malveillance,significatif,64,RATP,0,3,jet_de_projectiles,PN,SNCF_rapport
+986,2017-06-15,2017,incident_materiel,mineur,33,RATP,0,0,defaillance_materiel,maintenance,EPSF_synthese
+987,2020-07-03,2020,collision,significatif,92,SNCF Voyageurs,0,1,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+988,2020-06-09,2020,deraillement,mineur,89,SNCF Réseau,0,0,excès_vitesse,travaux,SNCF_rapport
+989,2018-02-25,2018,deraillement,grave,62,SNCF Voyageurs,2,17,excès_vitesse,maintenance,SNCF_rapport
+990,2020-12-07,2020,collision,grave,64,SNCF Réseau,2,16,erreur_humaine,circulation_commerciale,SNCF_rapport
+991,2020-05-06,2020,incident_materiel,mineur,85,RATP,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+992,2021-05-24,2021,collision,grave,84,SNCF Réseau,2,31,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+993,2011-08-05,2011,PN,significatif,86,SNCF Réseau,0,7,erreur_humaine,PN,SNCF_rapport
+994,2015-05-09,2015,acte_malveillance,mineur,67,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+995,2017-08-23,2017,incident_materiel,mineur,63,RATP,0,0,defaut_infrastructure,maintenance,BEATT_rapport
+996,2015-04-19,2015,incident_materiel,significatif,85,RATP,0,0,defaillance_materiel,essais,SNCF_rapport
+997,2012-07-25,2012,acte_malveillance,significatif,84,SNCF Voyageurs,1,4,jet_de_projectiles,PN,EPSF_synthese
+998,2019-12-27,2019,incident_materiel,mineur,87,SNCF Voyageurs,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+999,2023-05-18,2023,deraillement,grave,25,SNCF Réseau,0,23,defaillance_materiel,circulation_commerciale,EPSF_synthese
+1000,2013-02-12,2013,acte_malveillance,grave,93,SNCF Réseau,1,36,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+1001,2020-02-28,2020,acte_malveillance,significatif,85,RATP,0,1,vol_cable,PN,SNCF_rapport
+1002,2014-05-22,2014,incident_materiel,mineur,94,RATP,0,1,defaillance_signalisation,maintenance,SNCF_rapport
+1003,2019-10-02,2019,incendie,grave,6,RATP,3,22,defaillance_materiel,circulation_commerciale,BEATT_rapport
+1004,2021-06-13,2021,deraillement,significatif,66,SNCF Réseau,0,6,excès_vitesse,circulation_commerciale,BEATT_rapport
+1005,2011-03-12,2011,collision,grave,13,SNCF Réseau,1,31,excès_vitesse,circulation_commerciale,EPSF_synthese
+1006,2019-09-07,2019,incendie,mineur,62,RATP,0,0,acte_malveillance,maintenance,BEATT_rapport
+1007,2018-08-02,2018,deraillement,significatif,93,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,EPSF_synthese
+1008,2020-08-26,2020,incident_materiel,mineur,66,SNCF Voyageurs,0,0,defaillance_freinage,essais,SNCF_rapport
+1009,2013-06-17,2013,PN,grave,6,SNCF Réseau,0,32,erreur_humaine,PN,EPSF_synthese
+1010,2024-07-17,2024,collision,grave,72,SNCF Voyageurs,4,24,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1011,2011-11-25,2011,incident_materiel,significatif,87,RATP,0,4,defaut_infrastructure,maintenance,SNCF_rapport
+1012,2023-12-24,2023,incident_materiel,grave,84,SNCF Voyageurs,0,28,defaut_infrastructure,essais,SNCF_rapport
+1013,2018-08-18,2018,PN,significatif,87,SNCF Réseau,0,2,obstacle_PN,PN,EPSF_synthese
+1014,2022-12-18,2022,deraillement,significatif,71,SNCF Voyageurs,0,3,excès_vitesse,maintenance,BEATT_rapport
+1015,2022-12-05,2022,PN,grave,76,SNCF Réseau,4,13,obstacle_PN,PN,BEATT_rapport
+1016,2018-04-08,2018,collision,significatif,80,SNCF Réseau,0,7,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1017,2020-06-05,2020,acte_malveillance,grave,76,SNCF Réseau,0,23,acte_malveillance,circulation_commerciale,BEATT_rapport
+1018,2024-11-20,2024,incendie,significatif,17,RATP,0,8,incendie_bord,maintenance,SNCF_rapport
+1019,2021-12-31,2021,collision,grave,76,SNCF Voyageurs,0,23,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+1020,2017-06-08,2017,deraillement,significatif,35,SNCF Voyageurs,0,4,defaillance_materiel,circulation_commerciale,EPSF_synthese
+1021,2023-05-28,2023,incendie,grave,91,SNCF Voyageurs,2,17,defaillance_materiel,maintenance,SNCF_rapport
+1022,2022-12-20,2022,incident_materiel,significatif,89,SNCF Voyageurs,1,8,defaillance_materiel,essais,EPSF_synthese
+1023,2016-06-07,2016,deraillement,mineur,54,SNCF Réseau,0,1,defaut_infrastructure,travaux,SNCF_rapport
+1024,2012-12-21,2012,acte_malveillance,significatif,6,SNCF Voyageurs,0,4,vol_cable,PN,BEATT_rapport
+1025,2012-07-02,2012,acte_malveillance,significatif,73,RATP,0,8,acte_malveillance,circulation_commerciale,SNCF_rapport
+1026,2013-12-07,2013,PN,significatif,37,SNCF Réseau,0,2,erreur_humaine,PN,BEATT_rapport
+1027,2010-09-29,2010,PN,significatif,34,SNCF Réseau,0,8,obstacle_PN,PN,SNCF_rapport
+1028,2019-04-06,2019,deraillement,mineur,91,SNCF Voyageurs,0,0,excès_vitesse,maintenance,EPSF_synthese
+1029,2014-09-24,2014,acte_malveillance,significatif,92,SNCF Réseau,0,8,jet_de_projectiles,PN,SNCF_rapport
+1030,2012-08-08,2012,collision,grave,76,SNCF Réseau,1,22,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1031,2020-09-06,2020,incendie,mineur,94,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,BEATT_rapport
+1032,2018-10-01,2018,deraillement,significatif,6,SNCF Voyageurs,0,7,defaillance_materiel,travaux,SNCF_rapport
+1033,2020-01-25,2020,deraillement,grave,30,SNCF Réseau,0,3,defaillance_materiel,maintenance,BEATT_rapport
+1034,2024-04-18,2024,PN,significatif,54,SNCF Réseau,0,4,non_respect_signalisation,PN,SNCF_rapport
+1035,2012-03-16,2012,PN,grave,94,SNCF Réseau,1,1,erreur_humaine,PN,BEATT_rapport
+1036,2015-06-04,2015,incendie,grave,63,RATP,0,35,acte_malveillance,circulation_commerciale,BEATT_rapport
+1037,2014-01-13,2014,PN,grave,6,SNCF Réseau,3,10,erreur_humaine,PN,EPSF_synthese
+1038,2010-04-08,2010,deraillement,significatif,94,SNCF Réseau,0,9,defaut_infrastructure,maintenance,SNCF_rapport
+1039,2017-11-19,2017,incident_materiel,mineur,14,SNCF Voyageurs,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+1040,2023-11-23,2023,collision,significatif,91,SNCF Voyageurs,0,3,erreur_humaine,circulation_commerciale,EPSF_synthese
+1041,2012-09-09,2012,collision,grave,92,SNCF Voyageurs,0,3,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+1042,2014-02-22,2014,collision,significatif,75,SNCF Réseau,0,5,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+1043,2011-09-13,2011,incendie,mineur,95,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,BEATT_rapport
+1044,2017-04-03,2017,PN,grave,17,SNCF Réseau,0,26,obstacle_PN,PN,SNCF_rapport
+1045,2018-09-19,2018,PN,grave,37,SNCF Réseau,0,28,obstacle_PN,PN,SNCF_rapport
+1046,2011-07-23,2011,deraillement,significatif,37,SNCF Voyageurs,0,9,excès_vitesse,maintenance,BEATT_rapport
+1047,2021-01-13,2021,collision,grave,89,SNCF Réseau,1,30,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+1048,2012-05-20,2012,deraillement,significatif,21,SNCF Réseau,0,6,defaillance_materiel,travaux,EPSF_synthese
+1049,2022-10-25,2022,incendie,mineur,77,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,EPSF_synthese
+1050,2024-08-23,2024,incendie,grave,67,RATP,1,12,incendie_bord,circulation_commerciale,SNCF_rapport
+1051,2013-05-26,2013,incendie,mineur,6,RATP,0,0,defaillance_materiel,maintenance,BEATT_rapport
+1052,2021-01-02,2021,deraillement,significatif,83,SNCF Réseau,1,2,erreur_humaine,circulation_commerciale,EPSF_synthese
+1053,2010-01-28,2010,deraillement,mineur,63,SNCF Voyageurs,0,1,erreur_humaine,travaux,BEATT_rapport
+1054,2016-10-16,2016,deraillement,grave,66,SNCF Réseau,2,8,defaut_infrastructure,maintenance,BEATT_rapport
+1055,2017-08-17,2017,collision,significatif,38,SNCF Voyageurs,0,7,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1056,2022-06-09,2022,collision,mineur,95,SNCF Réseau,0,0,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1057,2012-05-24,2012,incendie,mineur,25,SNCF Voyageurs,0,0,acte_malveillance,maintenance,BEATT_rapport
+1058,2019-10-28,2019,incendie,grave,38,SNCF Voyageurs,1,26,incendie_bord,circulation_commerciale,EPSF_synthese
+1059,2023-04-20,2023,incident_materiel,significatif,83,SNCF Voyageurs,1,6,defaut_infrastructure,maintenance,BEATT_rapport
+1060,2016-11-25,2016,deraillement,grave,63,SNCF Réseau,11,11,erreur_humaine,travaux,EPSF_synthese
+1061,2017-07-29,2017,incendie,grave,42,SNCF Voyageurs,0,17,incendie_bord,maintenance,BEATT_rapport
+1062,2024-12-19,2024,acte_malveillance,mineur,86,RATP,0,0,vol_cable,circulation_commerciale,EPSF_synthese
+1063,2011-08-14,2011,collision,mineur,13,SNCF Voyageurs,0,0,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1064,2023-11-14,2023,collision,grave,37,SNCF Réseau,1,11,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+1065,2011-02-14,2011,PN,grave,35,SNCF Réseau,1,4,obstacle_PN,PN,BEATT_rapport
+1066,2011-06-08,2011,collision,significatif,89,SNCF Voyageurs,0,0,erreur_humaine,circulation_commerciale,EPSF_synthese
+1067,2011-06-01,2011,incident_materiel,mineur,94,RATP,0,2,defaut_infrastructure,maintenance,SNCF_rapport
+1068,2017-04-10,2017,collision,significatif,14,SNCF Réseau,0,8,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+1069,2013-11-21,2013,PN,grave,34,SNCF Réseau,2,5,obstacle_PN,PN,SNCF_rapport
+1070,2013-10-08,2013,incendie,significatif,45,SNCF Voyageurs,0,7,defaillance_materiel,circulation_commerciale,BEATT_rapport
+1071,2010-11-30,2010,incident_materiel,mineur,67,RATP,0,2,defaillance_materiel,essais,EPSF_synthese
+1072,2010-05-09,2010,deraillement,significatif,37,SNCF Réseau,0,9,defaut_infrastructure,travaux,EPSF_synthese
+1073,2024-08-14,2024,acte_malveillance,significatif,76,RATP,0,5,vol_cable,PN,BEATT_rapport
+1074,2012-11-05,2012,incident_materiel,grave,80,SNCF Voyageurs,2,14,defaillance_freinage,essais,SNCF_rapport
+1075,2019-03-30,2019,incident_materiel,mineur,14,RATP,0,0,defaillance_freinage,essais,BEATT_rapport
+1076,2014-01-14,2014,incendie,mineur,59,RATP,0,0,defaillance_materiel,circulation_commerciale,SNCF_rapport
+1077,2019-05-24,2019,collision,significatif,80,SNCF Réseau,0,0,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1078,2023-11-19,2023,PN,significatif,91,SNCF Réseau,1,1,erreur_humaine,PN,BEATT_rapport
+1079,2014-09-01,2014,PN,grave,34,SNCF Réseau,0,6,obstacle_PN,PN,BEATT_rapport
+1080,2020-08-22,2020,deraillement,mineur,17,SNCF Réseau,0,0,excès_vitesse,travaux,BEATT_rapport
+1081,2018-03-03,2018,PN,significatif,63,SNCF Réseau,0,9,obstacle_PN,PN,BEATT_rapport
+1082,2020-03-01,2020,collision,grave,37,SNCF Voyageurs,0,37,erreur_humaine,circulation_commerciale,EPSF_synthese
+1083,2010-08-27,2010,deraillement,significatif,73,SNCF Réseau,0,6,defaut_infrastructure,travaux,BEATT_rapport
+1084,2023-01-02,2023,PN,significatif,94,SNCF Réseau,0,5,non_respect_signalisation,PN,SNCF_rapport
+1085,2015-02-28,2015,collision,significatif,45,SNCF Réseau,0,1,excès_vitesse,circulation_commerciale,BEATT_rapport
+1086,2019-04-03,2019,incident_materiel,significatif,76,SNCF Voyageurs,0,1,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+1087,2020-11-12,2020,collision,grave,89,SNCF Réseau,1,8,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1088,2013-12-29,2013,deraillement,grave,38,SNCF Voyageurs,0,30,defaillance_materiel,travaux,BEATT_rapport
+1089,2018-01-16,2018,PN,grave,14,SNCF Réseau,2,20,obstacle_PN,PN,BEATT_rapport
+1090,2022-10-03,2022,collision,grave,75,SNCF Réseau,2,22,excès_vitesse,circulation_commerciale,SNCF_rapport
+1091,2019-05-20,2019,incident_materiel,significatif,87,SNCF Voyageurs,0,3,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1092,2024-04-23,2024,acte_malveillance,significatif,71,SNCF Réseau,1,9,acte_malveillance,circulation_commerciale,BEATT_rapport
+1093,2020-12-21,2020,incident_materiel,significatif,6,SNCF Voyageurs,0,9,defaut_infrastructure,maintenance,BEATT_rapport
+1094,2019-08-09,2019,incendie,significatif,72,SNCF Voyageurs,0,7,incendie_bord,circulation_commerciale,BEATT_rapport
+1095,2014-12-27,2014,acte_malveillance,significatif,14,SNCF Voyageurs,0,8,acte_malveillance,circulation_commerciale,EPSF_synthese
+1096,2020-07-22,2020,incendie,significatif,80,SNCF Voyageurs,0,9,acte_malveillance,circulation_commerciale,SNCF_rapport
+1097,2020-10-01,2020,incendie,grave,45,SNCF Voyageurs,0,27,incendie_bord,maintenance,EPSF_synthese
+1098,2022-07-12,2022,collision,grave,64,SNCF Réseau,1,25,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1099,2015-05-13,2015,incendie,grave,93,SNCF Voyageurs,1,20,incendie_bord,circulation_commerciale,SNCF_rapport
+1100,2013-08-18,2013,incendie,mineur,75,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,EPSF_synthese
+1101,2019-02-03,2019,incident_materiel,mineur,91,SNCF Voyageurs,0,0,defaillance_signalisation,essais,EPSF_synthese
+1102,2024-01-26,2024,collision,significatif,14,SNCF Voyageurs,0,3,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1103,2019-07-21,2019,PN,significatif,25,SNCF Réseau,0,1,erreur_humaine,PN,BEATT_rapport
+1104,2017-07-13,2017,incendie,significatif,31,SNCF Voyageurs,0,9,incendie_bord,maintenance,SNCF_rapport
+1105,2018-03-14,2018,deraillement,grave,37,SNCF Voyageurs,7,23,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+1106,2022-07-14,2022,incendie,significatif,63,SNCF Voyageurs,0,8,incendie_bord,circulation_commerciale,EPSF_synthese
+1107,2022-02-07,2022,collision,significatif,44,SNCF Voyageurs,1,5,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1108,2017-11-29,2017,PN,grave,17,SNCF Réseau,0,29,erreur_humaine,PN,EPSF_synthese
+1109,2018-05-13,2018,PN,significatif,80,SNCF Réseau,0,7,non_respect_signalisation,PN,EPSF_synthese
+1110,2020-07-18,2020,incendie,significatif,89,SNCF Voyageurs,0,9,acte_malveillance,maintenance,SNCF_rapport
+1111,2011-06-22,2011,incident_materiel,significatif,69,SNCF Voyageurs,0,6,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+1112,2016-06-20,2016,collision,grave,31,SNCF Réseau,5,5,erreur_humaine,circulation_commerciale,BEATT_rapport
+1113,2013-04-27,2013,deraillement,significatif,57,SNCF Réseau,0,9,excès_vitesse,travaux,SNCF_rapport
+1114,2022-02-22,2022,incident_materiel,significatif,73,SNCF Voyageurs,0,7,defaut_infrastructure,maintenance,BEATT_rapport
+1115,2024-06-17,2024,collision,significatif,13,SNCF Réseau,0,6,excès_vitesse,circulation_commerciale,EPSF_synthese
+1116,2021-08-27,2021,incendie,mineur,63,RATP,0,0,defaillance_materiel,maintenance,BEATT_rapport
+1117,2024-06-28,2024,PN,significatif,59,SNCF Réseau,0,2,non_respect_signalisation,PN,BEATT_rapport
+1118,2012-12-16,2012,PN,grave,76,SNCF Réseau,1,24,obstacle_PN,PN,SNCF_rapport
+1119,2016-06-18,2016,collision,grave,75,SNCF Réseau,0,36,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1120,2023-11-16,2023,incident_materiel,significatif,95,SNCF Voyageurs,0,9,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+1121,2013-06-11,2013,incident_materiel,significatif,62,SNCF Voyageurs,0,0,defaillance_freinage,circulation_commerciale,BEATT_rapport
+1122,2012-11-02,2012,deraillement,significatif,42,SNCF Réseau,0,6,defaillance_materiel,circulation_commerciale,BEATT_rapport
+1123,2010-10-12,2010,incendie,grave,66,SNCF Voyageurs,1,6,defaillance_materiel,maintenance,SNCF_rapport
+1124,2022-02-09,2022,incident_materiel,mineur,69,SNCF Voyageurs,0,2,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1125,2013-04-05,2013,deraillement,significatif,83,SNCF Réseau,0,3,defaillance_materiel,travaux,BEATT_rapport
+1126,2017-06-06,2017,incendie,mineur,57,SNCF Voyageurs,0,0,acte_malveillance,maintenance,BEATT_rapport
+1127,2024-12-16,2024,incident_materiel,significatif,31,RATP,1,5,defaut_infrastructure,maintenance,BEATT_rapport
+1128,2020-09-28,2020,collision,grave,13,SNCF Réseau,1,5,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1129,2023-11-07,2023,incident_materiel,significatif,62,SNCF Voyageurs,0,4,defaut_infrastructure,maintenance,EPSF_synthese
+1130,2023-08-22,2023,incendie,grave,38,SNCF Voyageurs,3,14,incendie_bord,circulation_commerciale,EPSF_synthese
+1131,2011-11-16,2011,acte_malveillance,mineur,69,RATP,0,0,vol_cable,circulation_commerciale,EPSF_synthese
+1132,2020-12-31,2020,PN,grave,66,SNCF Réseau,1,16,erreur_humaine,PN,SNCF_rapport
+1133,2013-04-26,2013,incendie,grave,66,SNCF Voyageurs,1,21,defaillance_materiel,maintenance,EPSF_synthese
+1134,2016-05-20,2016,PN,significatif,84,SNCF Réseau,0,6,non_respect_signalisation,PN,EPSF_synthese
+1135,2014-11-02,2014,incendie,significatif,57,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,EPSF_synthese
+1136,2019-07-05,2019,incendie,grave,87,RATP,1,11,defaillance_materiel,circulation_commerciale,EPSF_synthese
+1137,2013-03-22,2013,incident_materiel,significatif,63,RATP,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+1138,2023-04-01,2023,deraillement,significatif,91,SNCF Voyageurs,0,8,defaut_infrastructure,travaux,SNCF_rapport
+1139,2019-04-19,2019,incident_materiel,mineur,33,RATP,0,0,defaut_infrastructure,essais,EPSF_synthese
+1140,2014-03-04,2014,deraillement,grave,14,SNCF Voyageurs,2,36,defaillance_materiel,maintenance,SNCF_rapport
+1141,2023-02-16,2023,PN,grave,13,SNCF Réseau,1,2,non_respect_signalisation,PN,EPSF_synthese
+1142,2013-06-15,2013,PN,grave,92,SNCF Réseau,2,6,non_respect_signalisation,PN,BEATT_rapport
+1143,2016-06-14,2016,deraillement,grave,13,SNCF Réseau,2,39,excès_vitesse,circulation_commerciale,EPSF_synthese
+1144,2016-03-20,2016,deraillement,grave,86,SNCF Voyageurs,0,34,defaut_infrastructure,maintenance,SNCF_rapport
+1145,2022-09-08,2022,deraillement,grave,95,SNCF Voyageurs,0,13,defaillance_materiel,maintenance,EPSF_synthese
+1146,2018-05-16,2018,acte_malveillance,mineur,35,SNCF Voyageurs,0,0,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+1147,2011-04-25,2011,incident_materiel,mineur,33,RATP,0,0,defaillance_signalisation,maintenance,SNCF_rapport
+1148,2013-08-30,2013,collision,grave,91,SNCF Réseau,2,1,excès_vitesse,circulation_commerciale,SNCF_rapport
+1149,2011-02-04,2011,PN,significatif,38,SNCF Réseau,0,3,non_respect_signalisation,PN,BEATT_rapport
+1150,2014-02-10,2014,collision,grave,94,SNCF Réseau,2,18,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1151,2016-02-02,2016,incendie,mineur,83,SNCF Voyageurs,0,1,acte_malveillance,maintenance,BEATT_rapport
+1152,2017-11-20,2017,incident_materiel,mineur,57,RATP,0,1,defaillance_materiel,circulation_commerciale,SNCF_rapport
+1153,2020-11-16,2020,deraillement,significatif,42,SNCF Réseau,0,6,defaillance_materiel,travaux,EPSF_synthese
+1154,2021-04-16,2021,incident_materiel,mineur,95,RATP,0,1,defaillance_freinage,essais,BEATT_rapport
+1155,2021-12-07,2021,incendie,grave,75,SNCF Voyageurs,1,19,acte_malveillance,circulation_commerciale,EPSF_synthese
+1156,2012-08-12,2012,incident_materiel,mineur,59,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,BEATT_rapport
+1157,2018-02-18,2018,incident_materiel,mineur,63,RATP,0,0,defaut_infrastructure,essais,EPSF_synthese
+1158,2016-10-31,2016,collision,grave,95,SNCF Réseau,2,19,erreur_humaine,circulation_commerciale,EPSF_synthese
+1159,2015-01-31,2015,PN,significatif,25,SNCF Réseau,0,9,obstacle_PN,PN,SNCF_rapport
+1160,2012-07-04,2012,collision,grave,14,SNCF Réseau,2,23,erreur_humaine,circulation_commerciale,EPSF_synthese
+1161,2012-06-02,2012,collision,significatif,51,SNCF Réseau,0,8,erreur_humaine,circulation_commerciale,EPSF_synthese
+1162,2011-06-27,2011,PN,grave,31,SNCF Réseau,0,3,erreur_humaine,PN,BEATT_rapport
+1163,2014-08-10,2014,acte_malveillance,grave,64,RATP,7,18,acte_malveillance,circulation_commerciale,EPSF_synthese
+1164,2012-01-14,2012,incident_materiel,mineur,64,SNCF Voyageurs,0,0,defaillance_signalisation,essais,EPSF_synthese
+1165,2021-03-25,2021,incendie,mineur,85,RATP,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+1166,2012-03-22,2012,acte_malveillance,significatif,38,RATP,0,0,acte_malveillance,circulation_commerciale,SNCF_rapport
+1167,2013-11-08,2013,acte_malveillance,grave,78,SNCF Réseau,1,28,acte_malveillance,circulation_commerciale,BEATT_rapport
+1168,2020-08-24,2020,PN,significatif,94,SNCF Réseau,0,0,erreur_humaine,PN,EPSF_synthese
+1169,2014-01-21,2014,PN,significatif,78,SNCF Réseau,0,2,non_respect_signalisation,PN,EPSF_synthese
+1170,2019-02-21,2019,collision,grave,31,SNCF Réseau,0,30,excès_vitesse,circulation_commerciale,BEATT_rapport
+1171,2013-01-18,2013,deraillement,significatif,84,SNCF Voyageurs,1,3,defaillance_materiel,maintenance,BEATT_rapport
+1172,2010-11-29,2010,collision,grave,67,SNCF Réseau,1,14,excès_vitesse,circulation_commerciale,SNCF_rapport
+1173,2020-04-01,2020,acte_malveillance,significatif,73,RATP,0,7,jet_de_projectiles,PN,EPSF_synthese
+1174,2022-06-04,2022,deraillement,grave,21,SNCF Réseau,0,10,defaillance_materiel,circulation_commerciale,SNCF_rapport
+1175,2018-03-30,2018,incident_materiel,grave,94,SNCF Voyageurs,0,29,defaillance_materiel,essais,EPSF_synthese
+1176,2018-11-22,2018,deraillement,grave,69,SNCF Réseau,0,5,defaut_infrastructure,travaux,SNCF_rapport
+1177,2023-03-31,2023,collision,grave,38,SNCF Réseau,1,18,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1178,2014-06-29,2014,acte_malveillance,significatif,72,SNCF Réseau,0,0,vol_cable,circulation_commerciale,BEATT_rapport
+1179,2021-03-12,2021,PN,significatif,69,SNCF Réseau,0,9,erreur_humaine,PN,SNCF_rapport
+1180,2020-09-02,2020,incendie,significatif,78,SNCF Voyageurs,0,1,acte_malveillance,maintenance,SNCF_rapport
+1181,2013-04-22,2013,deraillement,significatif,77,SNCF Voyageurs,0,5,defaut_infrastructure,travaux,SNCF_rapport
+1182,2015-03-06,2015,incendie,mineur,17,SNCF Voyageurs,0,0,incendie_bord,circulation_commerciale,EPSF_synthese
+1183,2021-03-04,2021,incendie,mineur,87,SNCF Voyageurs,0,2,incendie_bord,circulation_commerciale,BEATT_rapport
+1184,2017-05-02,2017,incident_materiel,mineur,30,RATP,0,0,defaillance_signalisation,essais,EPSF_synthese
+1185,2024-10-29,2024,acte_malveillance,significatif,57,SNCF Réseau,0,2,vol_cable,PN,BEATT_rapport
+1186,2021-03-02,2021,deraillement,significatif,83,SNCF Voyageurs,0,1,defaillance_materiel,maintenance,BEATT_rapport
+1187,2010-05-25,2010,collision,grave,73,SNCF Réseau,1,27,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1188,2018-06-10,2018,deraillement,grave,37,SNCF Réseau,2,6,erreur_humaine,travaux,BEATT_rapport
+1189,2024-10-15,2024,PN,significatif,72,SNCF Réseau,0,1,erreur_humaine,PN,EPSF_synthese
+1190,2017-01-03,2017,incendie,grave,85,SNCF Voyageurs,5,26,defaillance_materiel,maintenance,BEATT_rapport
+1191,2021-01-01,2021,incendie,significatif,84,SNCF Voyageurs,0,5,acte_malveillance,maintenance,EPSF_synthese
+1192,2021-05-13,2021,collision,grave,86,SNCF Réseau,0,22,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1193,2023-11-02,2023,incendie,significatif,17,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,EPSF_synthese
+1194,2023-03-31,2023,collision,mineur,86,SNCF Réseau,0,0,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1195,2024-01-09,2024,PN,significatif,64,SNCF Réseau,0,0,non_respect_signalisation,PN,SNCF_rapport
+1196,2019-03-29,2019,PN,significatif,45,SNCF Réseau,0,9,obstacle_PN,PN,BEATT_rapport
+1197,2016-12-31,2016,acte_malveillance,significatif,31,SNCF Voyageurs,0,5,acte_malveillance,circulation_commerciale,SNCF_rapport
+1198,2013-10-22,2013,collision,mineur,93,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,SNCF_rapport
+1199,2022-09-28,2022,acte_malveillance,significatif,95,SNCF Réseau,0,4,vol_cable,PN,SNCF_rapport
+1200,2023-03-10,2023,collision,grave,67,SNCF Voyageurs,1,15,excès_vitesse,circulation_commerciale,SNCF_rapport
+1201,2022-11-04,2022,collision,grave,94,SNCF Voyageurs,1,27,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1202,2017-07-15,2017,deraillement,mineur,66,SNCF Voyageurs,0,0,defaillance_materiel,travaux,SNCF_rapport
+1203,2014-07-11,2014,deraillement,significatif,57,SNCF Réseau,0,9,defaut_infrastructure,maintenance,SNCF_rapport
+1204,2011-01-25,2011,PN,grave,89,SNCF Réseau,0,39,erreur_humaine,PN,BEATT_rapport
+1205,2012-01-24,2012,incendie,mineur,63,RATP,0,1,acte_malveillance,circulation_commerciale,SNCF_rapport
+1206,2011-07-06,2011,acte_malveillance,significatif,42,SNCF Voyageurs,0,0,jet_de_projectiles,PN,SNCF_rapport
+1207,2011-09-21,2011,incendie,mineur,93,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,BEATT_rapport
+1208,2017-01-10,2017,incident_materiel,mineur,89,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,BEATT_rapport
+1209,2020-03-01,2020,incendie,significatif,91,SNCF Voyageurs,0,9,acte_malveillance,circulation_commerciale,BEATT_rapport
+1210,2021-07-30,2021,incident_materiel,significatif,75,RATP,0,6,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+1211,2024-04-22,2024,acte_malveillance,significatif,91,RATP,0,2,jet_de_projectiles,PN,EPSF_synthese
+1212,2021-09-18,2021,incident_materiel,mineur,45,SNCF Voyageurs,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+1213,2016-09-25,2016,deraillement,grave,91,SNCF Réseau,1,38,erreur_humaine,circulation_commerciale,EPSF_synthese
+1214,2019-04-02,2019,PN,grave,94,SNCF Réseau,2,8,non_respect_signalisation,PN,BEATT_rapport
+1215,2015-04-19,2015,deraillement,mineur,38,SNCF Réseau,0,0,excès_vitesse,travaux,EPSF_synthese
+1216,2015-07-05,2015,PN,grave,72,SNCF Réseau,1,25,non_respect_signalisation,PN,SNCF_rapport
+1217,2024-07-05,2024,collision,significatif,33,SNCF Réseau,0,0,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1218,2015-10-18,2015,PN,grave,14,SNCF Réseau,2,21,erreur_humaine,PN,BEATT_rapport
+1219,2020-11-24,2020,collision,significatif,87,SNCF Réseau,0,5,erreur_humaine,circulation_commerciale,SNCF_rapport
+1220,2011-06-05,2011,deraillement,significatif,69,SNCF Réseau,0,4,defaillance_materiel,maintenance,BEATT_rapport
+1221,2013-02-25,2013,incident_materiel,significatif,78,RATP,0,5,defaillance_materiel,essais,EPSF_synthese
+1222,2021-09-15,2021,incendie,grave,25,SNCF Voyageurs,1,13,acte_malveillance,maintenance,EPSF_synthese
+1223,2023-06-15,2023,collision,significatif,67,SNCF Voyageurs,0,5,excès_vitesse,circulation_commerciale,BEATT_rapport
+1224,2015-04-17,2015,deraillement,mineur,37,SNCF Réseau,0,0,excès_vitesse,travaux,EPSF_synthese
+1225,2016-02-28,2016,deraillement,significatif,77,SNCF Réseau,0,5,erreur_humaine,circulation_commerciale,BEATT_rapport
+1226,2018-05-28,2018,incendie,significatif,72,RATP,0,5,incendie_bord,maintenance,SNCF_rapport
+1227,2015-07-12,2015,PN,significatif,66,SNCF Réseau,0,0,obstacle_PN,PN,SNCF_rapport
+1228,2010-06-22,2010,incendie,mineur,93,RATP,0,0,acte_malveillance,circulation_commerciale,EPSF_synthese
+1229,2015-05-18,2015,PN,grave,91,SNCF Réseau,3,20,erreur_humaine,PN,BEATT_rapport
+1230,2018-02-20,2018,incendie,significatif,67,SNCF Voyageurs,0,0,incendie_bord,circulation_commerciale,EPSF_synthese
+1231,2018-10-25,2018,PN,significatif,59,SNCF Réseau,0,7,non_respect_signalisation,PN,EPSF_synthese
+1232,2013-08-05,2013,deraillement,significatif,14,SNCF Voyageurs,0,9,defaillance_materiel,maintenance,SNCF_rapport
+1233,2011-10-19,2011,deraillement,grave,63,SNCF Voyageurs,2,32,erreur_humaine,maintenance,BEATT_rapport
+1234,2019-06-23,2019,collision,grave,21,SNCF Voyageurs,2,39,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1235,2019-06-10,2019,acte_malveillance,mineur,95,SNCF Voyageurs,0,0,jet_de_projectiles,PN,EPSF_synthese
+1236,2011-03-03,2011,incendie,grave,73,RATP,0,35,acte_malveillance,circulation_commerciale,BEATT_rapport
+1237,2013-01-19,2013,collision,significatif,59,SNCF Voyageurs,0,4,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1238,2022-12-01,2022,collision,grave,80,SNCF Réseau,3,23,erreur_humaine,circulation_commerciale,BEATT_rapport
+1239,2024-07-24,2024,incident_materiel,mineur,76,SNCF Voyageurs,0,0,defaut_infrastructure,maintenance,BEATT_rapport
+1240,2012-12-29,2012,PN,mineur,38,SNCF Réseau,0,0,obstacle_PN,PN,EPSF_synthese
+1241,2019-04-19,2019,PN,significatif,85,SNCF Réseau,0,3,obstacle_PN,PN,EPSF_synthese
+1242,2010-06-19,2010,collision,significatif,38,SNCF Réseau,0,0,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1243,2013-10-14,2013,collision,grave,51,SNCF Voyageurs,3,37,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1244,2011-12-31,2011,PN,grave,80,SNCF Réseau,1,22,obstacle_PN,PN,SNCF_rapport
+1245,2020-03-05,2020,incendie,significatif,42,SNCF Voyageurs,0,9,defaillance_materiel,circulation_commerciale,EPSF_synthese
+1246,2015-12-21,2015,PN,grave,33,SNCF Réseau,0,36,erreur_humaine,PN,SNCF_rapport
+1247,2014-08-20,2014,acte_malveillance,mineur,94,RATP,0,0,acte_malveillance,PN,EPSF_synthese
+1248,2019-05-20,2019,incident_materiel,mineur,57,SNCF Voyageurs,0,0,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+1249,2015-04-14,2015,acte_malveillance,mineur,86,SNCF Voyageurs,0,0,vol_cable,circulation_commerciale,BEATT_rapport
+1250,2024-07-08,2024,deraillement,significatif,33,SNCF Voyageurs,0,7,defaut_infrastructure,travaux,SNCF_rapport
+1251,2018-12-01,2018,incendie,significatif,72,RATP,0,0,incendie_bord,maintenance,BEATT_rapport
+1252,2023-05-25,2023,PN,significatif,17,SNCF Réseau,0,9,obstacle_PN,PN,EPSF_synthese
+1253,2017-06-19,2017,incident_materiel,mineur,93,RATP,0,1,defaut_infrastructure,maintenance,BEATT_rapport
+1254,2011-01-08,2011,collision,significatif,69,SNCF Réseau,0,5,excès_vitesse,circulation_commerciale,BEATT_rapport
+1255,2018-04-27,2018,incident_materiel,significatif,51,SNCF Voyageurs,0,0,defaillance_materiel,essais,EPSF_synthese
+1256,2021-04-19,2021,deraillement,significatif,25,SNCF Réseau,1,6,defaillance_materiel,circulation_commerciale,SNCF_rapport
+1257,2021-11-24,2021,deraillement,mineur,62,SNCF Réseau,0,0,excès_vitesse,circulation_commerciale,EPSF_synthese
+1258,2012-11-13,2012,deraillement,significatif,72,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,SNCF_rapport
+1259,2015-11-27,2015,acte_malveillance,significatif,35,SNCF Voyageurs,0,6,vol_cable,PN,SNCF_rapport
+1260,2021-01-07,2021,incident_materiel,mineur,34,SNCF Voyageurs,0,0,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+1261,2015-02-27,2015,incident_materiel,significatif,35,SNCF Voyageurs,0,2,defaillance_materiel,maintenance,BEATT_rapport
+1262,2020-06-23,2020,deraillement,significatif,73,SNCF Réseau,0,9,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+1263,2022-07-31,2022,deraillement,significatif,34,SNCF Réseau,0,8,erreur_humaine,circulation_commerciale,EPSF_synthese
+1264,2017-11-03,2017,collision,grave,35,SNCF Réseau,3,22,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+1265,2021-05-30,2021,PN,grave,6,SNCF Réseau,1,7,erreur_humaine,PN,BEATT_rapport
+1266,2022-10-20,2022,incident_materiel,mineur,77,SNCF Voyageurs,0,0,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+1267,2012-02-12,2012,PN,grave,94,SNCF Réseau,4,3,obstacle_PN,PN,EPSF_synthese
+1268,2018-11-04,2018,PN,mineur,34,SNCF Réseau,0,0,erreur_humaine,PN,EPSF_synthese
+1269,2011-10-27,2011,deraillement,significatif,87,SNCF Voyageurs,0,1,erreur_humaine,circulation_commerciale,BEATT_rapport
+1270,2010-02-17,2010,PN,mineur,85,SNCF Réseau,0,1,obstacle_PN,PN,EPSF_synthese
+1271,2014-09-28,2014,collision,significatif,21,SNCF Réseau,0,3,excès_vitesse,circulation_commerciale,BEATT_rapport
+1272,2023-07-05,2023,deraillement,grave,37,SNCF Voyageurs,1,18,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+1273,2018-12-12,2018,collision,significatif,67,SNCF Réseau,0,3,erreur_humaine,circulation_commerciale,SNCF_rapport
+1274,2016-05-23,2016,incendie,grave,59,SNCF Voyageurs,1,29,acte_malveillance,circulation_commerciale,SNCF_rapport
+1275,2019-09-12,2019,incendie,significatif,93,SNCF Voyageurs,0,7,defaillance_materiel,circulation_commerciale,EPSF_synthese
+1276,2018-03-30,2018,acte_malveillance,mineur,67,SNCF Voyageurs,0,0,acte_malveillance,PN,SNCF_rapport
+1277,2016-01-09,2016,acte_malveillance,significatif,72,SNCF Réseau,0,9,jet_de_projectiles,PN,SNCF_rapport
+1278,2023-10-08,2023,incident_materiel,mineur,25,SNCF Voyageurs,0,2,defaut_infrastructure,essais,EPSF_synthese
+1279,2021-07-07,2021,PN,significatif,94,SNCF Réseau,0,0,non_respect_signalisation,PN,BEATT_rapport
+1280,2013-06-24,2013,deraillement,significatif,72,SNCF Voyageurs,0,1,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+1281,2020-09-17,2020,PN,grave,59,SNCF Réseau,1,25,obstacle_PN,PN,EPSF_synthese
+1282,2021-09-25,2021,deraillement,significatif,84,SNCF Réseau,0,9,defaillance_materiel,maintenance,EPSF_synthese
+1283,2011-01-05,2011,acte_malveillance,significatif,30,SNCF Voyageurs,0,6,acte_malveillance,PN,SNCF_rapport
+1284,2024-10-27,2024,incendie,significatif,51,SNCF Voyageurs,0,2,acte_malveillance,maintenance,BEATT_rapport
+1285,2011-11-01,2011,acte_malveillance,significatif,93,RATP,0,6,acte_malveillance,circulation_commerciale,SNCF_rapport
+1286,2014-01-10,2014,incident_materiel,significatif,71,SNCF Voyageurs,0,5,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+1287,2016-09-04,2016,PN,grave,73,SNCF Réseau,4,23,erreur_humaine,PN,BEATT_rapport
+1288,2015-12-12,2015,PN,grave,25,SNCF Réseau,1,26,obstacle_PN,PN,BEATT_rapport
+1289,2023-07-20,2023,PN,grave,83,SNCF Réseau,1,22,erreur_humaine,PN,EPSF_synthese
+1290,2010-02-17,2010,deraillement,grave,92,SNCF Réseau,0,13,defaut_infrastructure,travaux,SNCF_rapport
+1291,2020-04-27,2020,incendie,grave,89,SNCF Voyageurs,1,2,defaillance_materiel,maintenance,BEATT_rapport
+1292,2018-02-03,2018,incendie,significatif,25,SNCF Voyageurs,1,0,acte_malveillance,maintenance,EPSF_synthese
+1293,2013-01-11,2013,collision,grave,95,SNCF Réseau,0,26,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1294,2010-08-08,2010,incident_materiel,mineur,92,SNCF Voyageurs,0,2,defaut_infrastructure,essais,EPSF_synthese
+1295,2019-10-10,2019,incendie,significatif,59,SNCF Voyageurs,0,8,acte_malveillance,circulation_commerciale,SNCF_rapport
+1296,2013-04-28,2013,deraillement,significatif,35,SNCF Réseau,1,0,erreur_humaine,travaux,EPSF_synthese
+1297,2019-12-27,2019,deraillement,significatif,86,SNCF Voyageurs,0,4,erreur_humaine,travaux,EPSF_synthese
+1298,2014-07-08,2014,PN,grave,63,SNCF Réseau,0,36,erreur_humaine,PN,EPSF_synthese
+1299,2012-04-21,2012,incendie,grave,77,SNCF Voyageurs,0,15,acte_malveillance,maintenance,BEATT_rapport
+1300,2022-12-24,2022,acte_malveillance,significatif,77,SNCF Réseau,0,6,jet_de_projectiles,PN,SNCF_rapport
+1301,2020-11-26,2020,acte_malveillance,mineur,17,SNCF Réseau,0,0,jet_de_projectiles,PN,BEATT_rapport
+1302,2010-06-05,2010,deraillement,grave,54,SNCF Réseau,1,28,defaillance_materiel,maintenance,BEATT_rapport
+1303,2019-05-11,2019,deraillement,significatif,73,SNCF Voyageurs,0,5,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+1304,2019-10-14,2019,collision,mineur,38,SNCF Voyageurs,0,1,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1305,2017-09-17,2017,deraillement,significatif,86,SNCF Réseau,0,7,excès_vitesse,maintenance,BEATT_rapport
+1306,2017-08-10,2017,acte_malveillance,grave,57,SNCF Réseau,2,25,jet_de_projectiles,PN,BEATT_rapport
+1307,2018-10-03,2018,deraillement,grave,89,SNCF Réseau,4,29,defaillance_materiel,circulation_commerciale,EPSF_synthese
+1308,2016-05-02,2016,incendie,significatif,76,RATP,0,1,acte_malveillance,circulation_commerciale,EPSF_synthese
+1309,2013-11-20,2013,incident_materiel,significatif,30,SNCF Voyageurs,0,5,defaillance_freinage,essais,SNCF_rapport
+1310,2021-01-27,2021,PN,grave,17,SNCF Réseau,5,27,obstacle_PN,PN,EPSF_synthese
+1311,2018-01-18,2018,PN,grave,78,SNCF Réseau,0,31,non_respect_signalisation,PN,EPSF_synthese
+1312,2011-06-06,2011,PN,grave,44,SNCF Réseau,2,3,non_respect_signalisation,PN,EPSF_synthese
+1313,2022-08-09,2022,incident_materiel,grave,64,SNCF Voyageurs,0,15,defaut_infrastructure,maintenance,EPSF_synthese
+1314,2022-06-30,2022,PN,significatif,17,SNCF Réseau,0,2,obstacle_PN,PN,SNCF_rapport
+1315,2020-04-02,2020,collision,mineur,14,SNCF Voyageurs,0,0,erreur_humaine,circulation_commerciale,BEATT_rapport
+1316,2012-05-13,2012,incident_materiel,significatif,35,SNCF Voyageurs,0,4,defaillance_materiel,circulation_commerciale,BEATT_rapport
+1317,2016-07-21,2016,incendie,mineur,30,RATP,0,0,defaillance_materiel,maintenance,EPSF_synthese
+1318,2024-07-06,2024,PN,grave,38,SNCF Réseau,1,32,non_respect_signalisation,PN,SNCF_rapport
+1319,2019-04-29,2019,collision,significatif,57,SNCF Réseau,0,9,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+1320,2013-11-03,2013,collision,grave,71,SNCF Voyageurs,1,21,excès_vitesse,circulation_commerciale,SNCF_rapport
+1321,2024-02-13,2024,incendie,significatif,71,RATP,0,3,incendie_bord,circulation_commerciale,EPSF_synthese
+1322,2013-02-04,2013,deraillement,grave,80,SNCF Voyageurs,2,2,erreur_humaine,circulation_commerciale,BEATT_rapport
+1323,2018-02-11,2018,collision,grave,80,SNCF Réseau,1,20,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1324,2011-11-26,2011,PN,grave,72,SNCF Réseau,3,11,non_respect_signalisation,PN,EPSF_synthese
+1325,2018-10-27,2018,collision,grave,93,SNCF Voyageurs,0,5,non_respect_signalisation,circulation_commerciale,BEATT_rapport
+1326,2016-08-19,2016,deraillement,significatif,62,SNCF Voyageurs,0,4,erreur_humaine,maintenance,SNCF_rapport
+1327,2010-03-06,2010,PN,grave,69,SNCF Réseau,1,20,erreur_humaine,PN,SNCF_rapport
+1328,2024-06-10,2024,incident_materiel,grave,92,SNCF Voyageurs,1,32,defaut_infrastructure,essais,SNCF_rapport
+1329,2014-06-05,2014,PN,significatif,63,SNCF Réseau,0,6,obstacle_PN,PN,SNCF_rapport
+1330,2012-10-29,2012,acte_malveillance,grave,25,SNCF Réseau,0,11,jet_de_projectiles,PN,BEATT_rapport
+1331,2022-05-18,2022,PN,significatif,35,SNCF Réseau,0,8,erreur_humaine,PN,EPSF_synthese
+1332,2010-08-17,2010,acte_malveillance,significatif,59,SNCF Réseau,1,5,jet_de_projectiles,PN,BEATT_rapport
+1333,2019-06-26,2019,acte_malveillance,mineur,51,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,BEATT_rapport
+1334,2021-05-20,2021,PN,grave,31,SNCF Réseau,1,15,obstacle_PN,PN,SNCF_rapport
+1335,2016-09-06,2016,acte_malveillance,mineur,63,SNCF Voyageurs,0,0,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+1336,2023-01-17,2023,acte_malveillance,significatif,59,SNCF Voyageurs,0,1,jet_de_projectiles,circulation_commerciale,SNCF_rapport
+1337,2024-12-16,2024,incendie,mineur,67,RATP,0,1,acte_malveillance,circulation_commerciale,BEATT_rapport
+1338,2015-07-22,2015,collision,grave,75,SNCF Réseau,2,12,excès_vitesse,circulation_commerciale,EPSF_synthese
+1339,2013-04-15,2013,incendie,significatif,25,SNCF Voyageurs,0,5,defaillance_materiel,maintenance,EPSF_synthese
+1340,2019-07-13,2019,incident_materiel,mineur,21,SNCF Voyageurs,0,0,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+1341,2021-10-21,2021,deraillement,significatif,91,SNCF Voyageurs,0,4,erreur_humaine,circulation_commerciale,SNCF_rapport
+1342,2019-11-15,2019,incendie,grave,34,SNCF Voyageurs,1,26,defaillance_materiel,maintenance,BEATT_rapport
+1343,2012-11-07,2012,deraillement,grave,95,SNCF Réseau,0,22,erreur_humaine,travaux,EPSF_synthese
+1344,2020-03-19,2020,deraillement,grave,84,SNCF Réseau,0,26,defaut_infrastructure,maintenance,SNCF_rapport
+1345,2012-08-30,2012,acte_malveillance,mineur,66,SNCF Réseau,0,0,vol_cable,circulation_commerciale,BEATT_rapport
+1346,2016-06-30,2016,collision,grave,59,SNCF Réseau,4,7,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1347,2016-10-20,2016,PN,grave,34,SNCF Réseau,7,27,non_respect_signalisation,PN,BEATT_rapport
+1348,2019-06-18,2019,collision,grave,37,SNCF Réseau,0,9,excès_vitesse,circulation_commerciale,BEATT_rapport
+1349,2020-12-18,2020,collision,grave,14,SNCF Réseau,0,17,erreur_humaine,circulation_commerciale,SNCF_rapport
+1350,2020-10-16,2020,acte_malveillance,significatif,67,SNCF Voyageurs,1,7,vol_cable,PN,SNCF_rapport
+1351,2023-08-02,2023,incident_materiel,grave,75,RATP,2,20,defaillance_freinage,essais,SNCF_rapport
+1352,2024-12-18,2024,deraillement,significatif,25,SNCF Voyageurs,0,0,excès_vitesse,maintenance,BEATT_rapport
+1353,2024-11-26,2024,acte_malveillance,significatif,69,SNCF Réseau,0,2,vol_cable,PN,SNCF_rapport
+1354,2022-02-18,2022,collision,grave,25,SNCF Voyageurs,2,7,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1355,2010-07-23,2010,acte_malveillance,mineur,92,RATP,0,0,jet_de_projectiles,PN,EPSF_synthese
+1356,2024-06-10,2024,acte_malveillance,significatif,83,RATP,0,9,acte_malveillance,circulation_commerciale,BEATT_rapport
+1357,2011-03-10,2011,acte_malveillance,mineur,78,SNCF Voyageurs,0,0,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+1358,2012-09-12,2012,incendie,significatif,54,SNCF Voyageurs,1,8,acte_malveillance,circulation_commerciale,EPSF_synthese
+1359,2015-07-03,2015,incendie,grave,83,SNCF Voyageurs,1,23,acte_malveillance,maintenance,BEATT_rapport
+1360,2017-03-09,2017,deraillement,grave,63,SNCF Réseau,0,8,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+1361,2014-01-18,2014,deraillement,significatif,67,SNCF Voyageurs,0,9,defaut_infrastructure,maintenance,SNCF_rapport
+1362,2012-01-16,2012,collision,significatif,34,SNCF Réseau,0,3,erreur_humaine,circulation_commerciale,EPSF_synthese
+1363,2015-09-25,2015,collision,significatif,94,SNCF Réseau,0,1,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1364,2011-04-28,2011,acte_malveillance,mineur,17,SNCF Réseau,0,1,vol_cable,circulation_commerciale,SNCF_rapport
+1365,2018-09-30,2018,collision,significatif,62,SNCF Réseau,0,1,excès_vitesse,circulation_commerciale,SNCF_rapport
+1366,2018-06-04,2018,collision,grave,87,SNCF Réseau,2,32,erreur_humaine,circulation_commerciale,BEATT_rapport
+1367,2015-04-22,2015,deraillement,mineur,17,SNCF Voyageurs,0,0,erreur_humaine,travaux,SNCF_rapport
+1368,2020-06-04,2020,acte_malveillance,significatif,13,SNCF Voyageurs,0,7,vol_cable,circulation_commerciale,SNCF_rapport
+1369,2024-03-17,2024,incident_materiel,significatif,86,RATP,0,6,defaillance_materiel,maintenance,BEATT_rapport
+1370,2012-04-11,2012,incident_materiel,mineur,71,RATP,0,0,defaillance_freinage,maintenance,SNCF_rapport
+1371,2011-11-19,2011,incendie,significatif,66,SNCF Voyageurs,0,9,acte_malveillance,circulation_commerciale,BEATT_rapport
+1372,2013-10-09,2013,incident_materiel,mineur,14,SNCF Voyageurs,0,0,defaut_infrastructure,essais,EPSF_synthese
+1373,2020-06-03,2020,acte_malveillance,mineur,17,SNCF Réseau,0,0,vol_cable,circulation_commerciale,SNCF_rapport
+1374,2016-02-17,2016,acte_malveillance,significatif,91,SNCF Voyageurs,1,0,vol_cable,PN,EPSF_synthese
+1375,2023-02-15,2023,acte_malveillance,grave,83,SNCF Réseau,0,39,vol_cable,circulation_commerciale,BEATT_rapport
+1376,2011-07-27,2011,PN,grave,31,SNCF Réseau,2,20,obstacle_PN,PN,EPSF_synthese
+1377,2022-06-25,2022,PN,mineur,78,SNCF Réseau,0,0,non_respect_signalisation,PN,SNCF_rapport
+1378,2017-09-07,2017,incendie,significatif,45,SNCF Voyageurs,0,5,defaillance_materiel,maintenance,BEATT_rapport
+1379,2017-03-19,2017,PN,grave,63,SNCF Réseau,1,35,obstacle_PN,PN,EPSF_synthese
+1380,2012-12-31,2012,incendie,grave,6,SNCF Voyageurs,0,39,incendie_bord,maintenance,BEATT_rapport
+1381,2013-11-22,2013,deraillement,significatif,92,SNCF Réseau,0,7,erreur_humaine,circulation_commerciale,BEATT_rapport
+1382,2011-09-28,2011,acte_malveillance,mineur,31,RATP,0,2,acte_malveillance,PN,SNCF_rapport
+1383,2018-06-11,2018,acte_malveillance,mineur,95,SNCF Réseau,0,0,vol_cable,PN,EPSF_synthese
+1384,2012-10-19,2012,deraillement,significatif,6,SNCF Voyageurs,0,5,defaillance_materiel,travaux,EPSF_synthese
+1385,2010-06-12,2010,PN,significatif,25,SNCF Réseau,0,8,erreur_humaine,PN,BEATT_rapport
+1386,2024-01-09,2024,PN,grave,77,SNCF Réseau,0,38,erreur_humaine,PN,SNCF_rapport
+1387,2010-10-29,2010,PN,grave,38,SNCF Réseau,0,3,non_respect_signalisation,PN,BEATT_rapport
+1388,2018-11-19,2018,collision,significatif,84,SNCF Réseau,0,1,excès_vitesse,circulation_commerciale,EPSF_synthese
+1389,2024-10-19,2024,incendie,grave,86,SNCF Voyageurs,1,38,acte_malveillance,circulation_commerciale,EPSF_synthese
+1390,2011-06-17,2011,incident_materiel,grave,80,SNCF Voyageurs,1,6,defaillance_signalisation,essais,BEATT_rapport
+1391,2016-02-26,2016,incident_materiel,mineur,83,RATP,0,1,defaillance_materiel,essais,BEATT_rapport
+1392,2015-09-03,2015,incendie,significatif,72,SNCF Voyageurs,0,0,acte_malveillance,maintenance,BEATT_rapport
+1393,2024-07-31,2024,collision,grave,54,SNCF Réseau,1,5,excès_vitesse,circulation_commerciale,EPSF_synthese
+1394,2021-08-16,2021,deraillement,mineur,44,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,EPSF_synthese
+1395,2016-03-26,2016,deraillement,significatif,69,SNCF Réseau,0,9,erreur_humaine,circulation_commerciale,EPSF_synthese
+1396,2017-07-04,2017,collision,grave,72,SNCF Voyageurs,1,4,erreur_humaine,circulation_commerciale,EPSF_synthese
+1397,2015-08-10,2015,incident_materiel,mineur,21,SNCF Voyageurs,0,1,defaillance_freinage,maintenance,BEATT_rapport
+1398,2024-01-10,2024,collision,grave,13,SNCF Réseau,1,13,erreur_humaine,circulation_commerciale,BEATT_rapport
+1399,2024-01-18,2024,PN,significatif,76,SNCF Réseau,0,0,non_respect_signalisation,PN,EPSF_synthese
+1400,2017-08-23,2017,collision,significatif,87,SNCF Réseau,0,9,excès_vitesse,circulation_commerciale,BEATT_rapport
+1401,2019-11-02,2019,collision,significatif,17,SNCF Réseau,1,6,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1402,2018-06-19,2018,PN,significatif,17,SNCF Réseau,0,9,erreur_humaine,PN,SNCF_rapport
+1403,2011-03-25,2011,PN,grave,30,SNCF Réseau,1,37,erreur_humaine,PN,BEATT_rapport
+1404,2011-04-03,2011,acte_malveillance,significatif,69,SNCF Voyageurs,0,6,acte_malveillance,PN,EPSF_synthese
+1405,2023-11-05,2023,deraillement,significatif,75,SNCF Réseau,0,0,excès_vitesse,maintenance,SNCF_rapport
+1406,2020-05-30,2020,deraillement,grave,75,SNCF Réseau,5,29,defaut_infrastructure,circulation_commerciale,BEATT_rapport
+1407,2017-05-12,2017,acte_malveillance,significatif,6,SNCF Réseau,0,4,acte_malveillance,circulation_commerciale,BEATT_rapport
+1408,2011-07-08,2011,acte_malveillance,significatif,78,RATP,0,0,acte_malveillance,circulation_commerciale,SNCF_rapport
+1409,2017-12-21,2017,deraillement,significatif,37,SNCF Voyageurs,0,8,erreur_humaine,maintenance,EPSF_synthese
+1410,2013-02-01,2013,collision,significatif,86,SNCF Réseau,0,4,erreur_humaine,circulation_commerciale,SNCF_rapport
+1411,2021-07-05,2021,incendie,mineur,83,RATP,0,0,defaillance_materiel,maintenance,EPSF_synthese
+1412,2013-04-22,2013,deraillement,significatif,57,SNCF Voyageurs,0,5,defaillance_materiel,maintenance,SNCF_rapport
+1413,2010-03-08,2010,acte_malveillance,grave,45,SNCF Réseau,2,11,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+1414,2022-07-20,2022,collision,significatif,38,SNCF Réseau,0,0,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+1415,2014-07-07,2014,collision,grave,76,SNCF Voyageurs,4,8,excès_vitesse,circulation_commerciale,BEATT_rapport
+1416,2020-06-25,2020,acte_malveillance,mineur,85,RATP,0,0,jet_de_projectiles,PN,SNCF_rapport
+1417,2023-10-27,2023,PN,significatif,30,SNCF Réseau,0,2,non_respect_signalisation,PN,SNCF_rapport
+1418,2010-12-12,2010,deraillement,grave,95,SNCF Réseau,0,17,excès_vitesse,travaux,EPSF_synthese
+1419,2020-06-18,2020,acte_malveillance,mineur,63,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,BEATT_rapport
+1420,2018-06-07,2018,incident_materiel,significatif,66,SNCF Voyageurs,0,7,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+1421,2011-08-28,2011,PN,significatif,57,SNCF Réseau,0,4,obstacle_PN,PN,SNCF_rapport
+1422,2014-05-12,2014,incendie,grave,13,SNCF Voyageurs,1,8,acte_malveillance,maintenance,EPSF_synthese
+1423,2014-06-09,2014,PN,grave,37,SNCF Réseau,0,11,obstacle_PN,PN,SNCF_rapport
+1424,2022-06-09,2022,incident_materiel,mineur,37,SNCF Voyageurs,0,0,defaillance_freinage,circulation_commerciale,SNCF_rapport
+1425,2012-04-08,2012,collision,significatif,31,SNCF Voyageurs,0,6,non_respect_signalisation,circulation_commerciale,SNCF_rapport
+1426,2014-09-19,2014,PN,significatif,66,SNCF Réseau,0,2,non_respect_signalisation,PN,BEATT_rapport
+1427,2013-11-04,2013,acte_malveillance,mineur,21,RATP,0,0,jet_de_projectiles,PN,EPSF_synthese
+1428,2013-03-29,2013,incident_materiel,significatif,67,RATP,0,3,defaillance_freinage,circulation_commerciale,BEATT_rapport
+1429,2018-05-24,2018,PN,grave,45,SNCF Réseau,0,36,erreur_humaine,PN,EPSF_synthese
+1430,2023-10-26,2023,acte_malveillance,grave,62,SNCF Réseau,0,32,acte_malveillance,PN,EPSF_synthese
+1431,2011-03-13,2011,incendie,significatif,86,RATP,0,2,defaillance_materiel,circulation_commerciale,SNCF_rapport
+1432,2014-09-11,2014,incendie,significatif,89,RATP,0,7,incendie_bord,maintenance,EPSF_synthese
+1433,2013-10-03,2013,acte_malveillance,mineur,80,SNCF Voyageurs,0,1,vol_cable,PN,SNCF_rapport
+1434,2014-01-06,2014,PN,mineur,95,SNCF Réseau,0,2,erreur_humaine,PN,SNCF_rapport
+1435,2021-02-05,2021,deraillement,significatif,91,SNCF Voyageurs,1,7,defaillance_materiel,maintenance,BEATT_rapport
+1436,2024-07-28,2024,collision,significatif,73,SNCF Réseau,1,8,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1437,2018-11-18,2018,incident_materiel,mineur,85,SNCF Voyageurs,0,1,defaillance_signalisation,maintenance,EPSF_synthese
+1438,2018-05-23,2018,PN,significatif,25,SNCF Réseau,0,8,erreur_humaine,PN,SNCF_rapport
+1439,2019-12-21,2019,acte_malveillance,grave,14,RATP,0,24,vol_cable,circulation_commerciale,SNCF_rapport
+1440,2021-06-28,2021,acte_malveillance,significatif,75,SNCF Voyageurs,0,9,vol_cable,PN,SNCF_rapport
+1441,2019-03-05,2019,PN,grave,67,SNCF Réseau,0,19,non_respect_signalisation,PN,EPSF_synthese
+1442,2014-01-11,2014,deraillement,grave,64,SNCF Réseau,3,27,excès_vitesse,circulation_commerciale,EPSF_synthese
+1443,2016-08-09,2016,acte_malveillance,mineur,44,SNCF Voyageurs,0,0,jet_de_projectiles,circulation_commerciale,EPSF_synthese
+1444,2012-08-29,2012,collision,significatif,38,SNCF Voyageurs,0,9,excès_vitesse,circulation_commerciale,SNCF_rapport
+1445,2014-05-30,2014,incendie,grave,94,SNCF Voyageurs,3,20,defaillance_materiel,maintenance,SNCF_rapport
+1446,2014-04-11,2014,incendie,grave,83,RATP,0,1,acte_malveillance,circulation_commerciale,SNCF_rapport
+1447,2010-03-11,2010,PN,significatif,69,SNCF Réseau,0,2,non_respect_signalisation,PN,BEATT_rapport
+1448,2024-09-12,2024,collision,significatif,44,SNCF Réseau,0,0,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1449,2014-09-16,2014,deraillement,grave,75,SNCF Voyageurs,0,33,excès_vitesse,maintenance,SNCF_rapport
+1450,2011-12-05,2011,PN,significatif,71,SNCF Réseau,0,9,obstacle_PN,PN,EPSF_synthese
+1451,2019-11-03,2019,deraillement,significatif,85,SNCF Réseau,0,8,defaut_infrastructure,circulation_commerciale,EPSF_synthese
+1452,2016-11-08,2016,incendie,mineur,64,RATP,0,0,incendie_bord,maintenance,SNCF_rapport
+1453,2015-01-22,2015,deraillement,significatif,95,SNCF Voyageurs,1,6,erreur_humaine,maintenance,BEATT_rapport
+1454,2016-09-20,2016,PN,grave,14,SNCF Réseau,5,28,erreur_humaine,PN,EPSF_synthese
+1455,2013-06-13,2013,PN,grave,42,SNCF Réseau,1,3,erreur_humaine,PN,SNCF_rapport
+1456,2011-06-06,2011,acte_malveillance,significatif,30,SNCF Voyageurs,0,3,vol_cable,circulation_commerciale,SNCF_rapport
+1457,2022-10-10,2022,deraillement,mineur,30,SNCF Réseau,0,1,defaillance_materiel,travaux,BEATT_rapport
+1458,2022-05-27,2022,incident_materiel,significatif,77,RATP,0,4,defaillance_materiel,essais,EPSF_synthese
+1459,2014-03-10,2014,incident_materiel,mineur,42,SNCF Voyageurs,0,0,defaillance_materiel,maintenance,EPSF_synthese
+1460,2016-07-12,2016,incendie,grave,17,SNCF Voyageurs,0,9,acte_malveillance,circulation_commerciale,SNCF_rapport
+1461,2021-08-18,2021,collision,grave,69,SNCF Réseau,2,30,non_respect_signalisation,circulation_commerciale,EPSF_synthese
+1462,2012-06-26,2012,incident_materiel,significatif,21,RATP,0,6,defaut_infrastructure,maintenance,SNCF_rapport
+1463,2014-08-19,2014,incident_materiel,mineur,93,SNCF Voyageurs,0,0,defaillance_freinage,maintenance,SNCF_rapport
+1464,2013-07-24,2013,acte_malveillance,mineur,38,RATP,0,2,jet_de_projectiles,PN,BEATT_rapport
+1465,2020-04-17,2020,PN,grave,73,SNCF Réseau,7,9,obstacle_PN,PN,EPSF_synthese
+1466,2018-12-15,2018,acte_malveillance,mineur,77,RATP,0,1,acte_malveillance,PN,SNCF_rapport
+1467,2020-05-18,2020,acte_malveillance,mineur,92,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,SNCF_rapport
+1468,2017-10-11,2017,incendie,mineur,89,SNCF Voyageurs,0,0,acte_malveillance,maintenance,EPSF_synthese
+1469,2019-04-24,2019,incident_materiel,mineur,72,RATP,0,0,defaillance_freinage,essais,SNCF_rapport
+1470,2018-08-18,2018,incendie,grave,95,SNCF Voyageurs,1,21,incendie_bord,circulation_commerciale,EPSF_synthese
+1471,2015-05-18,2015,incident_materiel,significatif,57,RATP,0,2,defaillance_signalisation,essais,BEATT_rapport
+1472,2011-07-01,2011,incendie,significatif,71,SNCF Voyageurs,0,0,acte_malveillance,circulation_commerciale,BEATT_rapport
+1473,2012-09-20,2012,PN,significatif,62,SNCF Réseau,0,0,obstacle_PN,PN,SNCF_rapport
+1474,2020-02-12,2020,incident_materiel,significatif,14,RATP,0,5,defaillance_signalisation,circulation_commerciale,SNCF_rapport
+1475,2010-08-07,2010,collision,grave,69,SNCF Réseau,0,8,defaillance_signalisation,circulation_commerciale,EPSF_synthese
+1476,2018-11-24,2018,collision,grave,33,SNCF Réseau,3,27,erreur_humaine,circulation_commerciale,SNCF_rapport
+1477,2020-05-31,2020,deraillement,grave,84,SNCF Réseau,0,35,erreur_humaine,travaux,BEATT_rapport
+1478,2015-06-08,2015,incendie,mineur,54,SNCF Voyageurs,0,0,defaillance_materiel,circulation_commerciale,EPSF_synthese
+1479,2013-10-29,2013,collision,mineur,31,SNCF Réseau,0,0,erreur_humaine,circulation_commerciale,BEATT_rapport
+1480,2018-10-07,2018,incident_materiel,significatif,94,SNCF Voyageurs,1,9,defaillance_materiel,essais,SNCF_rapport
+1481,2013-06-11,2013,deraillement,significatif,14,SNCF Réseau,0,1,defaillance_materiel,travaux,BEATT_rapport
+1482,2021-12-09,2021,incident_materiel,grave,91,SNCF Voyageurs,1,14,defaut_infrastructure,essais,BEATT_rapport
+1483,2024-05-18,2024,incendie,grave,95,SNCF Voyageurs,0,15,acte_malveillance,circulation_commerciale,SNCF_rapport
+1484,2019-12-17,2019,collision,grave,38,SNCF Réseau,5,35,erreur_humaine,circulation_commerciale,EPSF_synthese
+1485,2018-05-28,2018,incident_materiel,mineur,71,SNCF Voyageurs,0,0,defaillance_freinage,circulation_commerciale,EPSF_synthese
+1486,2010-04-30,2010,PN,grave,30,SNCF Réseau,1,24,obstacle_PN,PN,BEATT_rapport
+1487,2013-10-07,2013,incendie,significatif,78,SNCF Voyageurs,0,1,incendie_bord,circulation_commerciale,EPSF_synthese
+1488,2017-05-03,2017,PN,significatif,42,SNCF Réseau,0,5,erreur_humaine,PN,BEATT_rapport
+1489,2018-11-11,2018,deraillement,grave,30,SNCF Réseau,2,15,defaut_infrastructure,travaux,SNCF_rapport
+1490,2017-04-03,2017,incident_materiel,mineur,62,RATP,0,0,defaillance_materiel,maintenance,EPSF_synthese
+1491,2018-09-24,2018,incident_materiel,mineur,93,SNCF Voyageurs,0,1,defaut_infrastructure,circulation_commerciale,SNCF_rapport
+1492,2024-07-30,2024,acte_malveillance,mineur,42,SNCF Réseau,0,0,vol_cable,circulation_commerciale,SNCF_rapport
+1493,2016-10-06,2016,acte_malveillance,mineur,83,RATP,0,1,vol_cable,circulation_commerciale,BEATT_rapport
+1494,2013-11-05,2013,PN,grave,95,SNCF Réseau,0,24,obstacle_PN,PN,SNCF_rapport
+1495,2012-12-24,2012,PN,grave,76,SNCF Réseau,0,39,obstacle_PN,PN,EPSF_synthese
+1496,2017-07-08,2017,collision,significatif,91,SNCF Voyageurs,0,7,defaillance_signalisation,circulation_commerciale,BEATT_rapport
+1497,2015-03-20,2015,acte_malveillance,significatif,13,SNCF Réseau,0,8,jet_de_projectiles,circulation_commerciale,BEATT_rapport
+1498,2012-10-13,2012,PN,significatif,89,SNCF Réseau,0,5,obstacle_PN,PN,EPSF_synthese
+1499,2011-05-06,2011,incident_materiel,mineur,38,SNCF Voyageurs,0,0,defaillance_signalisation,maintenance,EPSF_synthese
+1500,2018-06-06,2018,incident_materiel,mineur,87,RATP,0,1,defaillance_materiel,circulation_commerciale,SNCF_rapport
