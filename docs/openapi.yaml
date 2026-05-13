@@ -1,0 +1,36 @@
+openapi: 3.0.3
+info:
+  title: API Data - Projet DevIA
+  version: 0.1.0
+paths:
+  /events:
+    get:
+      summary: Lister événements
+      parameters:
+        - in: query
+          name: limit
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Liste d'événements
+  /events/{id}:
+    get:
+      summary: Récupérer un événement par id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Détail événement
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - bearerAuth: []

@@ -16,3 +16,42 @@ projet_final/
 │   └── (modèle sérialisé joblib ou pickle — voir phase 3)
 └── docs/
     └── (présentation, rapport, etc.)
+
+L'objectif de ce projet final est de démontrer votre capacité à mener un projet de data science de bout en bout, en intégrant les différentes compétences acquises au cours de la formation. Vous devrez explorer et analyser les données, construire et évaluer un modèle de machine learning, puis déployer une application interactive avec Streamlit pour présenter vos résultats. 
+
+# Projet DevIA — Certification 2026
+
+**Auteur**: ValentinPhan  
+**But**: Démontrer les compétences DevIA (collecte, intégration IA, application) pour la certification.
+
+## Structure du dépôt
+- data/ : jeux `evenements.csv`, `evenements_1500.csv`
+- notebooks/ : 01_exploration.ipynb, 02_modelisation.ipynb, 03_streamlit_dev.ipynb
+- app/ : app.py (Streamlit)
+- models/ : modèles sérialisés
+- docs/ : documentation, rapports, openapi.yaml
+
+## Prérequis
+- Python 3.10+, pip
+- PostgreSQL (ou SQLite pour dev)
+- Docker (optionnel)
+- Outils recommandés: DVC, MLflow, GitHub Actions
+
+## Installation rapide (dev)
+1. `git clone <repo>`
+2. `python -m venv .venv && source .venv/bin/activate`
+3. `pip install -r requirements.txt`
+4. Charger les données : `python scripts/load_data.py --db-url postgresql://... --file data/evenements_1500.csv`
+5. Lancer l’API Data : `uvicorn app.api:app --reload --port 8000`
+6. Lancer l’app Streamlit : `streamlit run app/app.py`
+
+## Commandes utiles
+- Exécuter notebooks : `jupyter lab`
+- Entraîner modèle : `python train.py --config configs/train.yaml`
+- Tests : `pytest tests/`
+
+## Livrables attendus
+- E1: API Data + rapport 2–5 pages
+- E2/E3: POC IA, API IA, prototype, monitoring
+- E4/E5: Application complète, CI/CD, monitoring, résolution d’incidents
+

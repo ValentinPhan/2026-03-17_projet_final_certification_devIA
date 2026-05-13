@@ -1,11 +1,21 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import sklearn
+metadata = {
+    "model": model,
+    "sklearn_version": sklearn.__version__
+}
+
+joblib.dump(metadata, "model_with_meta.joblib")
+from pathlib import Path
+
+MODEL_PATH = Path(__file__).resolve().parents[1] / "models" / "rf_gravite_pipeline.joblib"
 
 # --- Chargement du modèle (mis en cache pour ne pas recharger à chaque interaction)
 @st.cache_resource
 def load_model():
-    return joblib.load("models/rf_gravite_pipeline.joblib")
+    return joblib.load(MODEL_PATH)
 
 model = load_model()
 
