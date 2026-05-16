@@ -55,3 +55,16 @@ L'objectif de ce projet final est de démontrer votre capacité à mener un proj
 - E2/E3: POC IA, API IA, prototype, monitoring
 - E4/E5: Application complète, CI/CD, monitoring, résolution d’incidents
 
+Linter Python (flake8/ruff)
+
+Tests unitaires (pytest)
+
+Build image Docker
+
+Entraînement / évaluation automatisés (optionnel selon coût)
+
+Packaging modèle (joblib/onnx)
+
+Déploiement staging (docker-compose / k8s)
+
+Déclencheurs : push sur main, PR merges, tags v*
