@@ -1,185 +1,177 @@
-Slide 1 — Titre & Contexte
-Projet : Analyse & Prédiction d’Événements Ferroviaires  
-Certification Développeur IA — Simplon 2026  
-Auteur : Valentin Phan
+# 🎤 **Slides Architecture – Soutenance DevIA**  
+*(Version optimisée pour un jury technique)*
 
-Objectifs techniques :
+---
 
-Collecte & ingestion de données
+# **Slide 1 — Architecture Globale du Projet**
+Architecture en 3 services indépendants, orchestrés via Docker :
 
-API Data & API IA
+```
+                 Données CSV
+                      │
+                      ▼
+                API Data (FastAPI)
+                      │
+                      ▼
+                Modèle IA (Sklearn)
+                      │
+                      ▼
+                API IA (FastAPI)
+                      │
+                      ▼
+                App Streamlit (UI)
+```
 
-Modèle ML reproductible
 
-CI/CD & Monitoring
 
-Application complète intégrant un service IA
 
-Slide 2 — Architecture Globale
-Architecture technique :
 
-Frontend : Streamlit
+---
 
-Backend : FastAPI (API Data + API IA)
+# **Slide 2 — Architecture Logique**
+**Bloc 1 — API Data**  
+- Expose les données ferroviaires  
+- Endpoints : `/data/raw`, `/data/stats`, `/data/filter`  
+- Source unique de vérité  
 
-Modèle IA : scikit‑learn (RandomForest)
+**Bloc 2 — Modèle IA + API IA**  
+- Pipeline sklearn (OHE + RandomForest)  
+- Endpoint `/predict`  
+- Chargement lazy du modèle  
 
-Base de données : SQLite / PostgreSQL
+**Bloc 3 — Application Streamlit**  
+- Formulaire utilisateur  
+- Appels API IA  
+- Visualisation  
 
-CI/CD : GitHub Actions
+---
 
-Monitoring : Prometheus + Grafana
+# **Slide 3 — Architecture Technique (Microservices Docker)**
+```
+docker-compose.yml
+│
+├── api_data     → FastAPI (port 8001)
+├── api_ia       → FastAPI (port 8000)
+└── streamlit    → Frontend (port 8501)
+```
 
-Slide 3 — Pipeline de Données (E1)
-Source : evenements_1500.csv
+Caractéristiques :  
+- Services isolés  
+- Communication interne via réseau Docker  
+- Redémarrage automatique  
+- Déploiement simplifié  
 
-Validation & typage
 
-Import SQL via script Python
 
-MCD / MLD Merise
 
-API Data REST exposée via FastAPI
 
-Documentation OpenAPI
+---
 
-Slide 4 — Modèle IA (E2/E3)
-Pipeline ML :
+# **Slide 4 — Architecture API Data**
+**Objectif :** exposer les données nettoyées et typées.
 
-OneHotEncoder
+Fonctionnalités :  
+- Chargement CSV  
+- Statistiques descriptives  
+- Filtrage dynamique  
+- Documentation OpenAPI  
 
-RandomForestClassifier
+Technos :  
+- FastAPI  
+- Pandas  
+- Pydantic  
 
-Split train/test
 
-Sauvegarde .joblib
 
-Résultats :
 
-Accuracy ≈ 0.82
 
-F1‑macro ≈ 0.78
+---
 
-Slide 5 — API IA
-Endpoints :
+# **Slide 5 — Architecture Modèle IA**
+Pipeline ML :  
+- OneHotEncoder  
+- RandomForestClassifier  
+- Sérialisation joblib  
 
-POST /predict
+Avantages :  
+- Robuste  
+- Interprétable  
+- Performant sur petits datasets  
+- Compatible production  
 
-Validation Pydantic
 
-Gestion erreurs
 
-Logs structurés
 
-Latence < 50 ms en local
 
-Payload exemple :
+---
 
-{
-  "type_evenement": "collision",
-  "departement": "44",
-  "exploitant": "SNCF Réseau",
-  "nb_morts": 1,
-  "nb_blesses": 7
-}
+# **Slide 6 — Architecture API IA**
+**Rôle :** encapsuler le modèle IA dans un microservice.
 
-Slide 6 — Application Streamlit
-Fonctionnalités :
+Endpoints :  
+- `/health`  
+- `/predict`  
 
-Formulaire de prédiction
+Fonctionnement :  
+- Validation Pydantic  
+- Conversion DataFrame  
+- Prédiction via pipeline sklearn  
+- Retour JSON  
 
-Visualisation des événements
 
-Graphiques interactifs
 
-Intégration API Data + API IA
 
-Slide 7 — CI/CD (E4)
-Pipeline GitHub Actions :
 
-Lint
+---
 
-Tests Pytest
+# **Slide 7 — Architecture Streamlit**
+**Rôle :** interface utilisateur finale.
 
-Build Docker
+Fonctionnalités :  
+- Formulaire de saisie  
+- Appels API IA  
+- Affichage de la prédiction  
+- Visualisations  
 
-Déploiement staging
+Connexion API :  
+- `API_IA_URL`  
+- `API_DATA_URL`  
 
-Versionnement modèle & données
 
-Éco‑conception :
 
-Jobs courts
 
-Cache pip
 
-Docker multi‑stage
+---
 
-Slide 8 — Monitoring (E5)
-Monitoring modèle :
+# **Slide 8 — Architecture DevOps (CI/CD)**
+Workflows GitHub Actions :  
+- `tests.yml` → pytest  
+- `build_api.yml` → build Docker API  
+- `build_streamlit.yml` → build Docker Streamlit  
 
-Dérive des features
+Objectifs :  
+- Qualité  
+- Reproductibilité  
+- Déploiement automatisé  
 
-Distribution des prédictions
 
-Latence API IA
 
-Taux d’erreur
 
-Monitoring applicatif :
 
-Logs JSON
+---
 
-Métriques Prometheus
+# **Slide 9 — Architecture Sécurité & Qualité**
+- Validation stricte des entrées (Pydantic)  
+- Pas de données personnelles  
+- Modèle chargé en lecture seule  
+- Microservices isolés  
+- Tests unitaires + API + intégration  
 
-Dashboard Grafana
+---
 
-Slide 9 — Incident & Résolution (E5)
-Incident simulé :
-
-API Data renvoie 500 sur /events/search
-
-Diagnostic :
-
-Analyse logs → erreur SQL
-
-Reproduction locale
-
-Correction paramètre manquant
-
-Ajout test unitaire
-
-Déploiement via CI/CD
-
-Slide 10 — Résultats & Livrables
-Livrables produits :
-
-API Data complète
-
-API IA complète
-
-Modèle ML reproductible
-
-Application Streamlit
-
-CI/CD opérationnel
-
-Monitoring modèle + app
-
-Rapports E1 → E5
-
-Backlog, user stories, MCD/MLD, RGPD
-
-Slide 11 — Conclusion
-Projet complet, industrialisable
-
-Architecture claire et modulaire
-
-IA intégrée proprement dans un workflow DevOps
-
-Monitoring et gestion d’incidents maîtrisés
-
-Aligné avec le référentiel DevIA 2026
-
-Slide 12 — Questions
-Merci pour votre attention.
+# **Slide 10 — Conclusion Architecture**
+- Architecture **modulaire**, **scalable**, **professionnelle**  
+- Séparation claire : Data / IA / UI  
+- Microservices Docker  
+- CI/CD opérationnel  
+- Aligné avec le référentiel DevIA  

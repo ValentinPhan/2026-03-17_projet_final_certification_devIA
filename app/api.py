@@ -88,3 +88,9 @@ def filter_data(req: FilterRequest):
         filtered = df[df[req.colonne].astype(str) == req.valeur]
         return filtered.to_dict(orient="records")
     except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/", summary="Ping")
+def root():
+    return {"status": "ok", "message": "API Data – Projet DevIA"}
