@@ -89,8 +89,3 @@ def filter_data(req: FilterRequest):
         return filtered.to_dict(orient="records")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
-
-@app.get("/", summary="Ping")
-def root():
-    return {"status": "ok", "message": "API Data – Projet DevIA"}
