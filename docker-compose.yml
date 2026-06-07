@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  api_data:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: devia_api_data
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      SERVICE_NAME: "API_DATA"
+    command: uvicorn app.api:app --host 0.0.0.0 --port 8000
+    restart: always
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: devia_api_ia
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+    environment:
+      SERVICE_NAME: "API_IA"
+    command: uvicorn app.api_ia:app --host 0.0.0.0 --port 8000
+    restart: always
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: devia_streamlit
+    ports:
+      - "8501:8501"
+    environment:
+      API_IA_URL: "http://api:8000/predict"
+      API_DATA_URL: "http://api_data:8000"
+    depends_on:
+      - api
+      - api_data
+    restart: always
+

@@ -1,0 +1,19 @@
+name: Build Streamlit Docker Image
+
+on:
+  push:
+    paths:
+      - "app/app.py"
+      - "Dockerfile.streamlit"
+
+jobs:
+  build-streamlit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: |
+          docker build -f Dockerfile.streamlit -t streamlit-devia:latest .
