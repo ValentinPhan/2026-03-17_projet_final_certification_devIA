@@ -19,15 +19,10 @@ MODEL_FILE = BASE_DIR / "models" / "model.joblib"
 # Chargement des données
 # -----------------------------
 def load_data():
-    if not DATA_FILE.exists():
-        raise FileNotFoundError(f"Fichier introuvable : {DATA_FILE}")
-
     df = pd.read_csv(DATA_FILE)
 
-    # Cible
     y = df["gravite"]
 
-    # Features
     X = df[[
         "type_evenement",
         "departement",
@@ -39,7 +34,7 @@ def load_data():
     return X, y
 
 # -----------------------------
-# Construction du pipeline ML
+# Pipeline ML
 # -----------------------------
 def build_pipeline():
     categorical = ["type_evenement", "departement", "exploitant"]
