@@ -1,101 +1,123 @@
-from fastapi import FastAPI, HTTPException, Query, APIRouter
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-from typing import List, Optional
-import pandas as pd
+from fastapi import FastAPI, Depends, HTTPException, Query
+from sqlalchemy import text
+from sqlalchemy.orm import Session
 from pathlib import Path
+import pandas as pd
 
-# -----------------------------
-# Configuration
-# -----------------------------
-router = APIRouter()
-
-DATA_PATH = Path(__file__).resolve().parents[1] / "data" / "evenements_1500.csv"
-
-DATA_FILE = Path(__file__).resolve().parents[1] / "data" / "evenements_1500.csv"
-df = pd.read_csv(DATA_FILE)
+from app.db import get_db
+from app.models import Event
 
 app = FastAPI(
-    title="API Data – Projet DevIA",
-    description="API REST Data conforme au référentiel DevIA (Bloc 1 / E1).",
-    version="1.0.0"
+    title="API Data - DevIA",
+    description="API de mise à disposition des événements ferroviaires",
+    version="1.1.0"
 )
 
-# CORS (pour Streamlit)
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# -------------------------------------------------------------------
+# ENDPOINT 1 — LISTE AVEC PAGINATION (limit + offset)
+# -------------------------------------------------------------------
+@app.get("/events")
+def list_events(
+    limit: int = Query(10, ge=1, le=500),
+    offset: int = Query(0, ge=0),
+    db: Session = Depends(get_db)
+):
+    query = text("""
+        SELECT * FROM evenements
+        LIMIT :limit OFFSET :offset
+    """)
 
-# -----------------------------
-# Chargement des données
-# -----------------------------
-def load_data():
-    if not DATA_PATH.exists():
-        raise FileNotFoundError(f"Fichier introuvable : {DATA_PATH}")
-    return pd.read_csv(DATA_PATH)
+    rows = db.execute(query, {"limit": limit, "offset": offset}).fetchall()
 
-# -----------------------------
-# Modèles Pydantic
-# -----------------------------
-class FilterRequest(BaseModel):
-    colonne: str
-    valeur: str
+    # total pour pagination
+    total = db.execute(text("SELECT COUNT(*) FROM evenements")).scalar()
 
-# -----------------------------
-# Endpoints
-# -----------------------------
+    return {
+        "total": total,
+        "count": len(rows),
+        "limit": limit,
+        "offset": offset,
+        "results": [dict(row._mapping) for row in rows]
+    }
 
-@app.get("/data/raw", summary="Renvoie l'intégralité du dataset")
-def get_raw_data():
-    try:
-        df = load_data()
-        return df.to_dict(orient="records")
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+# -------------------------------------------------------------------
+# ENDPOINT 2 — FILTRES (type, gravité, exploitant)
+# -------------------------------------------------------------------
+@app.get("/events/search", response_model=list[Event])
+def search_events(
+    type_evenement: str | None = None,
+    gravite: str | None = None,
+    exploitant: str | None = None,
+    db: Session = Depends(get_db)
+):
+    conditions = []
+    params = {}
 
+    if type_evenement:
+        conditions.append("type_evenement = :type_evenement")
+        params["type_evenement"] = type_evenement
 
-@app.get("/data/sample", summary="Renvoie un échantillon du dataset")
-def get_sample(n: int = 5):
-    try:
-        df = load_data()
-        return df.sample(n=min(n, len(df))).to_dict(orient="records")
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    if gravite:
+        conditions.append("gravite = :gravite")
+        params["gravite"] = gravite
 
+    if exploitant:
+        conditions.append("exploitant = :exploitant")
+        params["exploitant"] = exploitant
 
-@app.get("/data/columns", summary="Renvoie la liste des colonnes")
-def get_columns():
-    try:
-        df = load_data()
-        return {"colonnes": df.columns.tolist()}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    where_clause = " AND ".join(conditions) if conditions else "1=1"
 
+    query = text(f"SELECT * FROM evenements WHERE {where_clause}")
+    rows = db.execute(query, params).fetchall()
 
-@app.get("/data/stats", summary="Statistiques descriptives")
-def get_stats():
-    try:
-        df = load_data()
-        return df.describe(include="all").fillna("").to_dict()
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    return [dict(row._mapping) for row in rows]
 
+# -------------------------------------------------------------------
+# ENDPOINT 3 — GET PAR ID
+# -------------------------------------------------------------------
+@app.get("/events/{event_id}", response_model=Event)
+def get_event(event_id: int, db: Session = Depends(get_db)):
+    query = text("SELECT * FROM evenements WHERE id_evenement = :id")
+    row = db.execute(query, {"id": event_id}).fetchone()
 
-@app.post("/data/filter", summary="Filtre les données selon une colonne et une valeur")
-def filter_data(req: FilterRequest):
-    try:
-        df = load_data()
-        if req.colonne not in df.columns:
-            raise HTTPException(status_code=400, detail="Colonne inconnue.")
-        filtered = df[df[req.colonne].astype(str) == req.valeur]
-        return filtered.to_dict(orient="records")
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-    
-@router.get("/events")
-def list_events(limit: int = Query(10, ge=1)):
-    events = df.head(limit).to_dict(orient="records")
-    return events
+    if not row:
+        raise HTTPException(404, "Événement introuvable")
+
+    return dict(row._mapping)
+
+# -------------------------------------------------------------------
+# ENDPOINT 4 — AJOUT D’UN ÉVÉNEMENT
+# -------------------------------------------------------------------
+@app.post("/events", response_model=Event)
+def create_event(event: Event, db: Session = Depends(get_db)):
+    query = text("""
+        INSERT INTO evenements (
+            id_evenement, date, annee, type_evenement, gravite,
+            departement, exploitant, nb_morts, nb_blesses,
+            cause_presumee, contexte, source
+        )
+        VALUES (
+            :id_evenement, :date, :annee, :type_evenement, :gravite,
+            :departement, :exploitant, :nb_morts, :nb_blesses,
+            :cause_presumee, :contexte, :source
+        )
+    """)
+
+    db.execute(query, event.dict())
+    db.commit()
+
+    return event
+
+# -------------------------------------------------------------------
+# ENDPOINT 5 — SUPPRESSION
+# -------------------------------------------------------------------
+@app.delete("/events/{event_id}")
+def delete_event(event_id: int, db: Session = Depends(get_db)):
+    query = text("DELETE FROM evenements WHERE id_evenement = :id")
+    result = db.execute(query, {"id": event_id})
+    db.commit()
+
+    if result.rowcount == 0:
+        raise HTTPException(404, "Événement introuvable")
+
+    return {"status": "deleted", "id": event_id}
