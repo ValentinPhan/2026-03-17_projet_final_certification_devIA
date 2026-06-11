@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
@@ -8,7 +8,12 @@ from pathlib import Path
 # -----------------------------
 # Configuration
 # -----------------------------
+router = APIRouter()
+
 DATA_PATH = Path(__file__).resolve().parents[1] / "data" / "evenements_1500.csv"
+
+DATA_FILE = Path(__file__).resolve().parents[1] / "data" / "evenements_1500.csv"
+df = pd.read_csv(DATA_FILE)
 
 app = FastAPI(
     title="API Data – Projet DevIA",
@@ -89,3 +94,8 @@ def filter_data(req: FilterRequest):
         return filtered.to_dict(orient="records")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+@router.get("/events")
+def list_events(limit: int = Query(10, ge=1)):
+    events = df.head(limit).to_dict(orient="records")
+    return events
