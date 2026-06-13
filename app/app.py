@@ -1,11 +1,15 @@
 import streamlit as st
 import requests
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # -----------------------------
 # Configuration
 # -----------------------------
-API_URL = os.getenv("API_IA_URL", "http://api:8000/predict")   # API IA FastAPI
+# API_URL = os.getenv("API_IA_URL", "http://api:8000/predict")   # API IA FastAPI
+API_IA_URL = "http://api_ia:8000"
 
 st.set_page_config(
     page_title="Prédiction Gravité – Projet DevIA",

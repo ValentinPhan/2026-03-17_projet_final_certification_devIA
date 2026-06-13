@@ -6,10 +6,20 @@ from pathlib import Path
 import joblib
 import pandas as pd
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+CSV_PATH = os.getenv("CSV_EVENTS_PATH")
+DB_URL = os.getenv("DB_URL")
+
 # -----------------------------
 # Config
 # -----------------------------
-MODEL_PATH = Path(__file__).resolve().parents[1] / "models" / "model.joblib"
+# MODEL_PATH = Path(__file__).resolve().parents[1] / "models" / "model.joblib"
+MODEL_PATH = os.getenv("MODEL_PATH")
+model = joblib.load(MODEL_PATH)
 
 app = FastAPI(
     title="API IA – Projet DevIA",

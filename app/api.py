@@ -7,6 +7,14 @@ import pandas as pd
 from app.db import get_db
 from app.models import Event
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+CSV_PATH = os.getenv("CSV_EVENTS_PATH")
+DB_URL = os.getenv("DB_URL")
+
 app = FastAPI(
     title="API Data - DevIA",
     description="API de mise à disposition des événements ferroviaires",
