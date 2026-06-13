@@ -7,6 +7,9 @@ import pandas as pd
 from app.db import get_db
 from app.models import Event
 
+from app.db import init_db
+init_db()
+
 from dotenv import load_dotenv
 import os
 
