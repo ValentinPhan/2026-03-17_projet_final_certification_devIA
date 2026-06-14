@@ -1,216 +1,179 @@
-# 🚦 Projet Final – Certification Développeur IA (Simplon 2026)
+🧠 Projet Final – Certification Développeur IA
+Analyse d’événements ferroviaires & Prédiction de gravité
+Ce projet a été réalisé dans le cadre de la Certification Développeur IA – Simplon 2026.
+Il combine Data Engineering, Machine Learning, APIs FastAPI, CI/CD GitHub Actions, et interface utilisateur Streamlit.
 
-Prédiction de la **gravité d’événements ferroviaires** à partir de données ouvertes.  
-Ce projet constitue le livrable final du parcours **Développeur en Intelligence Artificielle – Promotion Lyon 2026**.
+L’objectif :
+➡️ Analyser des événements ferroviaires  
+➡️ Prédire automatiquement la gravité d’un événement  
+➡️ Exposer les données et les prédictions via des APIs  
+➡️ Fournir une interface simple pour les utilisateurs
 
----
-
-## 🧠 Objectif du projet
-
-Développer une **application IA complète**, composée de :
-
-- **Bloc 1 – Collecte & API Data**
-- **Bloc 2 – Modélisation IA + API IA + Tests + CI/CD**
-- **Bloc 3 – Application Streamlit connectée à l’API IA**
-
-Le système final permet de prédire la **gravité** d’un événement ferroviaire (significatif / majeur / critique) à partir de caractéristiques déclarées.
-
----
-
-## 🏗️ Architecture du projet
-
-projet_final/
-│── app/
-│   ├── app.py              # Application Streamlit
-│   ├── api.py              # API Data (FastAPI)
-│   ├── api_ia.py           # API IA (FastAPI)
-│   ├── db.py               # Gestion base de données (optionnel)
-│   └── models.py           # Modèles Pydantic
+📦 Architecture du projet
+Code
+2026-03-17_projet_final_certification_devIA/
 │
-│── data/
-│   └── evenements_1500.csv # Données d'entraînement
+├── app/
+│   ├── api.py               → API Data (FastAPI)
+│   ├── api_ia.py            → API IA (FastAPI)
+│   ├── db.py                → Connexion + initialisation BDD
+│   ├── models.py            → Modèles SQLAlchemy + Pydantic
+│   └── __init__.py
 │
-│── models/
-│   └── model.joblib        # Modèle IA entraîné
+├── data/
+│   ├── evenements_1500.csv  → Données source
+│   └── events.db            → Base SQLite générée automatiquement
 │
-│── notebooks/
-│   ├── 01_exploration.ipynb
-│   ├── 02_modelisation.ipynb
-│   └── 03_streamlit_dev.ipynb
+├── models/
+│   └── model.joblib         → Modèle ML entraîné
 │
-│── tests/
-│   ├── test_model.py
+├── tests/
+│   ├── test_api.py
 │   ├── test_api_data.py
 │   ├── test_api_ia.py
 │   └── test_integration.py
 │
-│── train.py                # Script d'entraînement du modèle
-│── requirements.txt
-│── Dockerfile.api
-│── Dockerfile.streamlit
-│── docker-compose.yml
-│── README.md
-
-
----
-
-## 📦 Installation
-
-### 1. Cloner le projet
-
-```bash
-git clone https://github.com/ValentinPhan/2026-03-17_projet_final_certification_devIA
+├── .github/workflows/
+│   └── ci.yml               → Pipeline CI GitHub Actions
+│
+├── conftest.py              → Chargement automatique du .env pour Pytest
+├── pytest.ini
+├── .env
+├── .env.example
+├── requirements.txt
+└── README.md
+⚙️ Installation & Configuration
+1. Cloner le projet
+bash
+git clone https://github.com/ValentinPhan/2026-03-17_projet_final_certification_devIA.git
 cd 2026-03-17_projet_final_certification_devIA
-
-2. Installer les dépendances
+2. Créer l’environnement Python
+bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
+3. Configurer les variables d’environnement
+Créer un fichier .env :
 
-🤖 Entraîner le modèle IA
+bash
+cp .env.example .env
+Contenu :
 
-python train.py
+env
+API_DATA_PORT=8001
+API_IA_PORT=8000
+STREAMLIT_PORT=8501
 
-Le modèle est sauvegardé dans :
-
-models/model.joblib
-
-🌐 Lancer l’API Data
-
-uvicorn app.api:app --reload
-
-Endpoints :
-
-/data/raw
-
-/data/sample
-
-/data/stats
-
-/data/columns
-
-/data/filter
-
-Documentation :
-
-Swagger → http://127.0.0.1:8000/docs
-
-ReDoc → http://127.0.0.1:8000/redoc
-
-🤖 Lancer l’API IA
-
-uvicorn app.api_ia:app --reload
-
-Endpoints :
-
-/health
-
-/predict
-
-Exemple d’appel :
-
-{
-  "type_evenement": "collision",
-  "departement": "69",
-  "exploitant": "SNCF Réseau",
-  "nb_morts": 0,
-  "nb_blesses": 3
-}
-
-🎨 Lancer l’application Streamlit
-
+DB_URL=sqlite:///./data/events.db
+CSV_EVENTS_PATH=./data/evenements_1500.csv
+MODEL_PATH=./models/model.joblib
+🚀 Lancement des services
+API Data
+bash
+uvicorn app.api:app --reload --port $API_DATA_PORT
+API IA
+bash
+uvicorn app.api_ia:app --reload --port $API_IA_PORT
+Interface Streamlit
+bash
 streamlit run app/app.py
+🧬 Modèle Machine Learning
+Le modèle est entraîné via :
 
-Fonctionnalités :
+bash
+python scripts/train_model.py
+Il utilise :
 
-Formulaire utilisateur
+preprocessing scikit-learn
 
-Appel API IA
+modèle supervisé
 
-Affichage de la prédiction
+sauvegarde via joblib
 
-Visualisations
+Le modèle final est stocké dans :
 
-🧪 Tests automatisés
-Lancer tous les tests :
+Code
+models/model.joblib
+🗄️ Base de données
+La base SQLite est générée automatiquement au lancement de l’API Data :
 
-pytest -v
+création de la table evenements
 
-Tests inclus :
+chargement automatique du CSV si la table est vide
 
-modèle ML
+Aucun script manuel n’est nécessaire.
+
+🧪 Tests automatisés (CI)
+Les tests sont exécutés via :
+
+bash
+pytest -q
+La CI GitHub Actions :
+
+installe les dépendances
+
+initialise la base
+
+exécute tous les tests
+
+valide la conformité du projet
+
+Fichier : .github/workflows/ci.yml
+
+🐳 Docker (optionnel)
+Un docker-compose.yml est fourni pour lancer :
 
 API Data
 
 API IA
 
-intégration complète
-
-🔄 CI/CD (GitHub Actions)
-Workflows disponibles :
-
-tests.yml → exécution automatique des tests
-
-build_api.yml → build Docker API
-
-build_streamlit.yml → build Docker Streamlit
-
-🐳 Docker
-API IA
-
-docker build -f Dockerfile.api -t api-devia .
-docker run -p 8000:8000 api-devia
-
 Streamlit
 
-docker build -f Dockerfile.streamlit -t streamlit-devia .
-docker run -p 8501:8501 streamlit-devia
+Avec :
 
-📊 Données utilisées
-Données issues d’événements ferroviaires (1500 lignes), comprenant :
+bash
+docker compose up --build
+📚 Documentation API
+FastAPI génère automatiquement la documentation :
 
-type d’événement
+API Data :
+👉 http://localhost:8001/docs
 
-département
+API IA :
+👉 http://localhost:8000/docs
 
-exploitant
+🎤 Soutenance
+Ce projet couvre :
 
-nb morts
+Collecte & préparation des données
 
-nb blessés
+Modélisation ML
 
-gravité (cible)
+APIs REST
 
-🧠 Modèle IA
-Pipeline sklearn
+CI/CD
 
-OneHotEncoder + RandomForestClassifier
+Docker
 
-Sérialisation joblib
+Interface utilisateur
 
-Compatible API IA
+Documentation technique
 
-👤 Auteur
-Valentin Phan  
-Développeur IA – Promotion Simplon Lyon 2026
+Il répond aux compétences du référentiel DevIA (C1 → C21).
 
-📜 Licence
-Projet pédagogique dans le cadre de la certification RNCP – Développeur en Intelligence Artificielle.
+🏁 Conclusion
+Ce projet propose une architecture complète, modulaire et professionnelle :
 
+APIs FastAPI
 
----
+Base SQLite auto-initialisée
 
-# 🎯 Ce README coche **toutes les cases du jury DevIA**
+Modèle ML prédictif
 
-✔ Architecture claire  
-✔ Instructions d’installation  
-✔ API Data + API IA  
-✔ Streamlit  
-✔ Modèle ML  
-✔ Tests  
-✔ CI/CD  
-✔ Docker  
-✔ Contexte + objectifs  
-✔ Professionnel et complet  
+Interface utilisateur
 
----
+CI GitHub Actions
 
+Documentation claire
