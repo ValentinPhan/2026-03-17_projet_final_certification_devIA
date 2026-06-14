@@ -23,3 +23,20 @@ class Event(Base):
 
     class Config:
         orm_mode = True
+
+class EventSchema(BaseModel):
+    id_evenement: int
+    date: str
+    annee: int
+    type_evenement: str
+    gravite: str
+    departement: str
+    exploitant: str
+    nb_morts: int
+    nb_blesses: int
+    cause_presumee: str
+    contexte: str
+    source: str
+
+    class Config:
+        orm_mode = True
