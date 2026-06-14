@@ -6,6 +6,7 @@ import pandas as pd
 
 from app.db import get_db, init_db
 from app.models import Event
+from app.models import EventSchema
 
 from dotenv import load_dotenv
 import os
@@ -26,7 +27,7 @@ init_db()
 # -------------------------------------------------------------------
 # ENDPOINT 1 — LISTE AVEC PAGINATION (limit + offset)
 # -------------------------------------------------------------------
-@app.get("/events")
+'''@app.get("/events")
 def list_events(
     limit: int = Query(10, ge=1, le=500),
     offset: int = Query(0, ge=0),
@@ -48,7 +49,11 @@ def list_events(
         "limit": limit,
         "offset": offset,
         "results": [dict(row._mapping) for row in rows]
-    }
+    }'''
+
+@app.get("/events", response_model=list[EventSchema])
+def list_events(limit: int = 5, db: Session = Depends(get_db)):
+    return db.query(Event).limit(limit).all()
 
 # -------------------------------------------------------------------
 # ENDPOINT 2 — FILTRES (type, gravité, exploitant)
@@ -85,7 +90,7 @@ def search_events(
 # -------------------------------------------------------------------
 # ENDPOINT 3 — GET PAR ID
 # -------------------------------------------------------------------
-@app.get("/events/{event_id}", response_model=Event)
+'''@app.get("/events/{event_id}", response_model=Event)
 def get_event(event_id: int, db: Session = Depends(get_db)):
     query = text("SELECT * FROM evenements WHERE id_evenement = :id")
     row = db.execute(query, {"id": event_id}).fetchone()
@@ -93,7 +98,13 @@ def get_event(event_id: int, db: Session = Depends(get_db)):
     if not row:
         raise HTTPException(404, "Événement introuvable")
 
-    return dict(row._mapping)
+    return dict(row._mapping)'''
+@app.get("/events/{event_id}", response_model=EventSchema)
+def get_event(event_id: int, db: Session = Depends(get_db)):
+    event = db.query(Event).filter(Event.id_evenement == event_id).first()
+    if not event:
+        raise HTTPException(status_code=404, detail="Event not found")
+    return event
 
 # -------------------------------------------------------------------
 # ENDPOINT 4 — AJOUT D’UN ÉVÉNEMENT
