@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 from app.models import Base
 import pandas as pd
@@ -19,7 +19,7 @@ def init_db():
 
     # 2) Charger le CSV dans la table si vide
     with engine.connect() as conn:
-        result = conn.execute("SELECT COUNT(*) FROM evenements")
+        result = conn.execute(text("SELECT COUNT(*) FROM evenements"))
         count = result.fetchone()[0]
 
         if count == 0:

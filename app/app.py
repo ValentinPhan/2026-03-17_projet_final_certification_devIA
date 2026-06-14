@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+API_URL = os.getenv("API_IA_URL") or f"http://localhost:{os.getenv('API_IA_PORT')}/predict"
 API_IA_URL = f"http://localhost:{os.getenv('API_IA_PORT')}"
 
 

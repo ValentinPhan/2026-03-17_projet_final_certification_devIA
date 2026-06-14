@@ -5,8 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.api
-    env_file:
-      - .env
     container_name: devia_api_data
     ports:
       - "8001:8000"
@@ -21,8 +19,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.api
-    env_file:
-      - .env
     container_name: devia_api_ia
     ports:
       - "8000:8000"
@@ -38,8 +34,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.streamlit
-    env_file:
-      - .env
     container_name: devia_streamlit
     ports:
       - "8501:8501"
