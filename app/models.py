@@ -1,7 +1,6 @@
-from pydantic import BaseModel
-from typing import Optional
-from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import declarative_base
+from sqlalchemy import Column, Integer, String
+from pydantic import BaseModel, ConfigDict
 
 Base = declarative_base()
 
@@ -21,8 +20,6 @@ class Event(Base):
     contexte = Column(String)
     source = Column(String)
 
-    class Config:
-        orm_mode = True
 
 class EventSchema(BaseModel):
     id_evenement: int
@@ -38,5 +35,4 @@ class EventSchema(BaseModel):
     contexte: str
     source: str
 
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
