@@ -1,11 +1,14 @@
-from sqlalchemy.orm import declarative_base
+from pydantic import BaseModel
+from typing import Optional
 from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
 
 class Event(Base):
     __tablename__ = "evenements"
-    id_evenement = Column(Integer, primary_key=True)
+
+    id_evenement = Column(Integer, primary_key=True, index=True)
     date = Column(String)
     annee = Column(Integer)
     type_evenement = Column(String)
@@ -17,3 +20,6 @@ class Event(Base):
     cause_presumee = Column(String)
     contexte = Column(String)
     source = Column(String)
+
+    class Config:
+        orm_mode = True
