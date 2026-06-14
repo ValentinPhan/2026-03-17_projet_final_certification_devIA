@@ -2,6 +2,8 @@ from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app.db import get_db, init_db
 from app.models import Event, EventSchema
+import pandas as pd
+import os
 
 app = FastAPI(
     title="API Data",
@@ -10,6 +12,8 @@ app = FastAPI(
 )
 
 init_db()
+
+CSV_PATH = os.getenv("CSV_EVENTS_PATH")
 
 
 @app.get("/events", response_model=list[EventSchema])
@@ -23,3 +27,33 @@ def get_event(event_id: int, db: Session = Depends(get_db)):
     if not event:
         raise HTTPException(status_code=404, detail="Event not found")
     return event
+
+
+# ---------------------------
+#   ENDPOINTS ATTENDUS PAR LES TESTS
+# ---------------------------
+
+@app.get("/data/raw")
+def get_raw_data():
+    df = pd.read_csv(CSV_PATH)
+    return df.to_dict(orient="records")
+
+
+@app.get("/data/columns")
+def get_columns():
+    df = pd.read_csv(CSV_PATH)
+    return {"colonnes": df.columns.tolist()}
+
+
+@app.post("/data/filter")
+def filter_data(payload: dict):
+    colonne = payload.get("colonne")
+    valeur = payload.get("valeur")
+
+    df = pd.read_csv(CSV_PATH)
+
+    if colonne not in df.columns:
+        raise HTTPException(status_code=400, detail="Colonne invalide")
+
+    filtered = df[df[colonne] == valeur]
+    return filtered.to_dict(orient="records")

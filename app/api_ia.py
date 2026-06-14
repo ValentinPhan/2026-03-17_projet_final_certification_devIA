@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 import joblib
+import pandas as pd
 import os
 from dotenv import load_dotenv
 
@@ -24,8 +25,13 @@ def health():
 @app.post("/predict")
 def predict(features: dict):
     try:
-        X = [list(features.values())]
-        y_pred = model.predict(X)[0]
-        return {"gravite_predite": y_pred}
+        # Convertir en DataFrame avec colonnes
+        df = pd.DataFrame([features])
+
+        # Prédiction
+        y_pred = model.predict(df)[0]
+
+        return {"gravite_predite": str(y_pred)}
+
     except Exception as e:
         return {"error": str(e)}
