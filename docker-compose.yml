@@ -1,18 +1,30 @@
 services:
   api_data:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.api
     env_file: .env
     ports:
       - "${API_DATA_PORT}:8001"
+    volumes:
+      - ./data:/app/data
 
   api_ia:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.api
     env_file: .env
     ports:
       - "${API_IA_PORT}:8000"
+    volumes:
+      - ./data:/app/data
 
   streamlit:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.api
     env_file: .env
     ports:
       - "${STREAMLIT_PORT}:8501"
+    volumes:
+      - ./data:/app/data
