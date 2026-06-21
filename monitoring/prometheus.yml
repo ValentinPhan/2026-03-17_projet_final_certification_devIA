@@ -1,0 +1,26 @@
+# Configuration Prometheus - Projet Certification DevIA
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  # Prometheus se surveille lui-meme
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # API Data (FastAPI) - endpoint /metrics
+  - job_name: "api_data"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["api_data:8001"]
+        labels:
+          service: "api_data"
+
+  # API IA (FastAPI) - endpoint /metrics
+  - job_name: "api_ia"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["api_ia:8000"]
+        labels:
+          service: "api_ia"

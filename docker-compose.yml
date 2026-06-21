@@ -4,6 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile.api
     env_file: .env
+    command: ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8001"]
     ports:
       - "${API_DATA_PORT}:8001"
     volumes:
@@ -14,6 +15,7 @@ services:
       context: .
       dockerfile: Dockerfile.api
     env_file: .env
+    command: ["uvicorn", "app.api_ia:app", "--host", "0.0.0.0", "--port", "8000"]
     ports:
       - "${API_IA_PORT}:8000"
     volumes:
@@ -22,9 +24,49 @@ services:
   streamlit:
     build:
       context: .
-      dockerfile: Dockerfile.api
+      dockerfile: Dockerfile.streamlit
     env_file: .env
     ports:
       - "${STREAMLIT_PORT}:8501"
     volumes:
       - ./data:/app/data
+    depends_on:
+      - api_ia
+
+  # -----------------------------
+  # Monitoring : Prometheus
+  # -----------------------------
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    ports:
+      - "9090:9090"
+    depends_on:
+      - api_data
+      - api_ia
+
+  # -----------------------------
+  # Monitoring : Grafana
+  # -----------------------------
+  grafana:
+    image: grafana/grafana:11.2.0
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana_data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+volumes:
+  prometheus_data:
+  grafana_data:

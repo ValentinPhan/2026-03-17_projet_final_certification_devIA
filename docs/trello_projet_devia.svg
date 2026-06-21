@@ -1,0 +1,178 @@
+<svg viewBox="0 0 1464 662" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0079bf"/><stop offset="1" stop-color="#055a8c"/>
+</linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#091e42" flood-opacity="0.25"/>
+</filter>
+</defs>
+<rect width="1464" height="662" fill="url(#bg)"/>
+<rect width="1464" height="56" fill="#026aa7" fill-opacity="0.55"/>
+<rect x="16" y="14" width="28" height="28" rx="6" fill="#ffffff" fill-opacity="0.25"/>
+<text x="54" y="34" fill="#ffffff" font-size="18" font-weight="700">Trello</text>
+<rect x="1314" y="14" width="120" height="28" rx="6" fill="#ffffff" fill-opacity="0.18"/>
+<text x="1326" y="33" fill="#ffffff" font-size="13" fill-opacity="0.9">🔍 Rechercher</text>
+<text x="20" y="90" fill="#ffffff" font-size="20" font-weight="800">Projet Certification DevIA — Événements Ferroviaires</text>
+<rect x="20" y="100" width="92" height="22" rx="11" fill="#ffffff" fill-opacity="0.18"/>
+<text x="32" y="115" fill="#fff" font-size="12">📌 Tableau</text>
+<circle cx="1406" cy="84" r="13" fill="#6cc3e0"/><text x="1406" y="88" fill="#08303f" font-size="11" font-weight="700" text-anchor="middle">AB</text>
+<circle cx="1436" cy="84" r="13" fill="#e6a23c"/><text x="1436" y="88" fill="#3d2a05" font-size="11" font-weight="700" text-anchor="middle">VP</text>
+<rect x="20" y="128" width="272" height="514" rx="12" fill="#ebecf0"/>
+<text x="34" y="154" fill="#172b4d" font-size="14" font-weight="700">📋 Backlog</text>
+<text x="266" y="154" fill="#5e6c84" font-size="13" text-anchor="middle">4</text>
+<rect x="28" y="168" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="40" y="180" width="40" height="8" rx="4" fill="#94a7b7"/>
+<text x="40" y="211" fill="#172b4d" font-size="12.5">Rédiger le rapport E1</text>
+<text x="40" y="228" fill="#172b4d" font-size="12.5">(référentiel C1→C21)</text>
+<rect x="40" y="235" width="62" height="18" rx="4" fill="#f5cd47"/>
+<text x="48" y="248" fill="#5e4a00" font-size="10.5">⏰ 30 juin</text>
+<text x="110" y="248" fill="#5e6c84" font-size="11">☑ 2/8</text>
+<circle cx="268" cy="243" r="9" fill="#6cc3e0"/>
+<text x="268" y="247" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="28" y="268" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="40" y="280" width="40" height="8" rx="4" fill="#4bce97"/>
+<text x="40" y="311" fill="#172b4d" font-size="12.5">Collecter données EPSF</text>
+<text x="40" y="328" fill="#172b4d" font-size="12.5">complémentaires 2025</text>
+<text x="40" y="348" fill="#5e6c84" font-size="11">💬 2</text>
+<circle cx="268" cy="343" r="9" fill="#6cc3e0"/>
+<text x="268" y="347" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="28" y="368" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="40" y="380" width="40" height="8" rx="4" fill="#9f8fef"/>
+<text x="40" y="411" fill="#172b4d" font-size="12.5">Tester LightGBM vs</text>
+<text x="40" y="428" fill="#172b4d" font-size="12.5">RandomForest</text>
+<text x="40" y="448" fill="#5e6c84" font-size="11">☑ 0/3</text>
+<circle cx="268" cy="443" r="9" fill="#e6a23c"/>
+<text x="268" y="447" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">VP</text>
+<rect x="28" y="468" width="256" height="51" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="40" y="480" width="40" height="8" rx="4" fill="#fea362"/>
+<text x="40" y="511" fill="#172b4d" font-size="12.5">Déploiement cloud (à étudier)</text>
+<text x="34" y="545" fill="#5e6c84" font-size="13">+ Ajouter une carte</text>
+<rect x="308" y="128" width="272" height="514" rx="12" fill="#ebecf0"/>
+<text x="322" y="154" fill="#172b4d" font-size="14" font-weight="700">🛠️ À faire</text>
+<text x="554" y="154" fill="#5e6c84" font-size="13" text-anchor="middle">4</text>
+<rect x="316" y="168" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="328" y="180" width="40" height="8" rx="4" fill="#579dff"/>
+<rect x="374" y="180" width="40" height="8" rx="4" fill="#f87168"/>
+<text x="328" y="211" fill="#172b4d" font-size="12.5">Corriger API_IA_URL pour le</text>
+<text x="328" y="228" fill="#172b4d" font-size="12.5">local</text>
+<rect x="328" y="235" width="62" height="18" rx="4" fill="#f5cd47"/>
+<text x="336" y="248" fill="#5e4a00" font-size="10.5">⏰ 19 juin</text>
+<circle cx="556" cy="243" r="9" fill="#6cc3e0"/>
+<text x="556" y="247" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="316" y="268" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="328" y="280" width="40" height="8" rx="4" fill="#94a7b7"/>
+<text x="328" y="311" fill="#172b4d" font-size="12.5">Mettre à jour le README</text>
+<text x="328" y="328" fill="#172b4d" font-size="12.5">(train.py)</text>
+<text x="328" y="348" fill="#5e6c84" font-size="11">☑ 1/4</text>
+<circle cx="556" cy="343" r="9" fill="#6cc3e0"/>
+<text x="556" y="347" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="316" y="368" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="328" y="380" width="40" height="8" rx="4" fill="#f5cd47"/>
+<text x="328" y="411" fill="#172b4d" font-size="12.5">Ajouter graphiques Plotly au</text>
+<text x="328" y="428" fill="#172b4d" font-size="12.5">dashboard</text>
+<text x="328" y="448" fill="#5e6c84" font-size="11">💬 1</text>
+<circle cx="556" cy="443" r="9" fill="#e6a23c"/>
+<text x="556" y="447" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">VP</text>
+<rect x="316" y="468" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="328" y="480" width="40" height="8" rx="4" fill="#fea362"/>
+<text x="328" y="511" fill="#172b4d" font-size="12.5">Vérifier pipeline CI GitHub</text>
+<text x="328" y="528" fill="#172b4d" font-size="12.5">Actions</text>
+<text x="328" y="548" fill="#5e6c84" font-size="11">☑ 2/5</text>
+<circle cx="556" cy="543" r="9" fill="#e6a23c"/>
+<text x="556" y="547" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">VP</text>
+<circle cx="534" cy="543" r="9" fill="#6cc3e0"/>
+<text x="534" y="547" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<text x="322" y="586" fill="#5e6c84" font-size="13">+ Ajouter une carte</text>
+<rect x="596" y="128" width="272" height="514" rx="12" fill="#ebecf0"/>
+<text x="610" y="154" fill="#172b4d" font-size="14" font-weight="700">🚧 En cours</text>
+<text x="842" y="154" fill="#5e6c84" font-size="13" text-anchor="middle">3</text>
+<rect x="604" y="168" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="616" y="180" width="40" height="8" rx="4" fill="#4bce97"/>
+<rect x="662" y="180" width="40" height="8" rx="4" fill="#579dff"/>
+<text x="616" y="211" fill="#172b4d" font-size="12.5">Intégrer la BDD SQLite dans</text>
+<text x="616" y="228" fill="#172b4d" font-size="12.5">/data</text>
+<rect x="616" y="235" width="62" height="18" rx="4" fill="#4bce97"/>
+<text x="624" y="248" fill="#ffffff" font-size="10.5">⏰ 19 juin</text>
+<text x="686" y="248" fill="#5e6c84" font-size="11">☑ 3/3</text>
+<circle cx="844" cy="243" r="9" fill="#6cc3e0"/>
+<text x="844" y="247" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="604" y="268" width="256" height="75" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="616" y="280" width="40" height="8" rx="4" fill="#9f8fef"/>
+<text x="616" y="311" fill="#172b4d" font-size="12.5">Entraîner le modèle de gravité</text>
+<text x="616" y="331" fill="#5e6c84" font-size="11">☑ 4/4</text>
+<text x="662" y="331" fill="#5e6c84" font-size="11">💬 4</text>
+<circle cx="844" cy="326" r="9" fill="#6cc3e0"/>
+<text x="844" y="330" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="604" y="351" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="616" y="363" width="40" height="8" rx="4" fill="#f5cd47"/>
+<text x="616" y="394" fill="#172b4d" font-size="12.5">Formulaire de prédiction</text>
+<text x="616" y="411" fill="#172b4d" font-size="12.5">Streamlit</text>
+<text x="616" y="431" fill="#5e6c84" font-size="11">☑ 5/6</text>
+<circle cx="844" cy="426" r="9" fill="#e6a23c"/>
+<text x="844" y="430" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">VP</text>
+<text x="610" y="469" fill="#5e6c84" font-size="13">+ Ajouter une carte</text>
+<rect x="884" y="128" width="272" height="514" rx="12" fill="#ebecf0"/>
+<text x="898" y="154" fill="#172b4d" font-size="14" font-weight="700">🔍 En revue</text>
+<text x="1130" y="154" fill="#5e6c84" font-size="13" text-anchor="middle">3</text>
+<rect x="892" y="168" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="904" y="180" width="40" height="8" rx="4" fill="#579dff"/>
+<text x="904" y="211" fill="#172b4d" font-size="12.5">Endpoints /data/raw, /columns,</text>
+<text x="904" y="228" fill="#172b4d" font-size="12.5">/filter</text>
+<text x="904" y="248" fill="#5e6c84" font-size="11">☑ 3/3</text>
+<circle cx="1132" cy="243" r="9" fill="#e6a23c"/>
+<text x="1132" y="247" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">VP</text>
+<rect x="892" y="268" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="904" y="280" width="40" height="8" rx="4" fill="#94a7b7"/>
+<text x="904" y="311" fill="#172b4d" font-size="12.5">Documentation OpenAPI</text>
+<text x="904" y="328" fill="#172b4d" font-size="12.5">(openapi.yaml)</text>
+<text x="904" y="348" fill="#5e6c84" font-size="11">💬 1</text>
+<circle cx="1132" cy="343" r="9" fill="#6cc3e0"/>
+<text x="1132" y="347" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="892" y="368" width="256" height="75" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="904" y="380" width="40" height="8" rx="4" fill="#94a7b7"/>
+<text x="904" y="411" fill="#172b4d" font-size="12.5">Note RGPD &amp; anonymisation</text>
+<circle cx="1132" cy="426" r="9" fill="#6cc3e0"/>
+<text x="1132" y="430" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<text x="898" y="469" fill="#5e6c84" font-size="13">+ Ajouter une carte</text>
+<rect x="1172" y="128" width="272" height="514" rx="12" fill="#ebecf0"/>
+<text x="1186" y="154" fill="#172b4d" font-size="14" font-weight="700">✅ Terminé</text>
+<text x="1418" y="154" fill="#5e6c84" font-size="13" text-anchor="middle">5</text>
+<rect x="1180" y="168" width="256" height="75" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="1192" y="180" width="40" height="8" rx="4" fill="#4bce97"/>
+<text x="1192" y="211" fill="#172b4d" font-size="12.5">Nettoyage &amp; schéma MCD/MLD</text>
+<rect x="1192" y="218" width="62" height="18" rx="4" fill="#4bce97"/>
+<text x="1200" y="231" fill="#ffffff" font-size="10.5">⏰ 12 juin</text>
+<text x="1262" y="231" fill="#5e6c84" font-size="11">☑ 6/6</text>
+<circle cx="1420" cy="226" r="9" fill="#6cc3e0"/>
+<text x="1420" y="230" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="1180" y="251" width="256" height="92" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="1192" y="263" width="40" height="8" rx="4" fill="#579dff"/>
+<text x="1192" y="294" fill="#172b4d" font-size="12.5">Squelette FastAPI (api.py /</text>
+<text x="1192" y="311" fill="#172b4d" font-size="12.5">api_ia.py)</text>
+<text x="1192" y="331" fill="#5e6c84" font-size="11">☑ 4/4</text>
+<circle cx="1420" cy="326" r="9" fill="#e6a23c"/>
+<text x="1420" y="330" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">VP</text>
+<circle cx="1398" cy="326" r="9" fill="#6cc3e0"/>
+<text x="1398" y="330" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="1180" y="351" width="256" height="75" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="1192" y="363" width="40" height="8" rx="4" fill="#9f8fef"/>
+<text x="1192" y="394" fill="#172b4d" font-size="12.5">Pipeline scikit-learn + joblib</text>
+<text x="1192" y="414" fill="#5e6c84" font-size="11">💬 3</text>
+<circle cx="1420" cy="409" r="9" fill="#6cc3e0"/>
+<text x="1420" y="413" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<rect x="1180" y="434" width="256" height="75" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="1192" y="446" width="40" height="8" rx="4" fill="#fea362"/>
+<text x="1192" y="477" fill="#172b4d" font-size="12.5">Suite de tests Pytest (10 OK)</text>
+<rect x="1192" y="484" width="62" height="18" rx="4" fill="#4bce97"/>
+<text x="1200" y="497" fill="#ffffff" font-size="10.5">⏰ 19 juin</text>
+<text x="1262" y="497" fill="#5e6c84" font-size="11">☑ 10/10</text>
+<circle cx="1420" cy="492" r="9" fill="#e6a23c"/>
+<text x="1420" y="496" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">VP</text>
+<rect x="1180" y="517" width="256" height="75" rx="8" fill="#ffffff" filter="url(#sh)"/>
+<rect x="1192" y="529" width="40" height="8" rx="4" fill="#fea362"/>
+<text x="1192" y="560" fill="#172b4d" font-size="12.5">docker-compose 3 services</text>
+<circle cx="1420" cy="575" r="9" fill="#6cc3e0"/>
+<text x="1420" y="579" fill="#08303f" font-size="9" font-weight="700" text-anchor="middle">AB</text>
+<text x="1186" y="618" fill="#5e6c84" font-size="13">+ Ajouter une carte</text>
+</svg>

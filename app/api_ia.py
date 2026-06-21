@@ -10,11 +10,20 @@ MODEL_PATH = os.getenv("MODEL_PATH")
 
 app = FastAPI(
     title="API IA",
-    description="Prédiction de la gravité d'un événement",
-    version="1.0.0"
+    description="Prediction de la gravite d'un evenement",
+    version="1.0.0",
 )
 
 model = joblib.load(MODEL_PATH)
+
+# --- Monitoring Prometheus ---
+# Expose les metriques (latence, nb de requetes, codes HTTP...) sur /metrics
+try:
+    from prometheus_fastapi_instrumentator import Instrumentator
+
+    Instrumentator().instrument(app).expose(app, endpoint="/metrics")
+except Exception:  # pragma: no cover - le monitoring est optionnel
+    pass
 
 
 @app.get("/health")
@@ -28,7 +37,7 @@ def predict(features: dict):
         # Convertir en DataFrame avec colonnes
         df = pd.DataFrame([features])
 
-        # Prédiction
+        # Prediction
         y_pred = model.predict(df)[0]
 
         return {"gravite_predite": str(y_pred)}

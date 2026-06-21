@@ -1,46 +1,52 @@
 import os
+import sys
+
+# Permet d'executer le script directement (python scripts/init_db.py)
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import pandas as pd
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 from app.models import Base
 
-# Charger les variables d'environnement
 load_dotenv()
 
-# Récupérer l'URL de la base
 DB_URL = os.getenv("DB_URL")
-
 if DB_URL is None:
-    raise ValueError("❌ La variable d'environnement DB_URL est absente du fichier .env")
+    raise ValueError("La variable d'environnement DB_URL est absente du fichier .env")
 
-# Créer l'engine SQLAlchemy
-engine = create_engine(DB_URL, connect_args={"check_same_thread": False})
+# S'assurer que le dossier de la base SQLite existe
+if DB_URL.startswith("sqlite:///"):
+    db_file = DB_URL.replace("sqlite:///", "", 1)
+    db_dir = os.path.dirname(db_file)
+    if db_dir:
+        os.makedirs(db_dir, exist_ok=True)
+
+connect_args = {"check_same_thread": False} if DB_URL.startswith("sqlite") else {}
+engine = create_engine(DB_URL, connect_args=connect_args)
+
 
 def init_database():
-    print("📌 Création des tables…")
+    print("Creation des tables...")
     Base.metadata.create_all(bind=engine)
 
-    # Charger le CSV
-    csv_path = os.path.join("data", "evenements_1500.csv")
+    csv_path = os.getenv("CSV_EVENTS_PATH", os.path.join("data", "evenements_1500.csv"))
     if not os.path.exists(csv_path):
-        raise FileNotFoundError(f"❌ Fichier CSV introuvable : {csv_path}")
+        raise FileNotFoundError(f"Fichier CSV introuvable : {csv_path}")
 
-    print("📌 Chargement du CSV dans la base…")
+    print("Chargement du CSV dans la base...")
     df = pd.read_csv(csv_path)
 
-    # Insérer dans la table
     with engine.begin() as conn:
-        # Vérifier si la table est vide
-        result = conn.execute(text("SELECT COUNT(*) FROM evenements"))
-        count = result.scalar()
-
+        count = conn.execute(text("SELECT COUNT(*) FROM evenements")).scalar()
         if count == 0:
             df.to_sql("evenements", conn, if_exists="append", index=False)
-            print("✅ Données insérées dans la table 'evenements'")
+            print(f"{len(df)} lignes inserees dans la table 'evenements'")
         else:
-            print("ℹ️ La table 'evenements' contient déjà des données, aucune insertion effectuée.")
+            print("La table contient deja des donnees, aucune insertion.")
 
-    print("🎉 Base initialisée avec succès !")
+    print("Base initialisee avec succes !")
+
 
 if __name__ == "__main__":
     init_database()

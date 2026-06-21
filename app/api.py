@@ -7,11 +7,20 @@ import os
 
 app = FastAPI(
     title="API Data",
-    description="Mise à disposition des événements ferroviaires",
-    version="1.0.0"
+    description="Mise a disposition des evenements ferroviaires",
+    version="1.0.0",
 )
 
 init_db()
+
+# --- Monitoring Prometheus ---
+# Expose les metriques (latence, nb de requetes, codes HTTP...) sur /metrics
+try:
+    from prometheus_fastapi_instrumentator import Instrumentator
+
+    Instrumentator().instrument(app).expose(app, endpoint="/metrics")
+except Exception:  # pragma: no cover - le monitoring est optionnel
+    pass
 
 CSV_PATH = os.getenv("CSV_EVENTS_PATH")
 
