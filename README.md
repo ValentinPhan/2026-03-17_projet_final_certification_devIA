@@ -38,8 +38,7 @@ Code
 │
 ├── conftest.py              → Chargement automatique du .env pour Pytest
 ├── pytest.ini
-├── .env
-├── .env.example
+├── .env.example           → Modele de configuration (copier en .env, non versionne)
 ├── requirements.txt
 └── README.md
 ⚙️ Installation & Configuration
@@ -59,16 +58,9 @@ Créer un fichier .env :
 
 bash
 cp .env.example .env
-Contenu :
-
-env
-API_DATA_PORT=8001
-API_IA_PORT=8000
-STREAMLIT_PORT=8501
-
-DB_URL=sqlite:///./data/events.db
-CSV_EVENTS_PATH=./data/evenements_1500.csv
-MODEL_PATH=./models/model.joblib
+Le fichier .env n'est pas versionné (il est dans .gitignore) : il est propre à chaque poste et peut contenir des secrets.
+Adapter les valeurs si besoin (ports, API_SECRET_KEY…). Pour docker compose, décommenter API_IA_URL.
+Sans .env, les API et les tests démarrent avec des valeurs par défaut ; docker compose, lui, exige le fichier.
 🚀 Lancement des services
 API Data
 bash

@@ -1,5 +1,13 @@
 # Journal des modifications
 
+## 2026-10-12 — Sécurité de la configuration
+
+### Modifié
+- `.env` retiré du dépôt et ajouté au `.gitignore` (il contenait `API_SECRET_KEY`).
+  Le fichier local est conservé ; chaque poste crée le sien avec `cp .env.example .env`.
+- `.env.example` complété (toutes les variables, `API_SECRET_KEY=change_me`, `API_IA_URL` pour Docker).
+- README : section configuration mise à jour.
+
 ## 2026-10-05 — Corrections de bogues
 
 ### Corrigé
