@@ -19,7 +19,8 @@ MODEL_FILE = BASE_DIR / "models" / "model.joblib"
 # Chargement des données
 # -----------------------------
 def load_data():
-    df = pd.read_csv(DATA_FILE)
+    # departement lu en texte : codes type "2A" possibles et coherence avec l'API
+    df = pd.read_csv(DATA_FILE, dtype={"departement": str})
 
     y = df["gravite"]
 

@@ -1,9 +1,10 @@
-from fastapi import FastAPI, Depends, HTTPException
+from functools import lru_cache
+
+from fastapi import FastAPI, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
-from app.db import get_db, init_db
+from app.db import CSV_PATH, get_db, init_db
 from app.models import Event, EventSchema
 import pandas as pd
-import os
 
 app = FastAPI(
     title="API Data",
@@ -22,11 +23,16 @@ try:
 except Exception:  # pragma: no cover - le monitoring est optionnel
     pass
 
-CSV_PATH = os.getenv("CSV_EVENTS_PATH")
+
+
+@lru_cache(maxsize=1)
+def load_csv() -> pd.DataFrame:
+    """Lit le CSV une seule fois (departement en texte, ex : "69", "2A")."""
+    return pd.read_csv(CSV_PATH, dtype={"departement": str})
 
 
 @app.get("/events", response_model=list[EventSchema])
-def list_events(limit: int = 5, db: Session = Depends(get_db)):
+def list_events(limit: int = Query(5, ge=1), db: Session = Depends(get_db)):
     return db.query(Event).limit(limit).all()
 
 
@@ -44,13 +50,13 @@ def get_event(event_id: int, db: Session = Depends(get_db)):
 
 @app.get("/data/raw")
 def get_raw_data():
-    df = pd.read_csv(CSV_PATH)
+    df = load_csv()
     return df.to_dict(orient="records")
 
 
 @app.get("/data/columns")
 def get_columns():
-    df = pd.read_csv(CSV_PATH)
+    df = load_csv()
     return {"colonnes": df.columns.tolist()}
 
 
@@ -59,10 +65,11 @@ def filter_data(payload: dict):
     colonne = payload.get("colonne")
     valeur = payload.get("valeur")
 
-    df = pd.read_csv(CSV_PATH)
+    df = load_csv()
 
     if colonne not in df.columns:
         raise HTTPException(status_code=400, detail="Colonne invalide")
 
-    filtered = df[df[colonne] == valeur]
+    # Comparaison en texte : "69" et 69 doivent donner le meme resultat
+    filtered = df[df[colonne].astype(str) == str(valeur)]
     return filtered.to_dict(orient="records")
